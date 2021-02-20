@@ -1,0 +1,37 @@
+[
+    {
+        "id":"guard_pathway_2",
+        "message":"You're really curious boy... Well our superior, the guard captain, only wants to pay the woodcutter when he has done his work.",
+        "replies":[
+            {
+                "text":"Maybe I could help?",
+                "nextPhraseID":"guard_pathway_3"
+            },
+            {
+                "text":"Well, this is your problem. Goodbye.",
+                "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"guard_pathway_4",
+        "message":"OK, maybe you can be of use. Talk to the guard captainn. Maybe you can convince him to pay the woodcutter first. But I have to warn you, he is a stubborn beast.",
+        "replies":[
+            {
+                "text":"OK, thanks for your advice. I'm going to do that!",
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"Pff, easy. I'll do it.",
+                "nextPhraseID":"X"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"pathway_fallhaven",
+                "value":10
+            }
+        ]
+    }
+]

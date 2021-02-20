@@ -1,0 +1,23 @@
+[
+    {
+        "id":"farrik_return_3",
+        "message":"So did you tell the guard captain about our plan then?",
+        "replies":[
+            {
+                "text":"No, I haven't talked to him.",
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"[Lie]. No. I went there, but I overheard the guard captain saying there was no real threat, so they will lower security. So maybe you can carry out your mission without me being involved.",
+                "nextPhraseID":"farrik_26",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"farrik",
+                        "value":50
+                    }
+                ]
+            }
+        ]
+    }
+]
