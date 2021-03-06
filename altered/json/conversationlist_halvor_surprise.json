@@ -1,0 +1,24 @@
+[
+    {
+        "id":"halvor_chwood_5",
+        "message":"Awesome! Exactly what I was looking for.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"halvor_chwood_6"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"halvor_surprise",
+                "value":165
+            },
+            {
+                "rewardType":"giveItem",
+                "rewardID":"gold",
+                "value":250
+            }
+        ]
+    }
+]
