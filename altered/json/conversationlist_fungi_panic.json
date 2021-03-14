@@ -2344,7 +2344,14 @@
         "replies":[
             {
                 "text":"I'll give it to the cat. That should solve the problem.",
-                "nextPhraseID":"brv_churchman_trap3a"
+                "nextPhraseID":"brv_churchman_trap3a",
+                "requires":[
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"trapped_mouse",
+                        "value":1
+                    }
+                ]
             },
             {
                 "text":"I'll release it outside.",
