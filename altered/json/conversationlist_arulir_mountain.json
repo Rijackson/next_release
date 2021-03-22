@@ -1,0 +1,16 @@
+[
+    {
+        "id":"tjure_0_12",
+        "message":"All I can do now is hide in this lonely place, far away from any water.",
+        "replies":[
+            {
+                "text":"Aha. I won't bother you then.",
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"Why is that?",
+                "nextPhraseID":"tjure_0_20"
+            }
+        ]
+    }
+]
