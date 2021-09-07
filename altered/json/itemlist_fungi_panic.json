@@ -1,0 +1,18 @@
+[
+    {
+        "id":"bogsten_staff",
+        "iconID":"items_weapons_3:18",
+        "name":"Bogsten's staff",
+        "displaytype":"quest",
+        "category":"staff",
+        "equipEffect":{
+            "increaseAttackDamage":{
+                "min":2,
+                "max":3
+            },
+            "increaseAttackCost":5,
+            "increaseAttackChance":3,
+            "increaseBlockChance":-1
+        }
+    }
+]
