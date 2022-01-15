@@ -1,0 +1,19 @@
+[
+    {
+        "id":"qtrstaff",
+        "iconID":"items_weapons_3:18",
+        "name":"Quarterstaff",
+        "baseMarketCost":10,
+        "category":"staff",
+        "equipEffect":{
+            "increaseAttackDamage":{
+                "min":2,
+                "max":3
+            },
+            "increaseAttackCost":5,
+            "increaseAttackChance":6,
+            "increaseBlockChance":2,
+            "setNonWeaponDamageModifier":121
+        }
+    }
+]
