@@ -1,0 +1,22 @@
+[
+    {
+        "id":"ortholion_c3_fix1",
+        "rewards":[
+            {
+                "rewardType":"deactivateMapObjectGroup",
+                "rewardID":"Keys",
+                "mapName":"elm5f_2"
+            }
+        ]
+    },
+    {
+        "id":"ortholion_c3_fix2",
+        "rewards":[
+            {
+                "rewardType":"activateMapObjectGroup",
+                "rewardID":"Keys",
+                "mapName":"elm5f_2"
+            }
+        ]
+    }
+]
