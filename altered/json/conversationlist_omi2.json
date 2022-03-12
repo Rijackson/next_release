@@ -1,0 +1,20 @@
+[
+    {
+        "id":"ehrenfest_23",
+        "message":"Lorn lay next to me, just a few steps away. His armor was entirely covered in blood, flowing slowly to the ground out of his body.",
+        "replies":[
+            {
+                "text":"What about the campfire?",
+                "nextPhraseID":"ehrenfest_24a"
+            },
+            {
+                "text":"What about the hole?",
+                "nextPhraseID":"ehrenfest_24b"
+            },
+            {
+                "text":"Was he dead?",
+                "nextPhraseID":"ehrenfest_24c"
+            }
+        ]
+    }
+]
