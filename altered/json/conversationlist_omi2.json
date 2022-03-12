@@ -16,5 +16,56 @@
                 "nextPhraseID":"ehrenfest_24c"
             }
         ]
+    },
+    {
+        "id":"ehrenfest_32b",
+        "message":"I'm afraid not.",
+        "replies":[
+            {
+                "text":"OK, we'll talk later.",
+                "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"ehrenfest_38a",
+        "message":"I won't try to convince you. Now you must decide whether to help me or not. I won't ask twice, so make your choice wisely.",
+        "replies":[
+            {
+                "text":"I don't trust you. I will find my own way to solve this.",
+                "nextPhraseID":"ehrenfest_39a",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"Omi2_bwm1",
+                        "value":32,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "text":"I'll think about it. See you soon.",
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"OK, I will help you. Let's solve this once for all.",
+                "nextPhraseID":"ehrenfest_39b",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"Omi2_bwm1",
+                        "value":31,
+                        "negate":true
+                    }
+                ]
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"bwm72_beginning",
+                "value":14
+            }
+        ]
     }
 ]
