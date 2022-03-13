@@ -67,5 +67,26 @@
                 "value":14
             }
         ]
+    },
+    {
+        "id":"elm3_corpse_3a",
+        "message":"Everything seems too old and stinky to be worth anything much, but after half a minute of searching you see a strange pendant behind the miner's shirt.",
+        "replies":[
+            {
+                "text":"I need to take a bath.",
+                "nextPhraseID":"X"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"bwm72_beginning",
+                "value":24
+            },
+            {
+                "rewardType":"dropList",
+                "rewardID":"elm3_corpse_3a"
+            }
+        ]
     }
 ]
