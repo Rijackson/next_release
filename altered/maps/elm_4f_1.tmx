@@ -212,7 +212,7 @@
  </layer>
  <layer name="Walkable" width="15" height="20" visible="0">
   <data encoding="base64" compression="zlib">
-   eJzbKMbAsJFIDALEqsWmFwbI0YvLPHR5dDY2O/EBYvSS61dKww+X2ynRS8gcbHpx+RMfjU0vsWFGrL2E3E4o7eBLI7jMIVUvPn8So5eU+CVWL7XkCfmNmPxCSC0AbBeLJg==
+   eJzbKMbAsJFIDALEqsWmFwbI0YvLPHR5dDY2O/EBYvSS61dKww+X2ynRS8gcbHpx+RMfjU0vsWFGrL2E3E4o7eBLI7jMIVUvPn8SoxdX2BGrl9R8SYo8IbXE5BdCegHjOIsm
   </data>
  </layer>
  <layer name="Walkable_2" width="15" height="20" visible="0">
@@ -225,7 +225,7 @@
    eJxjYBgF5ICNYqN6R/UOH71DBQAAWewJVQ==
   </data>
  </layer>
- <objectgroup name="Mapevents" visible="0">
+ <objectgroup name="Mapevents">
   <object name="elm4f_up" type="script" x="32" y="544" width="64" height="32">
    <properties>
     <property name="when" value="enter"/>
