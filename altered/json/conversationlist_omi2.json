@@ -88,5 +88,23 @@
                 "rewardID":"elm3_corpse_3a"
             }
         ]
+    },
+    {
+        "id":"ortholion_16a",
+        "message":"A reward? This does not work that way...What would Feygard think of my assassination? Who would be blamed for that?\n\nThe reward is I'm alive and no army will chase you.",
+        "replies":[
+            {
+                "text":"*laughing* Do you think a few drunkards could beat me?",
+                "nextPhraseID":"ortholion_17a"
+            },
+            {
+                "text":"Hmpf, OK. Goodbye...",
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"But at least, you owe me a favor. Where's your honor?",
+                "nextPhraseID":"ortholion_16b"
+            }
+        ]
     }
 ]
