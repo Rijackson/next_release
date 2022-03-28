@@ -106,5 +106,20 @@
                 "nextPhraseID":"ortholion_16b"
             }
         ]
+    },
+    {
+        "id":"ortholion_subdued_2",
+        "message":"The scout stares at you with an immeasurable anger. Before you can react, she swings her dagger, opening a wound in your arm.",
+        "switchToNPC":"none",
+        "replies":[
+            {
+                "text":"Argh! What the...?",
+                "nextPhraseID":"ortholion_subdued_2a"
+            },
+            {
+                "text":"How dare you! Prepare to die, Feygard scum.",
+                "nextPhraseID":"ortholion_subdued_2a"
+            }
+        ]
     }
 ]
