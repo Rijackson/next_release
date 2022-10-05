@@ -1,0 +1,53 @@
+[
+    {
+        "id":"sullengard_zaccheria_90",
+        "message":"And where is this person now?",
+        "replies":[
+            {
+                "text":"I wish I knew. After he told me where to find your stuff, he took off and I was unable to see in what direction he fled. Here is your inventory.",
+                "nextPhraseID":"sullengard_zaccheria_100",
+                "requires":[
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"zaccheria_inventory",
+                        "value":1
+                    }
+                ]
+            },
+            {
+                "text":"I wish I knew. After he told me where to find your stuff, he took off and I was unable to see in what direction he fled. I just remembered that I didn't bring your inventory with me. I'll be right back.",
+                "nextPhraseID":"X",
+                "requires":[
+                    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"zaccheria_inventory",
+                        "value":0,
+                        "negate":false
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"sullengard_zaccheria_100",
+        "message":"Well that's unfortunate that we cannot punish this individual. But very fortunate that you worked hard to recover my items and I am very grateful for that. So grateful in fact, here is 15000 gold for your hard work.\nAlso, I am now able to trade with you if you like.",
+        "replies":[
+            {
+                "text":"Thank you so much.",
+                "nextPhraseID":"X"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"sullengard_recover_items",
+                "value":70
+            },
+            {
+                "rewardType":"giveItem",
+                "rewardID":"gold",
+                "value":15000
+            }
+        ]
+    }
+]
