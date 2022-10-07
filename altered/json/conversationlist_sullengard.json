@@ -21,7 +21,7 @@
                     {
                         "requireType":"inventoryKeep",
                         "requireID":"zaccheria_inventory",
-                        "value":0,
+                        "value":1,
                         "negate":false
                     }
                 ]
