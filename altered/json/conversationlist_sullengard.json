@@ -1,0 +1,19 @@
+[
+    {
+        "id":"sullengard_ainsley_3",
+        "message":"Thank you so much, kid. Tell my wife Hadena I can come home on time today.",
+        "replies":[
+            {
+                "text":"You're welcome.",
+                "nextPhraseID":"X"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"deebo_orchard_ght",
+                "value":50
+            }
+        ]
+    }
+]
