@@ -1,31 +1,68 @@
 [
-    {
-        "id":"sullengard_mayor_10",
-        "message":"What's on your mind? I can see it in your eyes. You have questions.",
-        "replies":[
-            {
-                "text":"I'm looking into the break-in and robbery at Zaccheria's shop and I am wondering if you saw or know anything about it?",
-                "nextPhraseID":"sullengard_mayor_20"
-            },
+	{
+		"id":"sullengard_mayor",
+		"replies":[
 			{
-				"text":"We want to contribute gold coins for your financial loss.",
-				"nextPhraseID":"sullengard_mayor_4",
+				"nextPhraseID":"sullengard_mayor_10",
+				"requires":[
+					{
+						"requireType":"questProgress",
+						"requireID":"sullengard_hidden",
+						"value":25,
+						"negate":true
+					},
+					{
+						"requireType":"questLatestProgress",
+						"requireID":"sullengard_recover_items",
+						"value":30
+					}
+				]
+			},
+			{
+				"nextPhraseID":"sullengard_mayor_beer_0",
+				"requires":[
+					{
+						"requireType":"questLatestProgress",
+						"requireID":"beer_bootlegging",
+						"value":50
+					}
+				]
+			},
+			{
+				"nextPhraseID":"sullengard_mayor_letter_delivered",
+				"requires":[
+					{
+						"requireType":"questLatestProgress",
+						"requireID":"beer_bootlegging",
+						"value":70
+					}
+				]
+			},
+			{
+				"nextPhraseID":"sullengard_mayor_no_letter_delivered",
+				"requires":[
+					{
+						"requireType":"questLatestProgress",
+						"requireID":"beer_bootlegging",
+						"value":60
+					}
+				]
+			},
+			{
+				"nextPhraseID":"sullengard_mayor_5",
 				"requires":[
 					{
 						"requireType":"factionScore",
 						"requireID":"gold_contribute",
-						"value":50000,
-						"negate":true
-					},
-					{
-						"requireType":"questProgress",
-						"requireID":"Thieves04",
-						"value":70
+						"value":50000
 					}
 				]
+			},
+				{
+				"nextPhraseID":"sullengard_mayor_1"
 			}
-        ]
-    },
+		]
+	},
 	{
 		"id":"sullengard_mayor_beer_0",
 		"message":"How can I be of service to you my friend?",
@@ -55,7 +92,7 @@
 	},
 	{
 		"id":"sullengard_mayor_letter_delivered",
-		"message":"Than you for delivering my letter to Kealwea.",
+		"message":"Thank you for delivering my letter to Kealwea.",
 		"replies":[
 			{
 				"text":"How did you know?",
