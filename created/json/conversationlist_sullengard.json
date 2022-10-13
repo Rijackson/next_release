@@ -1,0 +1,13 @@
+[
+    {
+        "id":"sullengard_godrey_10a",
+        "message":"Sure. Look at the table over there. He is my best customer at he moment.",
+        "rewards":[
+            {
+                "rewardType":"spawnAll",
+                "rewardID":"sullengard_inn_traveler_spawn",
+                "mapName":"sullengard_inn"
+            }
+        ]
+    }
+]

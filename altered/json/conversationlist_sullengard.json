@@ -160,5 +160,44 @@
                 "value":50
             }
         ]
+    },
+    {
+        "id":"sullengard_godrey_10",
+        "message":"What can I help you with?",
+        "replies":[
+            {
+                "text":"I need somewhere to relax and refresh. Do you have a bed available?",
+                "nextPhraseID":"sullengard_godrey_30",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"sullengard_hidden",
+                        "value":1,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "text":"I'm hungry. Do you have any food to sell?",
+                "nextPhraseID":"sullengard_godrey_sell"
+            },
+            {
+                "text":"Do you know by chance where this lost travelor is?",
+                "nextPhraseID":"sullengard_godrey_10a",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"sullengard_recover_items",
+                        "value":40
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"sullengard_recover_items",
+                        "value":50,
+                        "negate":true
+                    }
+                ]
+            }
+        ]
     }
 ]
