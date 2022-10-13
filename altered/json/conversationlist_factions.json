@@ -1,0 +1,30 @@
+[
+    {
+        "id":"faction_count_shadow_20",
+        "replies":[
+            {
+                "nextPhraseID":"faction_count_shadow_20a",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"vacor",
+                        "value":60
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"faction_count_shadow_20a",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"faction_count_shadow",
+                        "value":20
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"faction_count_shadow_30"
+            }
+        ]
+    }
+]
