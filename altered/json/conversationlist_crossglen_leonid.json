@@ -1,0 +1,20 @@
+[
+    {
+        "id":"leonid1",
+        "message":"Hello kid. You're Mikhail's youngest child aren't you? With that brother of yours.\n\nI'm Leonid, steward of Crossglen village.",
+        "replies":[
+            {
+                "text":"Have you seen my brother Andor?",
+                "nextPhraseID":"leonid_andor"
+            },
+            {
+                "text":"What can you tell me about Crossglen?",
+                "nextPhraseID":"leonid_crossglen"
+            },
+            {
+                "text":"Never mind, see you later.",
+                "nextPhraseID":"leonid_bye"
+            }
+        ]
+    }
+]
