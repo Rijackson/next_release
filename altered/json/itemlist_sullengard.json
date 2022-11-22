@@ -26,5 +26,29 @@
                 }
             ]
         }
+    },
+    {
+        "id":"gloriosa_mushroom_soup",
+        "iconID":"items_japozero:462",
+        "name":"Gloriosa mushroom soup",
+        "displaytype":"rare",
+        "category":"food",
+        "description":"A delicious but rare soup perfected by Nimael.",
+        "useEffect":{
+            "conditionsSource":[
+                {
+                    "condition":"reinvigorated",
+                    "magnitude":1,
+                    "duration":5,
+                    "chance":"100"
+                },
+                {
+                    "condition":"relax",
+                    "magnitude":1,
+                    "duration":5,
+                    "chance":"5"
+                }
+            ]
+        }
     }
 ]
