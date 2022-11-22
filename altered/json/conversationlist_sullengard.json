@@ -8,5 +8,30 @@
                 "nextPhraseID":"X"
             }
         ]
+    },
+    {
+        "id":"sullengard_ainsley_0",
+        "message":"Yikes! You surprised me, kid. I'm Ainsley and I have a lot of work to do here so talk to me later.",
+        "replies":[
+            {
+                "text":"OK. I'll leave now.",
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"Just a quick question. Have you seen my brother Andor?",
+                "nextPhraseID":"sullengard_ainsley_1a"
+            },
+            {
+                "text":"The husband of Hadena?",
+                "nextPhraseID":"sullengard_ainsley_1b",
+                "requires":[
+                    {
+                        "requireType":"questLatestProgress",
+                        "requireID":"deebo_orchard_ght",
+                        "value":20
+                    }
+                ]
+            }
+        ]
     }
 ]
