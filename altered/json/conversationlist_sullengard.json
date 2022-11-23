@@ -33,5 +33,37 @@
                 ]
             }
         ]
+    },
+    {
+        "id":"loneford13_pitchfork",
+        "message":"A new pitchfork pinned in this haystack.",
+        "replies":[
+            {
+                "text":"Time to prove that I'm a child of farmer!",
+                "nextPhraseID":"loneford13_pitchfork_selector2",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"deebo_orchard_ght",
+                        "value":30
+                    }
+                ]
+            },
+            {
+                "text":"Ooh, a new pitchfork. I wonder if I can buy it from its owner?",
+                "nextPhraseID":"X",
+                "requires":[
+                    {
+                        "requireType":"questLatestProgress",
+                        "requireID":"deebo_orchard_ght",
+                        "value":25
+                    }
+                ]
+            },
+            {
+                "text":"What do I need this for? I'll leave it here for now.",
+                "nextPhraseID":"X"
+            }
+        ]
     }
 ]
