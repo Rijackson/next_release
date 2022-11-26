@@ -65,5 +65,15 @@
                 "nextPhraseID":"X"
             }
         ]
+    },
+    {
+        "id":"deebo_orchard_deebo_100",
+        "message":"As far as your reward is concerned, I am now willing to sell and trade with you. Please take a look.",
+        "replies":[
+            {
+                "text":"Sounds good.",
+                "nextPhraseID":"S"
+            }
+        ]
     }
 ]
