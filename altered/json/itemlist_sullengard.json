@@ -50,5 +50,31 @@
                 }
             ]
         }
+    },
+    {
+        "id":"snake_meat",
+        "iconID":"items_consumables:25",
+        "name":"Snake meat",
+        "displaytype":"ordinary",
+        "hasManualPrice":1,
+        "baseMarketCost":34,
+        "category":"food",
+        "description":"There's just something about meat from a snake that makes it just a little bit better.",
+        "useEffect":{
+            "conditionsSource":[
+                {
+                    "condition":"food",
+                    "magnitude":2,
+                    "duration":15,
+                    "chance":"100"
+                },
+                {
+                    "condition":"foodp",
+                    "magnitude":3,
+                    "duration":10,
+                    "chance":"10"
+                }
+            ]
+        }
     }
 ]
