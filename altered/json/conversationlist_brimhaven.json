@@ -3,7 +3,7 @@
         "id":"brv_fortune_fortunes_select",
         "replies":[
             {
-                "nextPhraseID":"X",
+                "nextPhraseID":"brv_fortune_come_back_much_later",
                 "requires":[
                     {
                         "requireType":"random",
