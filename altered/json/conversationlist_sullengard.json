@@ -10,69 +10,18 @@
         ]
     },
     {
-        "id":"sullengard_ainsley_0",
-        "message":"Yikes! You surprised me, kid. I'm Ainsley and I have a lot of work to do here so talk to me later.",
-        "replies":[
+        "id":"sullengard_hidden_inventory_20",
+        "message":"[You have successfully removed an extremely heavy sack. This must be Zaccheria stolen inventory.]",
+        "rewards":[
             {
-                "text":"OK. I'll leave now.",
-                "nextPhraseID":"X"
+                "rewardType":"questProgress",
+                "rewardID":"sullengard_recover_items",
+                "value":60
             },
             {
-                "text":"Just a quick question. Have you seen my brother Andor?",
-                "nextPhraseID":"sullengard_ainsley_1a"
-            },
-            {
-                "text":"The husband of Hadena?",
-                "nextPhraseID":"sullengard_ainsley_1b",
-                "requires":[
-                    {
-                        "requireType":"questLatestProgress",
-                        "requireID":"deebo_orchard_ght",
-                        "value":20
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "id":"loneford13_pitchfork",
-        "message":"A new pitchfork pinned in this haystack.",
-        "replies":[
-            {
-                "text":"Time to prove that I'm a child of farmer!",
-                "nextPhraseID":"loneford13_pitchfork_selector2",
-                "requires":[
-                    {
-                        "requireType":"questProgress",
-                        "requireID":"deebo_orchard_ght",
-                        "value":30
-                    }
-                ]
-            },
-            {
-                "text":"Ooh, a new pitchfork. I wonder if I can buy it from its owner?",
-                "nextPhraseID":"X",
-                "requires":[
-                    {
-                        "requireType":"questLatestProgress",
-                        "requireID":"deebo_orchard_ght",
-                        "value":25
-                    }
-                ]
-            },
-            {
-                "text":"What do I need this for? I'll leave it here for now.",
-                "nextPhraseID":"X"
-            }
-        ]
-    },
-    {
-        "id":"deebo_orchard_deebo_100",
-        "message":"As far as your reward is concerned, I am now willing to sell and trade with you. Please take a look.",
-        "replies":[
-            {
-                "text":"Sounds good.",
-                "nextPhraseID":"S"
+                "rewardType":"giveItem",
+                "rewardID":"zaccheria_inventory",
+                "value":1
             }
         ]
     }
