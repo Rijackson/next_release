@@ -213,7 +213,7 @@
  </layer>
  <layer id="6" name="Walkable" width="20" height="29" visible="0">
   <data encoding="base64" compression="zlib">
-   eJzVk8ENgDAMA5mi+6/AhrxAFfIlDimPWuJXXxPXnON4dI5/vo5uf5elOBHTvau73yoe7eLmN59z5lM5zl7iUT/cHjm+Ki+arTPfrucq//XuPNUB6mvUt7eHlPHIk7EUL5ohk8om2qHLo7PZm6m3q+To9oV8JDcbuifjZ7yvWjUHMSnvLrvKoE5dk1ndjA==
+   eJztk8ENgDAMA5mi+6/AhrxAFcrFDim8sMSvviau2cd2aR/vfB2d/i4r4mRM967ufqt4tIub33zOmS/KcfYSj/rh9sjxVXnZbJ35vjpX+Q9/nu4A9TXr291DUjzyKFbEy2ZQirLJdujy6Kx6s+jtKjm6fSEfyc2G7lF8xXuqVXMQk/LusqsM6tQBsZPeUw==
   </data>
  </layer>
  <objectgroup id="7" name="Mapevents">
@@ -228,12 +228,12 @@
     <property name="when" value="enter"/>
    </properties>
   </object>
-  <object id="3" name="sullengard_ravine_fear_of_heights_selector2" type="script" x="32" y="320" width="32" height="32">
+  <object id="3" name="sullengard_ravine_fear_of_heights_selector2" type="script" x="32" y="288" width="32" height="32">
    <properties>
     <property name="when" value="enter"/>
    </properties>
   </object>
-  <object id="4" name="sullengard_ravine_ledge" type="script" x="32" y="384" width="32" height="32">
+  <object id="4" name="sullengard_ravine_ledge" type="script" x="32" y="352" width="32" height="32">
    <properties>
     <property name="when" value="enter"/>
    </properties>
