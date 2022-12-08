@@ -1,0 +1,35 @@
+[
+    {
+        "id":"shield_of_undead",
+        "iconID":"items_armours:4",
+        "name":"Shield of the undead",
+        "displaytype":"extraordinary",
+        "hasManualPrice":1,
+        "baseMarketCost":11155,
+        "category":"shld_wd_li",
+        "description":"This shield calls for death, and yours will do.",
+        "equipEffect":{
+            "increaseAttackChance":-5,
+            "increaseBlockChance":12,
+            "increaseDamageResistance":1,
+            "addedConditions":[
+                {
+                    "condition":"curse_undead",
+                    "magnitude":1
+                }
+            ]
+        },
+        "hitReceivedEffect":{
+            "increaseAttackerCurrentHP":{
+                "min":-1,
+                "max":-3
+            }
+        },
+        "killEffect":{
+            "increaseCurrentHP":{
+                "min":3,
+                "max":5
+            }
+        }
+    }
+]
