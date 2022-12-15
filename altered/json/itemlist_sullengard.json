@@ -76,5 +76,43 @@
                 }
             ]
         }
+    },
+    {
+        "id":"thunderguard_2h_sword",
+        "iconID":"items_reterski_1:12",
+        "name":"Thunderguard Copper sword",
+        "displaytype":"rare",
+        "category":"2hsword",
+        "equipEffect":{
+            "increaseAttackDamage":{
+                "min":4,
+                "max":8
+            },
+            "increaseAttackCost":5,
+            "increaseAttackChance":30,
+            "increaseCriticalSkill":4,
+            "increaseBlockChance":-3,
+            "increaseDamageResistance":1,
+            "setCriticalMultiplier":2.0,
+            "setNonWeaponDamageModifier":110
+        },
+        "hitEffect":{
+            "conditionsSource":[
+                {
+                    "condition":"str",
+                    "magnitude":1,
+                    "duration":2,
+                    "chance":"10"
+                }
+            ],
+            "conditionsTarget":[
+                {
+                    "condition":"dazed",
+                    "magnitude":1,
+                    "duration":3,
+                    "chance":"25"
+                }
+            ]
+        }
     }
 ]
