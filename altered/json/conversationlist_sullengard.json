@@ -28,5 +28,20 @@
     {
         "id":"deebo_orchard_deebo_81",
         "message":" The Golden jackal was last seen heading back into the \"Sullengard forest\" just to the west of my orchard. Return to me with proof of its death."
+    },
+    {
+        "id":"nimael_pm_30",
+        "message":"I just need a little bit of time. Please come back soon and I will have your soup ready.",
+        "rewards":[
+            {
+                "rewardType":"createTimer",
+                "rewardID":"gloriosa_soup_making"
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"sullengard_hidden",
+                "value":20
+            }
+        ]
     }
 ]
