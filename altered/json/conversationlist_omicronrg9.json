@@ -1,0 +1,23 @@
+[
+    {
+        "id":"umar_guild04_17",
+        "message":"He can't be gone without our share from the bootleg brewers.",
+        "replies":[
+            {
+                "text":"I thought he would come back here.",
+                "nextPhraseID":"umar_guild04_18"
+            },
+            {
+                "text":"You're right.",
+                "nextPhraseID":"umar_guild04_18"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"Thieves04",
+                "value":40
+            }
+        ]
+    }
+]
