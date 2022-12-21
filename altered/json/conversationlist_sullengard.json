@@ -47,5 +47,31 @@
     {
         "id":"nimael_pm_45",
         "message":"No, not yet. You must have patience. Making the Gloriosa soup safe to eat takes time."
+    },
+    {
+        "id":"sullengard_mayor_5",
+        "message":"Thank you so much again, kid. You are just like your brother Andor.",
+        "replies":[
+            {
+                "text":"Of course, he is my brother.",
+                "nextPhraseID":"sullengard_mayor_6"
+            },
+            {
+                "text":"How did you know?",
+                "nextPhraseID":"sullengard_mayor_6"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"sullengard_hidden",
+                "value":30
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"Thieves04",
+                "value":75
+            }
+        ]
     }
 ]
