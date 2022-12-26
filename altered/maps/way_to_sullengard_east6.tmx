@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.8" tiledversion="1.8.4" orientation="orthogonal" renderorder="right-down" width="30" height="30" tilewidth="32" tileheight="32" infinite="0" nextlayerid="10" nextobjectid="12">
+<map version="1.8" tiledversion="1.8.4" orientation="orthogonal" renderorder="right-down" width="25" height="40" tilewidth="32" tileheight="32" infinite="0" nextlayerid="10" nextobjectid="13">
  <properties>
   <property name="outdoors" value="1"/>
  </properties>
@@ -183,88 +183,103 @@
  <tileset firstgid="7449" name="map_window_2" tilewidth="32" tileheight="32" tilecount="128" columns="16">
   <image source="../drawable/map_window_2.png" width="512" height="256"/>
  </tileset>
- <layer id="1" name="Ground" width="30" height="30">
+ <layer id="1" name="Ground" width="25" height="40">
   <data encoding="base64" compression="zlib">
-   eJztzrENAAAEADCr/y8RDzqDRIfurYwoAADglT5wYN8A40GOCQ==
+   eJztwzENAAAMA6C+86+kDitjDyT0kqqqqqqvByuV1q8=
   </data>
  </layer>
- <layer id="2" name="Objects" width="30" height="30">
+ <layer id="2" name="Objects" width="25" height="40">
   <data encoding="base64" compression="zlib">
-   eJy9VktOwzAQ9QmqJotIXcGVmiM0O8RFuBBV2ZVNkdiwqhCVusiipV9AAgQrsIuHTqZvHAcET7IaO/a8mXnjaTYdY9Z2bP7x16Rmhwf7/GhHbuddv+ZA+9xa7td77H3hn/mZGJQp84FBrvVS/X0O/FzYsQS/CHSG7Mg5X+uK2Pne0q/FcpONAuSM8yySapwox45jZcfE/9Kc8KToIuORvhTiPYpNck9YvLNkb4tqS0OeVnNO+0OaohyXzEaZHnLI2LW4liA2TVMeZwx6XN9I7qEdl5E1jbh43Fq9TAK+xN6nOoTqJbRP1vT3vga5R/5TXnlPifVRg6w7FaJW5wn2sTZGe/YiM+b8D0Yd+lk1DnnPke8oP6dKzrS+4Xh/Upe/reV+FrYTsk/PsqdpoDy5uqB4V+J83b0N3fVBhP7XLF50JzT7a/COOO9sPB++LlDv5JqXgR5JeUD3VO51vDufGvZqTTOkL+8hQ89Zx4fuQl1/HjObI2B/kO394XZi40U6U2wn7a99RRvHoNUmgqtr2h+6k88tY15aus/8e1bWx9aOaefwG/PI+nzs/V4qGs1sHu+dhoE+KOuC5lPBHfLFges4snxnNr9XGX7vME4O9ZUc3JfK9z6A0/DV8r3Z8Q7inQt+qS/i3got6b92d77BPbzxe6W+BKRBKNcEqfutmFPPQL1a46D9SK8mIO5PBbnjUQ==
+   eJyVVzFu20AQvDItz0AA+iXKD5JS/AEJ2W3yuqRIlZSuXEmFARcMEFOUlcIvCFe6EYfDPSpZQJDEO+7s7Owtl6t3IWxiuNi39yGsh/9VulbfhtDczr/t8xb963yffVYDRleE8KMM4Wd5xqiT/74I/218j/m1OAwjpLgtfsO4T7/Nqjj1UVOsL8X8mrdvRbmyewzjkifyvxYs2H7gfiin157of1+eMSxuw6kTj31x/g9uJyzhxZiGY7725RSzL0cefN/DgPH1yuc7aQb/yg2Y4MHx3UfKURy14Towrjl7HnweE+aReIC3t95RnSBere/HtOd1WP9Tnv3AbA08vHX4UA1PPDI1AD/K4zXF762rhqgLrenTOvE5UlzgYXm3vPB6TzisoerROWeVawFnUNe15i9rovnW8c/xMI82Tjlo7DD0gsdM7IwDA4bu1Zo3gwZLtas4XeFjXDMPg2PaS3yMsRri/CDa3Dn1A4xdMdeudc4/Y3wc1j/F6V74MoNeyiOn3S/pV56GrsUphqed9gvV4/cCFs6Bp8dSP2GMLe3jbzVgIHd6BrVfAOPFiV/7o2KoX+zjs7Yt/HOuPJgPnpU5jmboW15dcSzcJ5UP8ziWc429Z63ZYUFrjZl5qMa5Zy3bLoMFPrtirrlqrP3kWi9pc+c8Xd/K+cScxpbD0OcM9/AHmh3MvGc0x8cY3rOGbdK74qiLnjm1a7nyapRnhybO9fDmklb2oTaeqBd5NcnzCXLrcWIez4LTlyMPrcmWeqPleCf9SnncRf/MHaRmvNmhSvMdz6a5uSR3LmDmq0n+MDvyjJ+rrf4fn7Wfb0L4cpNyVoyxQ49cbXHt1nH6LlU75w6m71yYIzwdYOi7xqmRuX8judZ8GMaGZm7uN2b6bsCxN/S7lTg5H3ivs7pizXN9F/EzF+BWKZeaD517l95x6jh9P+O5f0O5aigf6CWoB54dvHcc9mH2RvGvSZOuGOu3iqMe7N+bf/8CTqCQ3Q==
   </data>
  </layer>
- <layer id="3" name="Above" width="30" height="30">
+ <layer id="3" name="Above" width="25" height="40">
   <data encoding="base64" compression="zlib">
-   eJztVssNwjAMzQYIbt1/AhiBGwsggYrolUhcmIBUwsIyfnGduj3xpKhJmvi9xJ82pZTuXUpDaRJ9mbsp8xHQbFt86D3NX0q7Ks8ptjx6tHkPdxTW4rR4qK9xo9hCoPXIpznwjOhc6LkGN8c43pd2CPKxdT7JvVR81WysFdN0ryjHazH9xy+8eT7HXkuMRMWVt2bwPbKmeTmt7xx/enLdgrZvao3k/WzwSp8jDp6zPE+fiv38We9F7c4luB6qK+dtO2erz47dV8+cGOd7pv4Dautq3LR+Tn0lG32na0baHwF1SsYF+p+0tLRyy3zQtKGxxGnTpgPd+Qgee5QTrZD+rSHqrrVa/dot40+NW9Mix6MeSzPqo2/RG9ahHZk=
+   eJy1V0tywjAM1R1YKbcqF2jLDeltUij7AsMZGk/R2Ggk6+PkbZxYsaynnx2AfxwR4AtBxOcEcJheR03O5zN4W9btp9xcFvPC/RvrqM2tgdOi6/bUW1CeTyvpn5meK9Y91+ZBOC86f7COEbnHpjPW8aLo1+Qzxrk/mJ3c7laejaHEg8u5zVEe1rcZ33Dd2lruM8r5iO1e23jOR3Ab8IFlU6tvzRon/ZLdER+30Gq3IBq7CKTYWf1kFFY/idphyXk/0eTWd739LB4XfB35eouDp845D4kPzXHfZnqRFL+WY/s+ctb2eEjvW521hQfd0zw8IvUj5fov1vvDKLw157GR0PMxxUOr33aOn2W01srJwuOONidpb29O3pUca3Vp+2RyMhubHkb7+fsO4GPX10/jFvZzePu0Bo8/iEemj0T8MXIHJGj+mAf7bouWB+UD2bzVP85W/0uRff8AeAEFgA==
   </data>
  </layer>
- <layer id="4" name="Top" width="30" height="30">
+ <layer id="4" name="Top" width="25" height="40">
   <data encoding="base64" compression="zlib">
-   eJxjYBgFo2DogJuSI9PuUTAKRsEoIBbcGqCy6g7Q3ruj5eQoIAKM1qejgBoAlI4GqrwbbgAA2b0Hmg==
+   eJxjYBgFAwVuSQ4tc0fBKBisYDTND10wGnejYBSMAmqDOzQuV0Dm3x0tu0bBKMAJRut2ygAArwEHoA==
   </data>
  </layer>
- <layer id="5" name="Walkable" width="30" height="30" visible="0">
+ <layer id="5" name="Walkable" width="25" height="40" visible="0">
   <data encoding="base64" compression="zlib">
-   eJzNlNENwCAIRJ2i+6/ghv0yMQYLHAeUxKRBeg9QnM8Ys3mddvMzTNLWeFqe1rokLU8+X7EWNss0JotfeYcY9zaT1dFTVg5Z70SEjcZF2FZf1gxb6kZ1Kk17P70ap1/b8/SMdbbIrETZrLn9O/vcZ/R6+byGMKVvJhPVYdS6x3o0ECZap0XPy4iykbPoYmdw9/+yuLeY6loZPV7sFz82PHE=
+   eJy1lNERgDAIQ53C/VdwQ3+9HoEXQO78aAWSQOG5r9Se2/+iuO/dtp04Tgy92+BO6kQxMj/Smw0dFWaHe4WpdGTYpK4qPnvPlBvxdWepMqXD4eHibM8P7fmUe1WrE8u1P2Yw4pTp2Kr/mcvJqTiQ2XN5V7jOvuoY7bmzM0m8s3cI/+hM60n6oP7TOXe4dHo+ze/uor90KEyCF/lmvDO8jPNUB50DwlGdIxxVK/Ju3Xcc6XBwKt2Zju7cR/6RjolVHGl8Jz/FIEZqPc1z5iJz7ubPfJ1aUR10XxEchUt0dHGVvSmbMMg=
   </data>
  </layer>
  <objectgroup id="6" name="Mapevents">
-  <object id="1" name="east" type="mapchange" x="928" y="32" width="32" height="512">
+  <object id="1" name="north" type="mapchange" x="32" y="0" width="224" height="32">
    <properties>
-    <property name="map" value="way_to_sullengard_east8"/>
-    <property name="place" value="west"/>
+    <property name="map" value="way_to_sullengard_east5"/>
+    <property name="place" value="south"/>
    </properties>
   </object>
-  <object id="2" name="west" type="mapchange" x="0" y="96" width="32" height="608">
+  <object id="2" name="south" type="mapchange" x="192" y="1248" width="352" height="32">
    <properties>
-    <property name="map" value="way_to_sullengard_east9a"/>
-    <property name="place" value="east"/>
+    <property name="map" value="way_to_sullengard_east7a"/>
+    <property name="place" value="north"/>
    </properties>
   </object>
-  <object id="3" name="fct_highwayman2" type="script" x="288" y="320" width="448" height="192"/>
+  <object id="3" name="south2" type="mapchange" x="32" y="1248" width="128" height="32">
+   <properties>
+    <property name="map" value="way_to_sullengard_east7a"/>
+    <property name="place" value="north2"/>
+   </properties>
+  </object>
+  <object id="4" name="north_east" type="mapchange" x="672" y="0" width="32" height="32">
+   <properties>
+    <property name="map" value="way_to_sullengard_east5_filler"/>
+    <property name="place" value="south"/>
+   </properties>
+  </object>
  </objectgroup>
  <objectgroup id="7" name="Spawn">
-  <object id="4" name="sullengard_highwayman" type="spawn" x="384" y="384" width="320" height="64">
+  <object id="5" name="poisonous_jitterfly_spawn1" type="spawn" x="32" y="64" width="352" height="128">
    <properties>
-    <property name="spawngroup" value="sullengard_highwayman"/>
+    <property name="quantity" value="3"/>
+    <property name="spawngroup" value="poisonous_jitterfly"/>
    </properties>
   </object>
-  <object id="5" name="poisonous_jitterfly_spawn1" type="spawn" x="160" y="64" width="416" height="128">
+  <object id="6" name="flying_tree_ant_spawn1" type="spawn" x="416" y="64" width="128" height="256">
+   <properties>
+    <property name="quantity" value="3"/>
+    <property name="spawngroup" value="flying_tree_ant"/>
+   </properties>
+  </object>
+  <object id="7" name="poisonous_jitterfly_spawn2" type="spawn" x="448" y="896" width="96" height="192">
+   <properties>
+    <property name="quantity" value="2"/>
+    <property name="spawngroup" value="poisonous_jitterfly"/>
+   </properties>
+  </object>
+  <object id="8" name="poisonous_jitterfly_spawn3" type="spawn" x="480" y="1120" width="64" height="64">
+   <properties>
+    <property name="spawngroup" value="poisonous_jitterfly"/>
+   </properties>
+  </object>
+  <object id="9" name="poisonous_jitterfly_spawn4" type="spawn" x="32" y="1088" width="320" height="128">
    <properties>
     <property name="quantity" value="4"/>
     <property name="spawngroup" value="poisonous_jitterfly"/>
    </properties>
   </object>
-  <object id="6" name="sullengard_venom_snake_spawn2" type="spawn" x="64" y="512" width="224" height="64">
+  <object id="10" name="flying_tree_ant_spawn2" type="spawn" x="352" y="640" width="96" height="192">
    <properties>
-    <property name="spawngroup" value="sullengard_venom_snake"/>
-   </properties>
-  </object>
-  <object id="7" name="flying_tree_ant_spawn1" type="spawn" x="672" y="416" width="128" height="32">
-   <properties>
+    <property name="quantity" value="2"/>
     <property name="spawngroup" value="flying_tree_ant"/>
    </properties>
   </object>
-  <object id="8" name="preabola_fly_spawn1" type="spawn" x="96" y="192" width="96" height="224">
+  <object id="11" name="yellow_tooth_spawn1" type="spawn" x="192" y="416" width="288" height="160">
+   <properties>
+    <property name="quantity" value="4"/>
+    <property name="spawngroup" value="yellow_tooth"/>
+   </properties>
+  </object>
+  <object id="12" name="flying_tree_ant_spawn3" type="spawn" x="32" y="832" width="192" height="96">
    <properties>
     <property name="quantity" value="2"/>
-    <property name="spawngroup" value="preabola_fly"/>
-   </properties>
-  </object>
-  <object id="9" name="preabola_fly_spawn2" type="spawn" x="96" y="448" width="96" height="224">
-   <properties>
-    <property name="quantity" value="3"/>
-    <property name="spawngroup" value="preabola_fly"/>
-   </properties>
-  </object>
-  <object id="10" name="sullengard_venom_snake_queen_spawn" type="spawn" x="832" y="416" width="32" height="32">
-   <properties>
-    <property name="spawngroup" value="sullengard_venom_snake_queen"/>
-   </properties>
-  </object>
-  <object id="11" name="sullengard_venom_snake_queen_spawn2" type="spawn" x="672" y="32" width="128" height="32">
-   <properties>
-    <property name="spawngroup" value="sullengard_venom_snake_queen"/>
+    <property name="spawngroup" value="flying_tree_ant"/>
    </properties>
   </object>
  </objectgroup>
