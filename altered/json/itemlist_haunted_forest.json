@@ -31,5 +31,39 @@
                 "max":5
             }
         }
+    },
+    {
+        "id":"tonic_of_blood",
+        "iconID":"items_tometik1:42",
+        "name":"Tonic of blood",
+        "displaytype":"ordinary",
+        "category":"pot",
+        "description":"An ancient \"healing\" remedy that's been known to cause more harm than good.",
+        "useEffect":{
+            "increaseCurrentHP":{
+                "min":10,
+                "max":15
+            },
+            "conditionsSource":[
+                {
+                    "condition":"regen2",
+                    "magnitude":4,
+                    "duration":5,
+                    "chance":"60"
+                },
+                {
+                    "condition":"poison_blood",
+                    "magnitude":3,
+                    "duration":8,
+                    "chance":"30"
+                },
+                {
+                    "condition":"increased_defense",
+                    "magnitude":2,
+                    "duration":3,
+                    "chance":"15"
+                }
+            ]
+        }
     }
 ]
