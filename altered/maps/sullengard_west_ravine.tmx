@@ -203,15 +203,15 @@
  </layer>
  <layer id="4" name="Above" width="30" height="26">
   <data encoding="base64" compression="zlib">
-   eJy1lk1OwzAQhSMWiGUpIjsXrsox4ABVrhHSqN3WlHIdasWjPl6f7aQNI1nOz4y/mcl4nJ2rktK6YXxGnXVGF21Mf3uad8LWdDZx9MBpop4XLFvPdIINMpjP963wS9kEMb/Mb7s38SIutkUbjBF5qNPQWuwX+4CxmC7G1tI7k7XQ4/jVd8SctE77Y2LPTcfWGFND7APPPsHFesX4GvJ1I3Ji+s8rzeZY0X4/Ia7vTJ75OsR5cH9t9u5ce1/14NP7aXyIesL9hXOKyesrCcyuPudW1QDmG9kce2p9JV3k9sJvrjFVzyVWV+Cq2t0m9vQUVonL+5D7ZYmXYpW49q2sJx0K+WTetVyUVH9RuZyDm+tnqfXmjDfHPT7Ox/X15VkzxodbuD4+x/zmeupUri/kks+jsJfxPyLV8xS3xFKS602Lp7RdinWXsQmC/1149nKv/E95WOk9xWeS+fK2uJ7Vw9mt5F68+3HDuFXMf/y+Ngef8D3rBzFdHGPPMPRf/XdyfHxv5z3PL8uqel1e8n4BBVQdcw==
+   eJy1VltOwzAQjPhAfJYi8ufCVTkGHKDKNUIatb81oVyHWvGqw3RsN20YyXIeu57ZzXqdnauSaN04PqPNOmOLPma/Pc474Ws2mzh64GminRdctp7ZBB/kYH6+b4Uu5RNguky33Ru8iIt90QdjRD60aWgt1sUaMBazxdhaemdYCzuOX31HzEnrtB6DPTcbW+OSGmINPPsEL9YrxteQ1o3Iidk/rzQ3x4r++wlxfWfyzNchzsH99dm7U+191aOm9+P4EPWE+wvnFCevrxA4u/qUW1UDmG/k5thT6yt0kbcXurnGBlHPJa6uwKtqd5vY01O4Sry8D7lflvhSXCVe+1bWk4ZCPpnvWl5Eqr+oXM7Bm+tnqfXmjDfHe3icj9fX52fNJRpu4fXxOeY311On8vpCLvk8CnsZ/yNSPU/xlrgU+JxGLJ7Sfimuu4xPAP534dnLvfI/8bDSe4rPJNPytrieq4ezW+FevPtx47gVph+/r81BE75n+wCzxVHq7xiDQf13cnx8b+c9zy/LqnpdnvP9ApEoHYY=
   </data>
  </layer>
  <layer id="5" name="Top" width="30" height="26">
   <data encoding="base64" compression="zlib">
-   eJxjYMAPDskSUEAhOIrDfA454vTT2n0jHbDhiQdahr0oHnuPUMFeXOlusICDstQJX2z+pJff0eNpxSAPc3LACTr7CWbfDRrbix5XtLZvFIxcsEwWggcSDMd2BL66m5YAX92NCxyXpX9ZSk1wnIDb0eXR+aD6HobpDS4C7bxEpL0AMcgbCA==
+   eJxjYMAPDskSUEAhOIrDfA454vTT2n0jHbDhiQdahr0oHnuPUMFeXOlusICDstQJX2z+pJff0eNpBZ3sPUjHuD1B53QEs+8Gje1Fjyta2zcKRi5YJgvBAwmGYzsCX91NS4Cv7sYFjsvSvyylJjhOwO3o8uh8UJ0Fw/QGF4F2XiLSXgCTzRvm
   </data>
  </layer>
- <layer id="6" name="Walkable" width="30" height="26">
+ <layer id="6" name="Walkable" width="30" height="26" visible="0">
   <data encoding="base64" compression="zlib">
    eJzFVVsKwCAM8xS7/xW84dhvafNolQWEibRJNM79rLXB+IDWlVH1qJDVMmRc1TfTqeiJHtCc7YfClWlCOtXzyHoxb4ir8qt6c3Pn1KpwOBGXkxvmGXmMWhyPSk/HK/Kg5rpbPz237l4pfTpZZDlX7oKT+6rW3csuIqeib8Kn6Ih8N6Dk5g/c4J5m/wSvc39O8Xb/S6d51dquBucNqGqrekeD+z4ovdBZMT9ML1ufjthH7RvxAkH5ECI=
   </data>
