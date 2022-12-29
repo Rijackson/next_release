@@ -134,5 +134,36 @@
                 }
             ]
         }
+    },
+    {
+        "id":"great_axe_of_bp",
+        "iconID":"items_misc_6:15",
+        "name":"Greataxe of broken promises",
+        "displaytype":"rare",
+        "category":"axe2h",
+        "description":"It promised to saves lives, but instead it takes them.",
+        "equipEffect":{
+            "increaseAttackDamage":{
+                "min":6,
+                "max":10
+            },
+            "increaseMaxHP":6,
+            "increaseAttackCost":6,
+            "increaseAttackChance":35,
+            "increaseCriticalSkill":11,
+            "increaseBlockChance":-8,
+            "setCriticalMultiplier":2.0,
+            "setNonWeaponDamageModifier":160
+        },
+        "hitEffect":{
+            "conditionsSource":[
+                {
+                    "condition":"increased_defense",
+                    "magnitude":1,
+                    "duration":3,
+                    "chance":"10"
+                }
+            ]
+        }
     }
 ]
