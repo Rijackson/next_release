@@ -39,5 +39,20 @@
     {
         "id":"elm4_sign2",
         "message":"MINERS: This zone has been declared unstable. No further excavating is allowed.\n\nSigned by Guthbered of Prim."
+    },
+    {
+        "id":"ortholion_guard8_plunder",
+        "message":"You try to pull off the armor first but you soon discover both the man and the armor itself are covered by that glowing ore. You instantly stop grabbing it. The glowing ore is somehow growing.",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"bwm72_beginning",
+                "value":31
+            },
+            {
+                "rewardType":"createTimer",
+                "rewardID":"elm5_corpse"
+            }
+        ]
     }
 ]
