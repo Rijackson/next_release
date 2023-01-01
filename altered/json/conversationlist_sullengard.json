@@ -73,5 +73,33 @@
                 "value":75
             }
         ]
+    },
+    {
+        "id":"crossglen_valentina_andor_21",
+        "message":"I see my child. Tell me, with your limited adventuring, have you made it to Brightport yet?",
+        "replies":[
+            {
+                "text":"No. Should I have?",
+                "nextPhraseID":"crossglen_valentina_andor_30"
+            },
+            {
+                "text":"[While holding back a smirk, you lie] Yes, why?",
+                "nextPhraseID":"crossglen_valentina_andor_25"
+            }
+        ]
+    },
+    {
+        "id":"crossglen_valentina_andor_20",
+        "message":"I see my child. I can also see that your confidence and skills have grown tremendously, but tell me, with all this adventuring, have you been to Brightport yet?",
+        "replies":[
+            {
+                "text":"[While holding back a smirk, you lie] Yes, why?",
+                "nextPhraseID":"crossglen_valentina_andor_25"
+            },
+            {
+                "text":"No. Should I have?",
+                "nextPhraseID":"crossglen_valentina_andor_30"
+            }
+        ]
     }
 ]
