@@ -1,5 +1,84 @@
 [
     {
+        "id":"sullengard_ravine_confirmation_2",
+        "message":"[As you reach this outer most point of the ledge, a big gust of wind blows you off balance and almost down to your death.]\n\nShould I proceed or turn around?",
+        "replies":[
+            {
+                "text":"What's the worse that can happen? I fall?",
+                "nextPhraseID":"X",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"sullengard_nondisplay",
+                        "value":110,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "text":"No way, that last gust of wind was enough for me! I'm heading back.",
+                "nextPhraseID":"X",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"sullengard_nondisplay",
+                        "value":110,
+                        "negate":true
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"sullengard_ravine_ledge",
+        "message":"[Now that you can't proceed any further, you stop and admire the scenery and this is when you think:]\n\nDo I lean over and take a look at the ravine's bottom?",
+        "replies":[
+            {
+                "text":"Absolutely! What's the worse that can happen? I fall?",
+                "nextPhraseID":"sullengard_ravine_ledge_10",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"sullengard_nondisplay",
+                        "value":110,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "text":"I've already admired this view. It's time to go back and get some work done.",
+                "nextPhraseID":"X",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"sullengard_nondisplay",
+                        "value":110
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"sullengard_ravine_ledge_10",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"sullengard_ravine_ledge_10a",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"achievements",
+                        "value":1
+                    }
+                ]
+            },
+            {
+                "text":"N",
+                "nextPhraseID":"sullengard_ravine_ledge_10b"
+            }
+        ]
+    },
+    {
         "id":"deebo_orchard_howkin_20",
         "message":"Well, I guess it's because my father works the farmers too much and I don't pay them enough for their labor.",
         "replies":[
@@ -41,6 +120,49 @@
                 "rewardType":"questProgress",
                 "rewardID":"sullengard_hidden",
                 "value":20
+            }
+        ]
+    },
+    {
+        "id":"sullengard_bartender_30",
+        "message":"No, you can not.",
+        "switchToNPC":"sullengard_bartender",
+        "replies":[
+            {
+                "text":"OK!",
+                "nextPhraseID":"sullengard_bartender_40"
+            },
+            {
+                "text":"Oh, but I will.",
+                "nextPhraseID":"sullengard_bartender_50",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"sullengard_nondisplay",
+                        "value":120,
+                        "negate":true
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"sullengard_bartender_50",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"sullengard_bartender_50a",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"achievements",
+                        "value":1
+                    }
+                ]
+            },
+            {
+                "text":"N",
+                "nextPhraseID":"sullengard_bartender_50b"
             }
         ]
     },

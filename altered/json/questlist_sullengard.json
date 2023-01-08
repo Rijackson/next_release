@@ -157,6 +157,14 @@
             {
                 "progress":35,
                 "logText":"haunted_cemetery1_walkable"
+            },
+            {
+                "progress":110,
+                "logText":"110 Ravine achievement"
+            },
+            {
+                "progress":120,
+                "logText":"120 bar achievement"
             }
         ]
     }

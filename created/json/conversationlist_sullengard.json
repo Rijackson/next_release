@@ -1,0 +1,67 @@
+[
+    {
+        "id":"sullengard_ravine_ledge_10a",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"sullengard_ravine_ledge_10b"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"achievements",
+                "value":110
+            }
+        ]
+    },
+    {
+        "id":"sullengard_ravine_ledge_10b",
+        "message":"[You lean over the ledge and that's when you notice the skeletal remains directly below. You can only help but wonder:]\n\nDid this person plunge to their death, or is there a safe way to get to the bottom?",
+        "replies":[
+            {
+                "text":"I should head back now before I suffer a similar fate.",
+                "nextPhraseID":"X"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"sullengard_nondisplay",
+                "value":110
+            }
+        ]
+    },
+    {
+        "id":"sullengard_bartender_50a",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"sullengard_bartender_50b"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"achievements",
+                "value":120
+            }
+		]
+    },
+    {
+        "id":"sullengard_bartender_50b",
+        "message":"Get out of here now. Do not come back until you learn some respect.",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"sullengard_hidden",
+                "value":120
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"sullengard_hidden",
+                "value":3
+            }
+        ]
+    }
+]
