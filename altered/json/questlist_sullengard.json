@@ -167,5 +167,42 @@
                 "logText":"120 bar achievement"
             }
         ]
+    },
+    {
+        "id":"deebo_orchard_ght",
+        "name":"Getting home on time",
+        "showInLog":1,
+        "stages":[
+            {
+                "progress":10,
+                "logText":"Hadena needed my help to get her husband Ainsley home on time."
+            },
+            {
+                "progress":20,
+                "logText":"I agreed to help Hadena with getting her husband Ainsley home on time. He was working at Deebo's Orchard located southwest of their cabin."
+            },
+            {
+                "progress":25,
+                "logText":"Due to the vast distance to Loneford and the monsters that he would encounter along the way, Ainsley has asked me to go to Loneford and get him a new pitchfork."
+            },
+            {
+                "progress":30,
+                "logText":"Throthaus wanted me to pull out his pitchfork from the haystack to prove that I'm a son of a farmer."
+            },
+            {
+                "progress":40,
+                "logText":"I successfully pulled out the pitchfork. It's time to visit Ainsley againwho's working on Deebo's Orchard."
+            },
+            {
+                "progress":50,
+                "logText":"I gave Ainsley the new pitchfork. I should tell Hadena about this."
+            },
+            {
+                "progress":60,
+                "logText":"Hadena was so grateful to me for helping them.",
+                "rewardExperience":5000,
+                "finishesQuest":1
+            }
+        ]
     }
 ]
