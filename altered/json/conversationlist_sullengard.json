@@ -1,0 +1,59 @@
+[
+    {
+        "id":"loneford13_pitchfork",
+        "message":"A new pitchfork pinned in this haystack.",
+        "replies":[
+            {
+                "text":"Time to prove that I'm the child of farmer!",
+                "nextPhraseID":"loneford13_pitchfork_selector2",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"deebo_orchard_ght",
+                        "value":30
+                    }
+                ]
+            },
+            {
+                "text":"What do I need this for? I'll leave it here for now.",
+                "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"loneford13_pitchfork_success",
+        "message":"After several minutes of intense pulling you finally pull out the new pitchfork from the haystack.",
+        "replies":[
+            {
+                "text":"I'm a child of a farmer!",
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"Ugh..I'm so tired now.",
+                "nextPhraseID":"X"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"sullengard_hidden",
+                "value":100
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"deebo_orchard_ght",
+                "value":40
+            },
+            {
+                "rewardType":"giveItem",
+                "rewardID":"farmer_pitchfork",
+                "value":1
+            },
+            {
+                "rewardType":"actorCondition",
+                "rewardID":"fatigue4",
+                "value":5
+            }
+        ]
+    }
+]
