@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<worldmap>
+  <segment id="lostmine1" x="47" y="0">
+    <map id="lostmine1" x="71" y="62"/>
+    <map id="lostmine1a" x="47" y="57"/>
+    <map id="lostmine2" x="94" y="31"/>
+    <map id="lostmine2a" x="125" y="43"/>
+    <map id="lostmine3" x="107" y="0"/>
+  </segment>
+</worldmap>
