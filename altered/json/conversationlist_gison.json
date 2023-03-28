@@ -1,0 +1,20 @@
+[
+    {
+        "id":"gael_20_4",
+        "message":"Cooked, grilled, baked, fried, stewed...ahh, snake meat - nothing compares to it!",
+        "replies":[
+            {
+                "text":"Yes, I love it too!",
+                "nextPhraseID":"gael_20_5"
+            },
+            {
+                "text":"To each his own, I guess.",
+                "nextPhraseID":"gael_20_5"
+            },
+            {
+                "text":"Cooked meat? Who cooks your meat?",
+                "nextPhraseID":"gael_cook"
+            }
+        ]
+    }
+]
