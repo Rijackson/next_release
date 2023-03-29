@@ -1,0 +1,34 @@
+[
+    {
+        "id":"war_axe_shadow",
+        "iconID":"items_reterski_1:17",
+        "name":"War Axe of the Shadow",
+        "displaytype":"rare",
+        "hasManualPrice":1,
+        "baseMarketCost":3958,
+        "category":"axe",
+        "equipEffect":{
+            "increaseAttackDamage":{
+                "min":3,
+                "max":4
+            },
+            "increaseAttackCost":6,
+            "increaseAttackChance":8,
+            "increaseCriticalSkill":10,
+            "increaseBlockChance":5,
+            "increaseDamageResistance":-1,
+            "setCriticalMultiplier":2.0,
+            "setNonWeaponDamageModifier":150
+        },
+        "hitEffect":{
+            "conditionsTarget":[
+                {
+                    "condition":"concussion",
+                    "magnitude":1,
+                    "duration":3,
+                    "chance":"20"
+                }
+            ]
+        }
+    }
+]
