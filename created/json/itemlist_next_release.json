@@ -1,0 +1,10 @@
+[
+    {
+        "id":"kids_ring",
+        "iconID":"items_rings_1:17",
+        "name":"Kid's ring",
+        "displaytype":"ordinary",
+        "category":"ring",
+        "description":"Part of Andor's training equipment."
+    }
+]
