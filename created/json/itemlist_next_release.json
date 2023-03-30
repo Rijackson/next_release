@@ -5,6 +5,13 @@
         "name":"Kid's ring",
         "displaytype":"ordinary",
         "category":"ring",
-        "description":"Part of Andor's training equipment."
+        "description":"Part of Andor's training equipment.",
+        "equipEffect":{
+            "increaseAttackDamage":{
+                "min":1,
+                "max":1
+            },
+            "increaseAttackChance":8
+        }
     }
 ]
