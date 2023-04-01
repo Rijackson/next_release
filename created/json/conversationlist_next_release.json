@@ -11,7 +11,7 @@
     },
     {
         "id":"gael_cook_10",
-        "message":"Well, I can use some extra gold. So I can cook them for you for lets say 30 gold a piece",
+        "message":"I could use some extra gold. So I can cook them for you for let's say 30 gold a piece.",
         "replies":[
             {
                 "text":"Well, here is 1 piece and 30 gold.",
@@ -140,6 +140,16 @@
             {
                 "rewardType":"dropList",
                 "rewardID":"twenty_cooked_meat"
+            }
+        ]
+    },
+    {
+        "id":"kendelow_meat",
+        "message":"No, sorry. I can't let you use my kitchen. But...",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"gael_cook_10"
             }
         ]
     }
