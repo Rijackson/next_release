@@ -1,0 +1,20 @@
+[
+    {
+        "id":"ring_protector",
+        "iconID":"items_jewelry:4",
+        "name":"Ring of the protector",
+        "displaytype":"rare",
+        "hasManualPrice":0,
+        "baseMarketCost":3744,
+        "category":"ring",
+        "equipEffect":{
+            "increaseAttackDamage":{
+                "min":0,
+                "max":3
+            },
+            "increaseMaxHP":3,
+            "increaseAttackChance":20,
+            "increaseBlockChance":14
+        }
+    }
+]
