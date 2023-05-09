@@ -1,0 +1,35 @@
+[
+    {
+        "id":"ratdom_rat_flora_10",
+        "message":"Why doesn't he ever do what he's told?",
+        "switchToNPC":"ratdom_rat",
+        "replies":[
+            {
+                "text":"Hey, come in! It is cool and refreshing.",
+                "nextPhraseID":"ratdom_rat_flora_20"
+            }
+        ]
+    },
+    {
+        "id":"ratdom_rat_flora_warn_10",
+        "message":"Wait! I know this place - it is Flora's fountain. This could be a trap!",
+        "switchToNPC":"ratdom_rat",
+        "replies":[
+            {
+                "text":"Do you think? It looks so peaceful.",
+                "nextPhraseID":"ratdom_rat_flora_warn_20"
+            },
+            {
+                "text":"Maybe you are right. We better leave.",
+                "nextPhraseID":"X"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"ratdom_nondisplay",
+                "value":140
+            }
+        ]
+    }
+]

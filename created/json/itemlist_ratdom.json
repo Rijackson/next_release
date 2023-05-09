@@ -1,0 +1,10 @@
+[
+    {
+        "id":"ratdom_parchment",
+        "iconID":"items_japozero:426",
+        "name":"Parchment from Flora's fountain",
+        "displaytype":"extraordinary",
+        "category":"other",
+        "description":"You see three words in big red letters: \"HELP ME ANDOR\"\nand a blood stained fingerprint underneath."
+    }
+]
