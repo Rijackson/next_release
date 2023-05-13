@@ -2,5 +2,20 @@
     {
         "id":"ratdom_rat_flora_20",
         "message":"Me and water? Forget it!"
+    },
+    {
+        "id":"ratdom_wells_chest_2",
+        "replies":[
+            {
+                "nextPhraseID":"ratdom_wells_chest_4"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"alignmentSet",
+                "rewardID":"ratdom_wells",
+                "value":19
+            }
+        ]
     }
 ]
