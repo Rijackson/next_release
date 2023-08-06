@@ -1,0 +1,54 @@
+[
+    {
+        "id":"tinlyn",
+        "name":"Lost sheep",
+        "showInLog":1,
+        "stages":[
+            {
+                "progress":10,
+                "logText":"On the road to Feygard, near the Feygard bridge, I met a shepherd named Tinlyn. Tinlyn told me that four of his sheep have wandered away and that he won't dare leave the remaining sheep to go look for them."
+            },
+            {
+                "progress":15,
+                "logText":"I have agreed to help Tinlyn find his four lost sheep."
+            },
+            {
+                "progress":20,
+                "logText":"I have found one of Tinlyn's lost sheep."
+            },
+            {
+                "progress":21,
+                "logText":"I have found one of Tinlyn's lost sheep."
+            },
+            {
+                "progress":22,
+                "logText":"I have found one of Tinlyn's lost sheep."
+            },
+            {
+                "progress":23,
+                "logText":"I have found one of Tinlyn's lost sheep."
+            },
+            {
+                "progress":25,
+                "logText":"I have found all four of Tinlyn's lost sheep."
+            },
+            {
+                "progress":30,
+                "logText":"Tinlyn thanked me for finding his lost sheep.",
+                "rewardExperience":300,
+                "finishesQuest":1
+            },
+            {
+                "progress":31,
+                "logText":"Tinlyn thanked me for finding his lost sheep, but he had no reward to give me.",
+                "rewardExperience":500,
+                "finishesQuest":1
+            },
+            {
+                "progress":60,
+                "logText":"I have attacked at least one of Tinlyn's lost sheep and I am therefore unable to return them all to Tinlyn.",
+                "finishesQuest":1
+            }
+        ]
+    }
+]
