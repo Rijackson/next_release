@@ -1,0 +1,30 @@
+[
+    {
+        "id":"mikhail_rats_start",
+        "message":"I saw some rats out back in our garden earlier. Could you please go kill any rats that you see out there?",
+        "replies":[
+            {
+                "text":"I have already dealt with the rats.",
+                "nextPhraseID":"mikhail_rats_complete",
+                "requires":[
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"tail_trainingrat",
+                        "value":2
+                    }
+                ]
+            },
+            {
+                "text":"OK, I'll go check out in our garden.",
+                "nextPhraseID":"mikhail_rats_start2"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"mikhail_rats",
+                "value":10
+            }
+        ]
+    }
+]
