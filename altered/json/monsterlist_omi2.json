@@ -144,5 +144,34 @@
                 }
             ]
         }
+    },
+    {
+        "id":"ortholion_guard3",
+        "name":"Feygard patrol guard",
+        "iconID":"monsters_rltiles3:14",
+        "monsterClass":"humanoid",
+        "movementAggressionType":"none",
+        "spawnGroup":"ortholion_guard3",
+        "phraseID":"ortholion_guard3_selector"
+    },
+    {
+        "id":"ortholion_guard7",
+        "name":"Confused Feygard soldier",
+        "iconID":"monsters_rltiles3:14",
+        "maxHP":211,
+        "unique":1,
+        "monsterClass":"humanoid",
+        "movementAggressionType":"none",
+        "attackDamage":{
+            "min":2,
+            "max":18
+        },
+        "spawnGroup":"ortholion_guard7",
+        "phraseID":"ortholion_guard7",
+        "droplistID":"ortholion_guard7",
+        "attackCost":7,
+        "attackChance":91,
+        "blockChance":110,
+        "damageResistance":2
     }
 ]
