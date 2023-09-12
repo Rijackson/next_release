@@ -90,5 +90,59 @@
                 "max":0
             }
         }
+    },
+    {
+        "id":"elm_yczorah1",
+        "name":"Yczorah marauder",
+        "iconID":"monsters_tometik10:7",
+        "maxHP":256,
+        "maxAP":14,
+        "moveCost":7,
+        "monsterClass":"demon",
+        "movementAggressionType":"none",
+        "attackDamage":{
+            "min":6,
+            "max":7
+        },
+        "spawnGroup":"elm_mine6",
+        "droplistID":"elm_yczorah",
+        "attackCost":4,
+        "attackChance":81,
+        "criticalSkill":5,
+        "criticalMultiplier":2.0,
+        "blockChance":161,
+        "damageResistance":7,
+        "hitEffect":{
+            "increaseCurrentHP":{
+                "min":0,
+                "max":5
+            },
+            "conditionsSource":[
+                {
+                    "condition":"food",
+                    "magnitude":2,
+                    "duration":2,
+                    "chance":"20"
+                }
+            ],
+            "conditionsTarget":[
+                {
+                    "condition":"bleeding_wound",
+                    "magnitude":5,
+                    "duration":2,
+                    "chance":"10"
+                }
+            ]
+        },
+        "hitReceivedEffect":{
+            "conditionsTarget":[
+                {
+                    "condition":"nausea",
+                    "magnitude":5,
+                    "duration":2,
+                    "chance":"20"
+                }
+            ]
+        }
     }
 ]
