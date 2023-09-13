@@ -71,7 +71,7 @@
     },
     {
         "id":"capvjern_26b",
-        "message":"Calm down, Jern. \\n\\n Kamelio, alive? How? Where? ",
+        "message":"Calm down, Jern. \n\nKamelio, alive? How? Where? ",
         "switchToNPC":"prim_guard5",
         "replies":[
             {
@@ -304,7 +304,7 @@
     },
     {
         "id":"capvjern_30d",
-        "message":"I can believe that. \\n\\n Jern, let Feygard folks take care of the mine for a while, we have a lot to do here.",
+        "message":"I can believe that.\n\nJern, let Feygard folks take care of the mine for a while, we have a lot to do here.",
         "switchToNPC":"prim_guard5",
         "replies":[
             {
@@ -372,7 +372,7 @@
     },
     {
         "id":"capvjern_36",
-        "message":"... \\n\\n It is un...unbearable.",
+        "message":"... \n\nIt is un...unbearable.",
         "switchToNPC":"prim_guard5",
         "replies":[
             {
@@ -383,7 +383,7 @@
     },
     {
         "id":"capvjern_37",
-        "message":"*breathing heavily* That... that substance is dangerous! \\n\\n $playername, you must destroy that cloak!",
+        "message":"*breathing heavily* That... that substance is dangerous!\n\n$playername, you must destroy the cloak!",
         "replies":[
             {
                 "text":"The mine is full of it! Do you believe me now?",
