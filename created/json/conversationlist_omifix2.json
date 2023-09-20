@@ -467,5 +467,101 @@
                 "nextPhraseID":"R"
             }
         ]
+    },
+    {
+        "id":"ortholion_guard_0e",
+        "message":"No, kid, I don't have anything to trade right now. I am tired of this place. Mountains are not my thing, you know?",
+        "replies":[
+            {
+                "text":"I have a very important message fr...",
+                "nextPhraseID":"ortholion_guard_1e"
+            }
+        ]
+    },
+    {
+        "id":"ortholion_guard_1e",
+        "message":"I prefer the great plains of calm, always calm Loneford... Yes, always quiet and peaceful...",
+        "replies":[
+            {
+                "text":"But General Orth...",
+                "nextPhraseID":"ortholion_guard_2e"
+            }
+        ]
+    },
+    {
+        "id":"ortholion_guard_2e",
+        "message":"Ah! The soft breeze of the coast, the vivid life of the port of Feygard... \n\n[The soldier continues lamenting and completely ignores your presence]",
+        "replies":[
+            {
+                "text":"Hey, pay attention!",
+                "nextPhraseID":"ortholion_guard_0e"
+            },
+            {
+                "text":"Okay, I give up. Let's try with someone else.",
+                "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"ortholion_guard3_8",
+        "message":"I hate these escorting trips. It is not like the general needs us, does he?",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"ortholion_guard3_9"
+            }
+        ]
+    },
+    {
+        "id":"ortholion_guard3_9",
+        "message":"The trip here was anything but safe. I miss my former post in Crossglen.",
+        "replies":[
+            {
+                "text":"Oh, so you are one of those good for nothing, always drunk soldiers?",
+                "nextPhraseID":"ortholion_guard3_10"
+            }
+        ]
+    },
+    {
+        "id":"ortholion_guard3_10",
+        "message":"Yes sir, I w...Hey! What did you just say?",
+        "replies":[
+            {
+                "text":"I have important information to deliver!",
+                "nextPhraseID":"ortholion_guard3_11a"
+            },
+            {
+                "text":"I am proud of you, drunkard. Where's your boss?",
+                "nextPhraseID":"ortholion_guard3_11b"
+            }
+        ]
+    },
+    {
+        "id":"ortholion_guard3_11a",
+        "message":"Whatever it be it is none of my concern. Go talk with our mountain scout, she's the one in charge, *hic*.",
+        "replies":[
+            {
+                "text":"Blackwater brew, eh? Truly disappointing. Goodbye.",
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"OK sir, many thanks.",
+                "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"ortholion_guard3_11b",
+        "message":"*looks at you perplexed* Uhh... *hic* Over there. \n\n*points at the mountain scout*",
+        "replies":[
+            {
+                "text":"Finally, bye.",
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"Thanks, and sleep it off... Sigh.",
+                "nextPhraseID":"X"
+            }
+        ]
     }
 ]
