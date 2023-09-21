@@ -1,0 +1,12 @@
+[
+    {
+        "id":"sullengard_nanette_10",
+        "message":"[Sigh]. I'm too old for a story. Just tell me the moral of it.",
+        "replies":[
+            {
+                "text":"Don't throw pebbles into the pond. You might disturb whatever lies beneath the surface.",
+                "nextPhraseID":"sullengard_nanette_11"
+            }
+        ]
+    }
+]
