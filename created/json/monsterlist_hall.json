@@ -1,0 +1,104 @@
+[
+    {
+        "id":"fame_irogotu",
+        "name":"Irogotu",
+        "iconID":"monsters_liches:0",
+        "phraseID":"fame_irogotu"
+    },
+    {
+        "id":"fame_boss_fungi",
+        "name":"Great fungi",
+        "iconID":"monsters_bosses_2x2:0",
+        "unique":1,
+        "phraseID":"fame_boss_fungi"
+    },
+    {
+        "id":"fame_weak_fungi_1",
+        "name":"Angry weak fungi",
+        "iconID":"monsters_gisons:3",
+        "unique":1,
+        "phraseID":"fame_mix_fungi"
+    },
+    {
+        "id":"fame_weak_fungi_2",
+        "name":"Angry weak fungi",
+        "iconID":"monsters_gisons:3",
+        "unique":1,
+        "phraseID":"fame_mix_fungi"
+    },
+    {
+        "id":"fame_mid_fungi_1",
+        "name":"Angry fungi",
+        "iconID":"monsters_gisons:4",
+        "unique":1,
+        "phraseID":"fame_mix_fungi"
+    },
+    {
+        "id":"fame_mid_fungi_2",
+        "name":"Angry fungi",
+        "iconID":"monsters_gisons:4",
+        "unique":1,
+        "phraseID":"fame_mix_fungi"
+    },
+    {
+        "id":"fame_dangerous_fungi_1",
+        "name":"Angry dangerous fungi",
+        "iconID":"monsters_gisons:5",
+        "unique":1,
+        "phraseID":"fame_mix_fungi"
+    },
+    {
+        "id":"fame_zuul_khan",
+        "name":"Zuul'khan",
+        "iconID":"monsters_rltiles2:88",
+        "phraseID":"fame_zuul_khan"
+    },
+    {
+        "id":"fame_snake_master",
+        "name":"Snake master",
+        "iconID":"monsters_liches:1",
+        "phraseID":"fame_snake_master"
+    },
+    {
+        "id":"fame_snake_master2",
+        "name":"Ewmondold",
+        "iconID":"monsters_tometik1:18",
+        "phraseID":"fame_snake_master2"
+    },
+    {
+        "id":"fame_pack_boss",
+        "name":"Pack leader",
+        "iconID":"monsters_dogs:5",
+        "phraseID":"fame_pack_boss"
+    },
+    {
+        "id":"fame_vacor",
+        "name":"Vacor",
+        "iconID":"monsters_mage:0",
+        "phraseID":"fame_vacor"
+    },
+    {
+        "id":"fame_unzel",
+        "name":"Unzel",
+        "iconID":"monsters_men:8",
+        "phraseID":"fame_unzel"
+    },
+    {
+        "id":"fame_luthor",
+        "name":"Ghost of Luthor",
+        "iconID":"monsters_liches:2",
+        "phraseID":"fame_luthor"
+    },
+    {
+        "id":"fame_larcal",
+        "name":"Larcal",
+        "iconID":"monsters_men2:2",
+        "phraseID":"fame_larcal"
+    },
+    {
+        "id":"fame_crossglen_caveboss",
+        "name":"Strong cave rat",
+        "iconID":"monsters_rats:3",
+        "phraseID":"fame_crossglen_caveboss"
+    }
+]

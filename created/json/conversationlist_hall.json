@@ -1,0 +1,316 @@
+[
+    {
+        "id":"fame_init",
+        "replies":[
+            {
+                "text":"The sweetest music fills the room.", 
+                "nextPhraseID":"X"
+            }
+        ],
+		"rewards":[
+            { "rewardType":"removeSpawnArea","rewardID":"fame_weak_fungi_1", "mapName":"hall_1" },
+            { "rewardType":"removeSpawnArea","rewardID":"fame_weak_fungi_2", "mapName":"hall_1" },
+            { "rewardType":"removeSpawnArea","rewardID":"fame_mid_fungi_1", "mapName":"hall_1" },
+            { "rewardType":"removeSpawnArea","rewardID":"fame_mid_fungi_2", "mapName":"hall_1" },
+            { "rewardType":"removeSpawnArea","rewardID":"fame_dangerous_fungi_1", "mapName":"hall_1" },
+            { "rewardType":"spawnAll","rewardID":"fame_boss_fungi", "mapName":"hall_1" }
+        ]
+    },
+    {
+        "id":"fame_crossglen_caveboss",
+        "message":"Just you wait, I will take over Crossglen's supply cave again!"
+    },
+    {
+        "id":"fame_irogotu",
+        "message":"Well hello there. Coming to steal my bounty again? This is MY CAVE. The treasure will be MINE!",
+        "replies":[
+            {
+                "text":"By treasure do you mean Jan's ring?",
+                "nextPhraseID":"fame_irogotu_10"
+            }
+        ]
+    },
+    {
+        "id":"fame_irogotu_10",
+        "message":"YES! You must not have it. It's mine! And who are you anyway kid, coming down here to disturb me?!"
+    },
+    {
+        "id":"fame_larcal",
+        "message":"You're starting to annoy me, kid. Get lost while you still can.",
+        "replies":[
+            {
+                "text":"Very well. I will leave.",
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"Well, that book was not yours!",
+                "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"fame_luthor",
+        "message":"*hissss* What mortal disturbs my sleep?"
+    },
+    {
+        "id":"fame_snake_master",
+        "message":"I am the greatest strongest king.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"fame_snake_master2_10"
+            }
+        ]
+    },
+    {
+        "id":"fame_snake_master_10",
+		"switchToNPC":"fame_snake_master",
+        "message":"No, I am.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"fame_snake_master2_10"
+            }
+        ]
+    },
+    {
+        "id":"fame_snake_master2",
+        "message":"I am the greatest strongest king.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"fame_snake_master_10"
+            }
+        ]
+    },
+    {
+        "id":"fame_snake_master2_10",
+		"switchToNPC":"fame_snake_master2",
+        "message":"No, I am.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"fame_snake_master_10"
+            }
+        ]
+    },
+    {
+        "id":"fame_boss_fungi",
+        "replies":[
+            {
+                "text":"N", 
+                "nextPhraseID":"fame_boss_fungi_10"
+            }
+        ],
+		"rewards":[
+            {
+                "rewardType":"removeSpawnArea",
+                "rewardID":"fame_boss_fungi",
+                "mapName":"hall_1"
+            }
+        ]
+    },
+    {
+        "id":"fame_boss_fungi_10",
+        "replies":[
+            {
+                "text":"N", 
+                "nextPhraseID":"R"
+            }
+        ],
+		"rewards":[
+            { "rewardType":"spawnAll","rewardID":"fame_weak_fungi_1", "mapName":"hall_1" },
+            { "rewardType":"spawnAll","rewardID":"fame_weak_fungi_2", "mapName":"hall_1" },
+            { "rewardType":"spawnAll","rewardID":"fame_mid_fungi_1", "mapName":"hall_1" },
+            { "rewardType":"spawnAll","rewardID":"fame_mid_fungi_2", "mapName":"hall_1" },
+            { "rewardType":"spawnAll","rewardID":"fame_dangerous_fungi_1", "mapName":"hall_1" }
+        ]
+    },
+    {
+        "id":"fame_mix_fungi",
+        "replies":[
+            {
+                "text":"N", 
+                "nextPhraseID":"R"
+            }
+        ]
+    },
+    {
+        "id":"fame_pack_boss",
+        "message":"Grrr!  Give me back my hide! You don't even use it."
+    },
+    {
+        "id":"fame_unzel",
+        "message":"Vacor must be stopped!"
+    },
+    {
+        "id":"fame_vacor",
+        "message":"There isn't anything wrong with the rift spell, is it?"
+    },
+    {
+        "id":"fame_zuul_khan",
+        "message":"Oh kid, you look like someone nice. I don't want you to be injured because of me. I urge you to leave!",
+        "replies":[
+            {
+                "text":"Oh no, not again.",
+                "nextPhraseID":"fame_zuul_khan_10"
+            }
+        ]
+    },
+    {
+        "id":"fame_zuul_khan_10",
+        "message":"Give me your hand! ... No don't! ... Give me ... ",
+        "replies":[
+            {
+                "text":"* Reach out your hand *",
+                "nextPhraseID":"fame_zuul_khan_90"
+            },
+            {
+                "text":"Oh boy. We already had that.",
+                "nextPhraseID":"fame_zuul_khan_20"
+            }
+        ]
+    },
+    {
+        "id":"fame_zuul_khan_20",
+        "message":"I'm hurt ... I'll hurt ... Never do! ... Help! ... Kill! ... your hand - pleease ...",
+        "replies":[
+            {
+                "text":"* Reach out your hand *",
+                "nextPhraseID":"fame_zuul_khan_90"
+            },
+            {
+                "text":"No. Not today - bye.",
+                "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"fame_zuul_khan_90",
+        "replies":[
+            {
+                "nextPhraseID":"fame_zuul_khan_92",
+                "requires":[
+                    {
+                        "requireType":"random",
+                        "requireID":"40"
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"fame_zuul_khan_94",
+                "requires":[
+                    {
+                        "requireType":"random",
+                        "requireID":"66"
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"fame_zuul_khan_96",
+                "requires":[
+                    {
+                        "requireType":"random",
+                        "requireID":"33"
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"fame_zuul_khan_98",
+                "requires":[
+                    {
+                        "requireType":"random",
+                        "requireID":"50"
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"fame_zuul_khan_99"
+            }
+        ]
+    },
+    {
+        "id":"fame_zuul_khan_92",
+        "message":"Hahaha! AHAHAHAHA!",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"fame_zuul_khan_90"
+            }
+        ]
+    },
+    {
+        "id":"fame_zuul_khan_94",
+        "message":"HAHAHAHA!",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"fame_zuul_khan_90"
+            }
+        ]
+    },
+    {
+        "id":"fame_zuul_khan_96",
+        "message":"I am the great Zuul'khan!",
+        "replies":[
+            {
+                "text":"Great.",
+                "nextPhraseID":"fame_zuul_khan_96_a"
+            }
+        ]
+    },
+    {
+        "id":"fame_zuul_khan_96_a",
+        "message":"Great and strong, yes.",
+        "replies":[
+            {
+                "text":"I will better leave now. Dream on!",
+                "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"fame_zuul_khan_98",
+        "message":"Don't disturb me! I am practicing dangerous spells.",
+        "replies":[
+            {
+                "text":"At school I was good at spelling: A B C ...",
+                "nextPhraseID":"fame_zuul_khan_98_a"
+            }
+        ]
+    },
+    {
+        "id":"fame_zuul_khan_98_a",
+        "message":"I've had enough of your cheekiness now. These were your last words!",
+        "replies":[
+            {
+                "text":"Exactly - my last words to you. Bye.",
+                "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"fame_zuul_khan_99",
+        "message":"Do not disturb me. I have to concentrate in building my fungi army.",
+        "replies":[
+            {
+                "text":"By reading a book? Is reading a book the lazy way to create an army?",
+                "nextPhraseID":"fame_zuul_khan_99_a"
+            }
+        ]
+    },
+    {
+        "id":"fame_zuul_khan_99_a",
+        "message":"That did it. Silence now, or ...",
+        "replies":[
+            {
+                "text":"As you wish. Bye.",
+                "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"fame_null",
+        "message":"Hello world of fame!"
+    }
+]
