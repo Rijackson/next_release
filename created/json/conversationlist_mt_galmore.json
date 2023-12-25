@@ -98,5 +98,58 @@
                 ]
             }
         ]
+    },
+    {
+        "id":"fix_stn_skeletons_10",
+        "message":"What a beautiful view from here.",
+        "replies":[
+            {
+                "text":"Is that a skeleton that I see behind the hill?",
+                "nextPhraseID":"fix_stn_skeletons_20",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"stn_nondisplay",
+                        "value":5
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"stoutford_castle",
+                        "value":20,
+                        "negate":true
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"fix_stn_skeletons_20",
+        "message":"You think how to lure the skeleton back into the castle.",
+        "replies":[
+            {
+                "text":"I could close the castle gates again.",
+                "nextPhraseID":"fix_stn_skeletons_22"
+            }
+        ]
+    },
+    {
+        "id":"fix_stn_skeletons_22",
+        "message":"What a strange idea. But who knows, maybe it helps?"
+    },
+    {
+        "id":"fix_stn_skeletons_1a",
+        "rewards":[{ "rewardType":"mapchange", "mapName":"waytogalmore0", "rewardID":"fix_stn_skeletons" }]
+    },
+    {
+        "id":"fix_stn_skeletons_2a",
+        "rewards":[{ "rewardType":"mapchange", "mapName":"waytogalmore0", "rewardID":"fix_stn_skeletons" }]
+    },
+    {
+        "id":"fix_stn_skeletons_1b",
+        "rewards":[{ "rewardType":"mapchange", "mapName":"waytogalmore0", "rewardID":"top_east" }]
+    },
+    {
+        "id":"fix_stn_skeletons_2b",
+        "rewards":[{ "rewardType":"mapchange", "mapName":"waytogalmore0", "rewardID":"east2" }]
     }
 ]
