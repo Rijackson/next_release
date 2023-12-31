@@ -1,0 +1,135 @@
+[
+    {
+        "id":"stoutford_widow2_10",
+        "message":"Welcome! I already created some good potions - better than Blornvale's stuff. Want to have a look?",
+        "replies":[
+            {
+                "text":"Of course! Show me, what you have, please.",
+                "nextPhraseID":"S"
+            },
+            {
+                "text":"Could you give me of your masterpiece, the potion of deftness?",
+                "nextPhraseID":"stoutford_widow2_0"
+            },
+            {
+                "text":"Nice to see you happy again.",
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"Do you happen to sell empty bottles?",
+                "nextPhraseID":"stoutford_widow2_10_b",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"Omi2_bwm1",
+                        "value":23
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"Omi2_bwm1",
+                        "value":25,
+                        "negate":true
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"blornvale_shop1_8",
+        "message":"Welcome to my shop kid.\nMy potions are not for the faint of heart. Do you want to take a look?",
+        "replies":[
+            {
+                "text":"Sure.",
+                "nextPhraseID":"blornvale_shop1_10"
+            },
+            {
+                "text":"Not interested.",
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"Maybe later.",
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"Do you happen to sell empty bottles?",
+                "nextPhraseID":"stoutford_widow2_10_b",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"Omi2_bwm1",
+                        "value":23
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"Omi2_bwm1",
+                        "value":25,
+                        "negate":true
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"blornvale_shop2",
+        "message":"Come, I will show you my special selection.",
+        "switchToNPC":"stoutford_alchemist2",
+        "replies":[
+            {
+                "text":"OK, let's see if it's more interesting than soap.",
+                "nextPhraseID":"S",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"stn_nondisplay",
+                        "value":201
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"stn_nondisplay",
+                        "value":202,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "text":"Yes, let's have a look.",
+                "nextPhraseID":"S",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"stn_nondisplay",
+                        "value":202
+                    }
+                ]
+            },
+            {
+                "text":"No, thank you.",
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"Do you happen to sell empty bottles?",
+                "nextPhraseID":"stoutford_widow2_10_b",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"Omi2_bwm1",
+                        "value":23
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"Omi2_bwm1",
+                        "value":25,
+                        "negate":true
+                    }
+                ]
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"removeQuestProgress",
+                "rewardID":"stn_nondisplay",
+                "value":201
+            }
+        ]
+    }
+]

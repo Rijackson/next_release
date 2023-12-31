@@ -1,0 +1,26 @@
+[
+    {
+        "id":"bwm_wellspring_1a",
+        "message":"An empty flask would be also OK. Just an empty vial would be a little bit to small.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"bwm_wellspring_1b"
+            }
+        ]
+    },
+    {
+        "id":"bwm_wellspring_1b",
+        "message":"A large bottle would be too heavy when filled with water, and soup bottles are unsuitable for this wonderfully fresh water.",
+        "replies":[
+            {
+                "text":"Oh come on.",
+                "nextPhraseID":"bwm_wellspring_1c"
+            }
+        ]
+    },
+    {
+        "id":"bwm_wellspring_1c",
+        "message":"And no: you can't just empty a bottle and use it."
+    }
+]

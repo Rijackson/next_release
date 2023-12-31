@@ -1,0 +1,70 @@
+[
+    {
+        "id":"bwm_wellspring_1",
+        "message":"A small natural pool has formed here. The water, emerging from small cracks in the rock, is cold and transparent.",
+        "replies":[
+            {
+                "text":"Fill a bottle of water.",
+                "nextPhraseID":"bwm_wellspring_2a",
+                "requires":[
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"vial_empty3",
+                        "value":1
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"bwm72_beginning",
+                        "value":12,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "text":"Fill another bottle of water.",
+                "nextPhraseID":"bwm_wellspring_2b",
+                "requires":[
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"vial_empty3",
+                        "value":1
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"bwm72_beginning",
+                        "value":12
+                    }
+                ]
+            },
+            {
+                "text":"Fill a large bottle.",
+                "nextPhraseID":"bwm_wellspring_2c",
+                "requires":[
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"vial_empty4",
+                        "value":1
+                    }
+                ]
+            },
+            {
+                "text":"If you had an empty bottle with you, you could take some of this refreshing water with you.",
+                "nextPhraseID":"bwm_wellspring_1a",
+                "requires":[
+                    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"vial_empty3",
+                        "value":1,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"vial_empty4",
+                        "value":1,
+                        "negate":true
+                    }
+                ]
+            }
+        ]
+    }
+]
