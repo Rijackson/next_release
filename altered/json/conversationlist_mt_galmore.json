@@ -28,5 +28,15 @@
                 "mapName":"aidem_base_2"
             }
         ]
+    },
+    {
+        "id":"troublemaker_wm_report_40",
+        "message":"You can find the empty house just southwest of here. Enter it and you will find your way.",
+        "replies":[
+            {
+                "text":"I'll be there. Thank you.",
+                "nextPhraseID":"X"
+            }
+        ]
     }
 ]
