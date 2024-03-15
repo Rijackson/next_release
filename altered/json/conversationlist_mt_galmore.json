@@ -1,0 +1,42 @@
+[
+    {
+        "id":"aidem_base_defy_help_tg_10",
+        "message":"Thank you so much. Now take this fake key that Zachlanny's has made and return it to Troublemaker before he suspects anything. Then meet us at the vault to collect your share of the loot.",
+        "rewards":[
+            {
+                "rewardType":"dropList",
+                "rewardID":"aidem_base_defy_help_key"
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"wanted_men",
+                "value":56
+            },
+            {
+                "rewardType":"removeSpawnArea",
+                "rewardID":"aidem_base_thieves",
+                "mapName":"aidem_base_2"
+            },
+            {
+                "rewardType":"spawnAll",
+                "rewardID":"wild6_house_thief_spawn",
+                "mapName":"wild6_house"
+            },
+            {
+                "rewardType":"removeSpawnArea",
+                "rewardID":"aidem_base_defy_spawn",
+                "mapName":"aidem_base_2"
+            }
+        ]
+    },
+    {
+        "id":"troublemaker_wm_report_40",
+        "message":"You can find the empty house just southwest of here. Enter it and you will find your way.",
+        "replies":[
+            {
+                "text":"I'll be there. Thank you.",
+                "nextPhraseID":"X"
+            }
+        ]
+    }
+]
