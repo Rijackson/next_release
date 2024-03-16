@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="right-down" width="26" height="16" tilewidth="32" tileheight="32" infinite="0" nextlayerid="27" nextobjectid="60">
+<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="right-down" width="26" height="16" tilewidth="32" tileheight="32" infinite="0" nextlayerid="27" nextobjectid="65">
  <properties>
   <property name="outdoors" value="1"/>
  </properties>
@@ -197,12 +197,12 @@
  </tileset>
  <layer id="15" name="Base" width="26" height="16">
   <data encoding="base64" compression="zlib">
-   eJzbyMnAsBEJn0Bi/6Ai3jgA9sTIIzA17Rgo/5xA41PTnhNYzKdHOqCVPXuxYGqnAZg9RmwITEt7nNgQeIcU7ey5jYRP0Mme2zQMt4Gwh5bpgJA91MhThPIPtfIuAGkkht8=
+   eJzbyMnAsBEJn0Bi/6Ai3jgA9sTIIzA17Rgo/5xA41PTnhNYzKdHOqCVPXuxYGqnAZg9RmwITEt7bgOxExuEprU9MLxDij72nKCTPbfpFG70sgdbOqBGniKUf6iVdwGuK4gX
   </data>
  </layer>
  <layer id="1" name="Ground" width="26" height="16">
   <data encoding="base64" compression="zlib">
-   eJxjYEAAM3EI7SbOQFNAL3voAUKAfnCloX9CxSEYZocJkE6jYbiBzE+loR2pNDZ/FIyCwQikJBgYpJGwjARt7OBGM5eHBvb8wZJ3ybUHABV6Cd0=
+   eJxjYEAAM3EI7SbOQFNAL3voAUKAfnCloX9CxSEYZocJkE6jYbiBzE+loR2pNDZ/OAMnNlR6FAwdICXBwCCNhGUkaGMHN5q5PDSw5w+WvEuuPQCqfQpt
   </data>
  </layer>
  <layer id="22" name="Ground1" width="26" height="16" visible="0">
@@ -212,12 +212,12 @@
  </layer>
  <layer id="2" name="Objects" width="26" height="16">
   <data encoding="base64" compression="zlib">
-   eJx7K8nA8AaI3wLxcAD08sdwCrNRQBmIZ2NgsGaB0LQG3iwQeokcbe1xhpq/hcb2jDRAy3ID2WxGftrYBTPzvCBuu0kBAOHzFJc=
+   eJx7K8nA8AaI3wIxMnglyEAT8IJG5sIAuj9oBbCFGVicxv4bjuDZEA+zeDYGBmsWCE1r4M1CeztAwFkOQi+Ro499W+hkz0ACUNmAq9ygivlIZjPy08YumJnnBbGLkwoAdagZfA==
   </data>
  </layer>
  <layer id="3" name="Above" width="26" height="16">
   <data encoding="base64" compression="zlib">
-   eJxjYKAPuCtJH3vuSNLPrlEwtMBlMfqYe5hG9qCbSy97LtHJHloBYuyhRrmBbg8sXSCb/ZGPcruwpQNcZlKzPDyM5h90mhwAAEy2H1Y=
+   eJxjYKAPuCtJH3vuSNLPrlEwtMBlMfqYe5hG9qCbO9zsuUQne7ABapQbuOxBNvsjH+V2odsDSn+4zKRmeQizF2YmOk0OAADwbh9W
   </data>
  </layer>
  <layer id="4" name="Above_1" width="26" height="16">
@@ -227,10 +227,10 @@
  </layer>
  <layer id="25" name="Top" width="26" height="16" visible="0">
   <data encoding="base64" compression="zlib">
-   eJwTl2BgkEDDkkBMbfBTnIFhEycq5hy1h2R7vgP5mjSwRx1opgYSpoUd9ATidEjTIIAeP+x0zD+0sAubPbRI29jsoUXaJiafilMhjeDLpzDzOSQojzd0e5D9Qs0yCV95gC5HSXkBAJwXOz4=
+   eJwTl2BgkEDDkkBMbfBTnIFhEycq5hxG9nwH8jVpYI860EwNJEwLO0BAHGguhwTEL+w0SgMgQE//0DpNgwB6OqBV2GFL17SwC5s9tMhD2OyhRR4ipjwQp0IawVcewMynRv5CtwfZL9Qs+/DlU3Q5SvIxAGd5Obs=
   </data>
  </layer>
- <layer id="23" name="Top_0" width="26" height="16">
+ <layer id="23" name="Top_0" width="26" height="16" visible="0">
   <data encoding="base64" compression="zlib">
    eJxjYBgFo2AUjIJRMAroDwAGgAAB
   </data>
@@ -242,12 +242,12 @@
  </layer>
  <layer id="26" name="Walkable" width="26" height="16" visible="0">
   <data encoding="base64" compression="zlib">
-   eJzbKMbAsBELRgbY5LGpJ0YNujpqA2xm0soebP6mlT344odW9tAC0Np8bPYM1/ihR/4ZtYc69lAr3rDZg81OSu2itIwnFgAAp8pOhA==
+   eJzbKMbAsBELpjZANpNe9uATo4Y9MHNp7R96xQ+yf2gFaO0PXPYMl/ihdTyhm0mvfDrc7aFW+sBmDzY7KbULV5rGld7JtQsALNlAhg==
   </data>
  </layer>
  <layer id="5" name="Walkable_0" width="26" height="16" visible="0">
   <data encoding="base64" compression="zlib">
-   eJzbKMbAsBELpjZANpNe9tASILuf1v6hddwMhD20BgMVbrQC9PQPPj6t7KEVGCh7cNlLadzhs4eaZRKu9IZNnBK7AB3cNms=
+   eJzbKMbAsBELpjZANpNe9tASILuf1v6hddwg2wNj0wrQ0g/Y7KFXuNHbHloBdLNp6R96gMFmD6Xxhy9+qFkm4UrX2MQpsQsAqH40Fg==
   </data>
  </layer>
  <objectgroup id="7" name="Mapevents" visible="0">
@@ -275,14 +275,18 @@
   <object id="52" name="fame_lovis" type="spawn" x="32" y="320" width="32" height="32"/>
   <object id="53" name="fame_unkorh" type="spawn" x="96" y="320" width="32" height="32"/>
   <object id="54" name="fame_hannah" type="spawn" x="32" y="448" width="96" height="32"/>
-  <object id="55" name="fame_herold" type="spawn" x="160" y="416" width="32" height="32"/>
-  <object id="56" name="fame_gguard" type="spawn" x="160" y="320" width="32" height="32"/>
-  <object id="57" name="fame_rob" type="spawn" x="128" y="256" width="32" height="32"/>
+  <object id="55" name="fame_herold" type="spawn" x="128" y="416" width="32" height="32"/>
+  <object id="56" name="fame_gguard" type="spawn" x="160" y="352" width="32" height="32"/>
+  <object id="57" name="fame_rob" type="spawn" x="128" y="288" width="32" height="32"/>
   <object id="58" name="fame_rogorn" type="spawn" x="32" y="32" width="32" height="32"/>
+  <object id="61" name="fame_mermaid" type="spawn" x="64" y="160" width="32" height="32"/>
+  <object id="62" name="fame_buceth" type="spawn" x="352" y="0" width="32" height="32"/>
+  <object id="63" name="fame_warden" type="spawn" x="480" y="448" width="32" height="32"/>
+  <object id="64" name="fame_winged_demon" type="spawn" x="512" y="448" width="64" height="64"/>
  </objectgroup>
  <objectgroup id="9" name="Keys" visible="0"/>
  <objectgroup id="10" name="Replace" visible="0">
-  <object id="39" name="fame_rogorn" type="replace" x="0" y="0" width="192" height="192">
+  <object id="39" name="fame_rogorn" type="replace" x="0" y="0" width="192" height="160">
    <properties>
     <property name="Top" value="Top_0"/>
     <property name="Walkable" value="Walkable_0"/>
@@ -300,13 +304,22 @@
     <property name="requireValue" value="200"/>
    </properties>
   </object>
-  <object id="59" name="fame_rogorn" type="replace" x="224" y="384" width="192" height="128">
+  <object id="59" name="fame_wolf_leader" type="replace" x="224" y="384" width="192" height="128">
    <properties>
     <property name="Top" value="Top_0"/>
     <property name="Walkable" value="Walkable_0"/>
     <property name="requireId" value="rogorn"/>
     <property name="requireType" value="questProgress"/>
     <property name="requireValue" value="60"/>
+   </properties>
+  </object>
+  <object id="60" name="fame_mermaid" type="replace" x="0" y="160" width="160" height="64">
+   <properties>
+    <property name="Top" value="Top_0"/>
+    <property name="Walkable" value="Walkable_0"/>
+    <property name="requireId" value="mermaid_scale"/>
+    <property name="requireType" value="questProgress"/>
+    <property name="requireValue" value="200"/>
    </properties>
   </object>
  </objectgroup>

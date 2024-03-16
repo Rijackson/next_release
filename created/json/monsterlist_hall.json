@@ -148,5 +148,29 @@
 		"name":"Rogorn",
 		"iconID":"monsters_rltiles1:63",
         "phraseID":"fame_rogorn"
+	},
+    {
+        "id":"fame_mermaid",
+		"name":"Mermaid",
+		"iconID":"monsters_rltiles2:5",
+        "phraseID":"fame_mermaid"
+	},
+    {
+        "id":"fame_buceth",
+		"name":"Buceth",
+		"iconID":"monsters_men2:7",
+        "phraseID":"fame_buceth"
+	},
+    {
+        "id":"fame_warden",
+		"name":"Undead warden",
+		"iconID":"monsters_liches:0",
+        "phraseID":"fame_warden"
+	},
+    {
+        "id":"fame_winged_demon",
+		"name":"Winged demon",
+		"iconID":"monsters_demon1:0",
+        "phraseID":"fame_winged_demon"
 	}
 ]

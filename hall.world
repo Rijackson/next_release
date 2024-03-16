@@ -1,5 +1,19 @@
 {
     "maps": [
+        {
+            "fileName": "created/maps/hall_2.tmx",
+            "height": 512,
+            "width": 832,
+            "x": 832,
+            "y": -1088
+        },
+        {
+            "fileName": "created/maps/hall_1.tmx",
+            "height": 512,
+            "width": 832,
+            "x": 416,
+            "y": -544
+        }
     ],
     "onlyShowAdjacentMaps": false,
     "type": "world"

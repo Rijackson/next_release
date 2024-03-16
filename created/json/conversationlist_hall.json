@@ -404,6 +404,50 @@
         "message":"Should you really be out here kid? These areas are dangerous."
 	},
     {
+        "id":"fame_mermaid",
+        "message":"Thank you for bringing back my scale.",
+        "replies":[
+            {
+				"text":"Sure thing.",
+                "nextPhraseID":"fame_mermaid_10"
+            }
+        ]
+	},
+    {
+        "id":"fame_mermaid_10",
+        "message":"Shall I sing for you as a little reward?",
+        "replies":[
+            {
+				"text":"Why ... yes ... of course ... I'd love to hear it.",
+                "nextPhraseID":"fame_mermaid_20"
+            }
+        ]
+	},
+    {
+        "id":"fame_mermaid_20",
+		"switchToNPC":"none",
+        "message":"As the mermaid sings beguiling songs about rushing waves and deep lagoons, you forget space and time.",
+        "rewards":[
+            {
+                "rewardType":"actorCondition",
+                "rewardID":"stunned",
+                "value":5
+            }
+        ]
+	},
+    {
+        "id":"fame_buceth",
+        "message":"fame_buceth"
+    },
+    {
+        "id":"fame_warden",
+        "message":"fame_warden"
+    },
+    {
+        "id":"fame_winged_demon",
+        "message":"fame_winged_demon"
+    },
+    {
         "id":"fame_null",
         "message":"Hello world of fame!"
     }
