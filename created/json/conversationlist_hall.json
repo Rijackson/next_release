@@ -310,6 +310,100 @@
         ]
     },
     {
+        "id":"fame_wolf_leader",
+        "message":"Grrr. You will not take the axe frrrom me again.",
+        "replies":[
+            {
+                "text":"So keep your stick, good puppy.",
+                "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"fame_herold",
+        "message":"Who may I please announce?",
+        "replies":[
+            {
+                "text":"$playername, please.",
+                "nextPhraseID":"X"
+            }
+        ]
+	},
+    {
+        "id":"fame_gguard",
+        "message":"Still no trespassing! Especially for kids!"
+	},
+    {
+        "id":"fame_unkorh",
+        "replies":[
+            {
+                "nextPhraseID":"fame_lovis_10",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"guynmart",
+                        "value":180
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"guynmart_lovis2_14"
+            }
+        ]
+	},
+    {
+        "id":"fame_lovis",
+        "replies":[
+            {
+                "nextPhraseID":"guynmart_lovis2_14",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"guynmart",
+                        "value":180
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"fame_lovis_10"
+            }
+        ]
+	},
+    {
+        "id":"fame_lovis_10",
+        "message":"You again! Go away!"
+	},
+    {
+        "id":"fame_hannah",
+        "replies":[
+            {
+                "nextPhraseID":"guynmart_hannah2_14",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"guynmart",
+                        "value":180
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"guynmart_s_hannah"
+            }
+        ]
+	},
+    {
+        "id":"fame_rob",
+        "replies":[
+            {
+                "nextPhraseID":"guynmart_rob2_10"
+            }
+        ]
+	},
+    {
+        "id":"fame_rogorn",
+        "message":"Should you really be out here kid? These areas are dangerous."
+	},
+    {
         "id":"fame_null",
         "message":"Hello world of fame!"
     }

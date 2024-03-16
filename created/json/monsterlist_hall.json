@@ -100,5 +100,53 @@
         "name":"Strong cave rat",
         "iconID":"monsters_rats:3",
         "phraseID":"fame_crossglen_caveboss"
-    }
+    },
+    {
+        "id":"fame_wolf_leader",
+		"name":"Korvan the leader of the wolves",
+		"iconID":"monsters_rltiles2:108",
+        "phraseID":"fame_wolf_leader"
+	},
+    {
+        "id":"fame_herold",
+		"name":"Herald",
+		"iconID":"monsters_ld1:0",
+        "phraseID":"fame_herold"
+	},
+    {
+        "id":"fame_gguard",
+		"name":"Guynmart guard",
+		"iconID":"monsters_ld1:0",
+        "phraseID":"fame_gguard"
+	},
+    {
+        "id":"fame_unkorh",
+		"name":"Unkorh",
+		"iconID":"monsters_ld1:11",
+        "phraseID":"fame_unkorh"
+	},
+    {
+        "id":"fame_lovis",
+		"name":"Lovis",
+		"iconID":"monsters_karvis2:2",
+        "phraseID":"fame_lovis"
+	},
+    {
+        "id":"fame_hannah",
+		"name":"Hannah",
+		"iconID":"monsters_ld1:225",
+        "phraseID":"fame_hannah"
+	},
+    {
+        "id":"fame_rob",
+		"name":"Rob",
+		"iconID":"monsters_ld1:62",
+        "phraseID":"fame_rob"
+	},
+    {
+        "id":"fame_rogorn",
+		"name":"Rogorn",
+		"iconID":"monsters_rltiles1:63",
+        "phraseID":"fame_rogorn"
+	}
 ]
