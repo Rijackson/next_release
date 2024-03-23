@@ -38,5 +38,50 @@
                 "nextPhraseID":"X"
             }
         ]
+    },
+    {
+        "id":"wild6_house_hatch_selector",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"wild6_house_hatch_defy_killed_no_key",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"wanted_men",
+                        "value":76,
+                        "negate":false
+                    },
+                    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"thieves_vault_key",
+                        "value":1,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"wanted_men",
+                        "value":80,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "text":"N",
+                "nextPhraseID":"wild6_house_hatch_10",
+                "requires":[
+                    {
+                        "requireType":"questLatestProgress",
+                        "requireID":"wanted_men",
+                        "value":76
+                    },
+                    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"thieves_vault_key",
+                        "value":1
+                    }
+                ]
+            }
+        ]
     }
 ]
