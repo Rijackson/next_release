@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="right-down" width="26" height="16" tilewidth="32" tileheight="32" infinite="0" nextlayerid="27" nextobjectid="51">
+<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="right-down" width="26" height="16" tilewidth="32" tileheight="32" infinite="0" nextlayerid="27" nextobjectid="52">
  <properties>
   <property name="outdoors" value="1"/>
  </properties>
@@ -231,7 +231,7 @@
    eJxjYGBgCJRkYAiC4mBJVD66GLo8iI8MsOmFAWMg+5AYBDtLovLRxdDlndHswaZ3pNiTCMRJSDiZBHuw6cUml4ymD11NsiRx6mkN8KU3agL0+HFEs4uUPIGOceURYtICPjcSaw4t7QGlESMS0ja59sDsIidtk2oPuQDdfeh4oPLQQAIAo15/hg==
   </data>
  </layer>
- <layer id="26" name="Walkable" width="26" height="16" visible="0">
+ <layer id="26" name="Walkable" width="26" height="16">
   <data encoding="base64" compression="zlib">
    eJy1UkEKACAI6xX9/wv9MLpJzNxqDaIM51Q2emvDcBYcdRSdiF868UZa+z8b728UO2fIame9skB7qPKdUDzi1ql2r3Bvc291Iv/VQ+z8Gfc0D9JEuUpvjE7WU6Wn5CpcVMMNt6cZb09yarXn
   </data>
@@ -261,10 +261,14 @@
    </properties>
   </object>
  </objectgroup>
- <objectgroup id="8" name="Spawn" visible="0">
+ <objectgroup id="8" name="Spawn">
   <object id="12" name="fame_crossglen_caveboss" type="spawn" x="64" y="96" width="32" height="32"/>
   <object id="23" name="fame_larcal" type="spawn" x="224" y="96" width="32" height="32"/>
-  <object id="24" name="fame_luthor" type="spawn" x="480" y="128" width="32" height="32"/>
+  <object id="24" name="fame_luthor" type="spawn" x="480" y="128" width="32" height="32">
+   <properties>
+    <property name="ignoreAreas" value="true"/>
+   </properties>
+  </object>
   <object id="25" name="fame_unzel" type="spawn" x="640" y="64" width="32" height="32"/>
   <object id="26" name="fame_vacor" type="spawn" x="704" y="64" width="32" height="32"/>
   <object id="27" name="fame_pack_boss" type="spawn" x="704" y="288" width="32" height="32"/>
@@ -304,7 +308,16 @@
   <object id="31" name="fame_boss_fungi" type="spawn" x="320" y="352" width="64" height="32"/>
   <object id="40" name="fame_irogotu" type="spawn" x="352" y="96" width="32" height="32"/>
  </objectgroup>
- <objectgroup id="9" name="Keys" visible="0"/>
+ <objectgroup id="9" name="Keys">
+  <object id="51" name="dummy_key" type="key" x="480" y="128" width="32" height="32">
+   <properties>
+    <property name="phrase" value="dummy_key"/>
+    <property name="requireId" value="ghost_of_luthor"/>
+    <property name="requireType" value="killedMonster"/>
+    <property name="requireValue" value="1"/>
+   </properties>
+  </object>
+ </objectgroup>
  <objectgroup id="10" name="Replace" visible="0">
   <object id="32" name="fame_crossglen_caveboss" type="replace" x="32" y="0" width="128" height="192">
    <properties>
