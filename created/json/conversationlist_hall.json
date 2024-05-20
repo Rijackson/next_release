@@ -3,7 +3,7 @@
         "id":"fame_init",
         "replies":[
             {
-                "nextPhraseID":"1x",
+                "nextPhraseID":"fame_init_1x",
                 "requires":[
                     {
                         "requireType":"questProgress",
@@ -13,7 +13,7 @@
                 ]
             },
             {
-                "nextPhraseID":"1x",
+                "nextPhraseID":"fame_init_1x",
                 "requires":[
                     {
                         "requireType":"questProgress",
@@ -23,7 +23,7 @@
                 ]
             },
             {
-                "nextPhraseID":"2"
+                "nextPhraseID":"fame_init_2"
             }
         ],
 		"rewards":[
@@ -39,7 +39,7 @@
         "id":"fame_init_1x",
         "replies":[
             {
-                "nextPhraseID":"2"
+                "nextPhraseID":"fame_init_2"
             }
         ],
 		"rewards":[
@@ -48,6 +48,35 @@
     },
     {
         "id":"fame_init_2",
+        "replies":[
+            {
+                "nextPhraseID":"fame_init_2x",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"stn_quest_gyra",
+                        "value":60
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"fame_init_3"
+            }
+        ]
+    },
+    {
+        "id":"fame_init_2x",
+        "replies":[
+            {
+                "nextPhraseID":"fame_init_3"
+            }
+        ],
+		"rewards":[
+            { "rewardType":"spawnAll","rewardID":"fame_gyra", "mapName":"hall_2" }
+        ]
+    },
+    {
+        "id":"fame_init_3",
         "replies":[
             {
                 "nextPhraseID":"fame_init_x"
@@ -521,6 +550,16 @@
         "replies":[
             {
 				"text":"No, I think I won't.",
+                "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"fame_gyra",
+        "message":"Hey, that was great fun how we were looking for Lord Berbanes helmet!",
+        "replies":[
+            {
+				"text":"Eh, yes.",
                 "nextPhraseID":"X"
             }
         ]

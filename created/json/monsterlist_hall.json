@@ -163,7 +163,7 @@
 	},
     {
         "id":"fame_eliszylae",
-		"name":"Buceth",
+		"name":"Eliszylae",
 		"iconID":"monsters_liches:0",
         "phraseID":"fame_eliszylae"
 	},
@@ -178,5 +178,12 @@
 		"name":"Winged demon",
 		"iconID":"monsters_demon1:0",
         "phraseID":"fame_winged_demon"
+	},
+    {
+        "id":"fame_gyra",
+		"name":"fame_gyra",
+		"iconID":"monsters_ld1:158",
+		"movementAggressionType":"protectSpawn",
+        "phraseID":"fame_gyra"
 	}
 ]
