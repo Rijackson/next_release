@@ -1,0 +1,13 @@
+[
+    {
+        "id":"fame_nondisplay",
+        "name":"Placeholder for hidden quest stages (not displayed)",
+        "showInLog":0,
+        "stages":[
+            {
+                "progress":10,
+                "logText":"10=Loneford/Buceth done"
+            }
+		]
+    }
+]

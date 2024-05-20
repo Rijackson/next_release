@@ -3,8 +3,27 @@
         "id":"fame_init",
         "replies":[
             {
-                "text":"The sweetest music fills the room.", 
-                "nextPhraseID":"X"
+                "nextPhraseID":"1x",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"loneford",
+                        "value":55
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"1x",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"loneford",
+                        "value":60
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"2"
             }
         ],
 		"rewards":[
@@ -15,6 +34,29 @@
             { "rewardType":"removeSpawnArea","rewardID":"fame_dangerous_fungi_1", "mapName":"hall_1" },
             { "rewardType":"spawnAll","rewardID":"fame_boss_fungi", "mapName":"hall_1" }
         ]
+    },
+    {
+        "id":"fame_init_1x",
+        "replies":[
+            {
+                "nextPhraseID":"2"
+            }
+        ],
+		"rewards":[
+            { "rewardType":"questProgress","rewardID":"fame_nondisplay", "value":"10" }
+        ]
+    },
+    {
+        "id":"fame_init_2",
+        "replies":[
+            {
+                "nextPhraseID":"fame_init_x"
+            }
+        ]
+    },
+    {
+        "id":"fame_init_x",
+        "message":"The sweetest music fills the room."
     },
     {
         "id":"fame_crossglen_caveboss",
@@ -437,15 +479,51 @@
 	},
     {
         "id":"fame_buceth",
-        "message":"fame_buceth"
+        "message":"Welcome back my friend. Walk with the Shadow.",
+        "replies":[
+            {
+				"text":"How interesting.",
+                "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"fame_eliszylae",
+        "message":"fame_eliszylae"
     },
     {
         "id":"fame_warden",
-        "message":"fame_warden"
+        "message":"Ah, another mortal. Prepare to become part of my undead army!"
     },
     {
         "id":"fame_winged_demon",
-        "message":"fame_winged_demon"
+        "message":"What, a mortal in here that is not marked by my touch?",
+        "replies":[
+            {
+				"text":"N",
+                "nextPhraseID":"fame_winged_demon_10"
+            }
+        ]
+    },
+    {
+        "id":"fame_winged_demon_10",
+        "message":"You seem delicious and soft, will you be part of the feast?",
+        "replies":[
+            {
+				"text":"N",
+                "nextPhraseID":"fame_winged_demon_20"
+            }
+        ]
+    },
+    {
+        "id":"fame_winged_demon_20",
+        "message":"Yes, I think you will. My undead army will spread far outside of Flagstone once I am done with you.",
+        "replies":[
+            {
+				"text":"No, I think I won't.",
+                "nextPhraseID":"X"
+            }
+        ]
     },
     {
         "id":"fame_null",

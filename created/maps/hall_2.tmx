@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="right-down" width="26" height="16" tilewidth="32" tileheight="32" infinite="0" nextlayerid="27" nextobjectid="66">
+<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="right-down" width="26" height="16" tilewidth="32" tileheight="32" infinite="0" nextlayerid="27" nextobjectid="70">
  <properties>
   <property name="outdoors" value="1"/>
  </properties>
@@ -188,37 +188,27 @@
  </tileset>
  <layer id="15" name="Base" width="26" height="16">
   <data encoding="base64" compression="zlib">
-   eJwz5GRgMETCHkjsCipiwwGw544sAlPTjoHyjwcan5r2eGAxnx7pgFb22GLB1E4DMHs2sSIwMfbcl8WOCdkTDcSHWCE0sfZYSKFiLiYIJmQPDIP0ELIHpMYDCYPEgpgg2AmHXej2eBBhD0iNBScCg8RSmCA4hEh7oomMVws0bIKEB5M92NIBtjyFyw589uDLP7jybhoSlmFCYH0c8QMAtcG3Ow==
+   eJzN0zEKwjAUgOEQ6NAeodhZNykqpoKLi4E6iVvBSbxBoeCtPILnELyKDUlI+nhpnnRx+GgpbX7SJGXKWOmR3n1nbIAuouKM7YyFUQY6HehscyfWqftxT0aFdN6FAzvH3Il1Vr0r11RzTpyPmoNIHUrHBzsSNO13lDn4Htmwo/6dRMaHnV+1oFUj/21qw3Zsyz7bI6Y0QtS4z8ShdD4FLtZpeq9EX6kdkQ9lXIt1LEHYW+od6VHPzlw7BFqwIwkdiZynG9cuxE5DXFcBrD3/1MH2AXauQo2xztj5CZ3fu2fGnWVgfb7Gaq16
   </data>
  </layer>
  <layer id="1" name="Ground" width="26" height="16">
   <data encoding="base64" compression="zlib">
-   eJxjYECAbWIQ+pgYA00BveyhB7gC9MNRGvrnqhgEw+zYAqSf0TDcQOY/paEdT2ls/nAGh1hRaVIBJxP13IIPBNHJnhQa2XNOHJVvg8T3ArJj0OSJAbOAemYj4TniqPZEAdneaOb6kGgPyI5uND09QP5fcdx2WAH5OSTaU4NFfQ8ZYQICALd6H/c=
-  </data>
- </layer>
- <layer id="22" name="Ground1" width="26" height="16" visible="0">
-  <data encoding="base64" compression="zlib">
-   eJxjYBgFo2AUjIJRMAroDwAGgAAB
+   eJxjYECAbWIQ+hiU7hFnoAlAtqdKnDx7QmjkNnRgBrQnlgm3/BWgH44i+acLqH4ODre9wOPmFDQ5mJ1XxSAYZscWIP0MS/z8B7K/Q/EPCsIGZP5TJDvQ7aEUPMViPgiA0sEaKthjAjTDFIc5q6lkx0CBQ6yoNKmAE086piYIopM9KTSy5xxaGrFB4nsB2TFkpKFZQD2zkTCojEC2JwrI9kYz14dEe0B2dKPpAeXdv+K47bAC8nNItKcGi3pyywgAzy8vCQ==
   </data>
  </layer>
  <layer id="2" name="Objects" width="26" height="16">
   <data encoding="base64" compression="zlib">
-   eJzLlWRgyAHiXCBGBlmCDDQBGTQyFwbQ/UErgC3MwOI09t9wBGlDPMzuszIw7GaG0MSATkZU/kxG7OqwgdPMxKsFgWtAN10FYiUZVHFZJvz6bkPt2UOkn54B1T0FYiOoPbtJdOcZIu0BgWNIZpMaHuQCUHiEA9NpKoFwwwdAZQOucgMdFJCRJ5DNbuTDbtdUPlS+HIn+gZnpL4hdnFQAAPiyHBE=
+   eJzLlWRgyAHiXCBGBlmCDDQBGQTMDeVjYJCRgdDkAHR/4ALNAgwMOkB7UgWIU/+DmYHhJzOCjy3MwOJo/psMNb8USAeKEbaHg4WBgROIzYh0F6XAjU72/MUTn2k0Smv0AvdZGRh2M0NoYkAnIyp/JiN2ddjAaWbCapDBNaCbrgKxkgyquCwTfn23ofbsIdJPz4DqngKxEdSe3SS68wyR9oDAMWZEXiI1PMgFoPAIB6bTVALhhg+AygZc5QY6KCAjTyCb3ciH3a6paPlQjkT/wMz0F8QuTioAANn2JAw=
   </data>
  </layer>
  <layer id="3" name="Above" width="26" height="16">
   <data encoding="base64" compression="zlib">
-   eJxjYKAPiJWkjz0xkvSzaxQMLRAsRh9znfHYk8iOWy4Jjxw2c4mxhxw/k2IPspptzNjlcLkB3dwgIuzBpwaXO4lxPynlBi434LIH2exCPsrLKHR7QOGLy0xqlocwe2FmotOEALZ0AAAywxMF
-  </data>
- </layer>
- <layer id="4" name="Above_1" width="26" height="16" visible="0">
-  <data encoding="base64" compression="zlib">
-   eJxjYBgFo2AUjIJRMAroDwAGgAAB
+   eJxjYCAdBIuRridWknSznYm0Z5kQgh0jSZxdyGYHkeEfYgGxfqAUkOuHt3zUdcdgALFM2MXJSbfEAHRz8cV5IjtuuSQ8ctjMJcYecvxMij3IarYxY5fD5QZ0c4lJw/jU4HInMe4nttzA5wZc9iCbXchHml3E2AMKX1xmUmoXNnthZqLThAC2dAAAA1oXxA==
   </data>
  </layer>
  <layer id="25" name="Top" width="26" height="16" visible="0">
   <data encoding="base64" compression="zlib">
-   eJybLs7AMAMNzwRiaoNKoJlGnKi4cxjZUw7kr6SBPcuBZq5AwrSwAwSmA83tgPqpnUZpAATo6R9y0vR0EvWgpwNiwg45rGF6CNmHLV0TsgubHkL6cOnBl4dw6cGnD5seQnmIWvagq52OFv6gNFpBYjjgKw9g5mPLX6SGN7p6ZHX4/IrNT/jCG18+RZfDlo+X45FDBgB/UlPa
+   eJzFVMENgCAM9OsE7uFy6gTqBOgE6JZCIglejraYGC/pQ9vj4GhxXdNsEHuIHE7JI1j9FKJvn7HCOliDeQSr/0tnCN/nBzo+xJEFakRYajSdeGfL/X823LEFbF+1e32L2p5lPAsHvbR4l3udOJoe62tNi3E0Xokj9W6JI/EYh83QFzpY68D/2KNjpQ/Se5DWZ/NV67f0pkhnZWeS/JbmFHNsjr2Qy3EBmepvTQ==
   </data>
  </layer>
  <layer id="23" name="Top_0" width="26" height="16" visible="0">
@@ -226,19 +216,14 @@
    eJxjYBgFo2AUjIJRMAroDwAGgAAB
   </data>
  </layer>
- <layer id="24" name="Top_1a" width="26" height="16" visible="0">
-  <data encoding="base64" compression="zlib">
-   eJxjYBgFo2AUjIJRMAroDwAGgAAB
-  </data>
- </layer>
  <layer id="26" name="Walkable" width="26" height="16" visible="0">
   <data encoding="base64" compression="zlib">
-   eJwzFGNgMMSCqQ2QzaSXPfjEqGEPzFxa+4de8YPsH1oBWvsDlz2DKX6ooQcmRo49+OxDF6fEP6TaQwig+5uW/iFkNyl6cLkVnzvICTdcZRK59uByM7kYGwAAz4IiHg==
+   eJwzFGNgMMSCkQE+OWwAm3nI+uhlD7I6WtgD00vIP9jcQKo9tIgfXHqJMYNYQIo/qAnoZR859lBDD0yMHHvw2YcvDdPaHkIA3d+09A8hu0nRg8ut+NxBTrgRytek2kOorCMVYwMARb4vJw==
   </data>
  </layer>
- <layer id="5" name="Walkable_0" width="26" height="16">
+ <layer id="5" name="Walkable_0" width="26" height="16" visible="0">
   <data encoding="base64" compression="zlib">
-   eJwzFGNgMMSCqQ2QzaSXPbQEyO6ntX9oHTfI9sDYtAK09AM2e+gVbqTYg00PIX3k+AWXPfjMQBenxD+k2EMMQE+ftLKHGLvJtYfStIgvfsgpk/D5B1v4EoprUtMBAPqmHSA=
+   eJy9lFEKACAIQztF9+j+l+tLkLA1FzoQinAvabTmGCsoL3QWKfLzfV0ctk/lWO9rHlszQqzbfVlvhvfrx7KqpeSii6PkVpklmyPrQfsqDqMzn1Uchq1yfrOI3of5k15+pxf667IVaQM3uyeq
   </data>
  </layer>
  <objectgroup id="7" name="Mapevents" visible="0">
@@ -271,12 +256,13 @@
   <object id="57" name="fame_rob" type="spawn" x="128" y="288" width="32" height="32"/>
   <object id="58" name="fame_rogorn" type="spawn" x="32" y="32" width="32" height="32"/>
   <object id="61" name="fame_mermaid" type="spawn" x="64" y="160" width="32" height="32"/>
-  <object id="62" name="fame_buceth" type="spawn" x="352" y="0" width="32" height="32"/>
   <object id="63" name="fame_warden" type="spawn" x="512" y="384" width="32" height="32"/>
   <object id="64" name="fame_winged_demon" type="spawn" x="576" y="416" width="64" height="64"/>
+  <object id="66" name="fame_eliscylae" type="spawn" x="736" y="128" width="32" height="32"/>
+  <object id="69" name="fame_buceth" type="spawn" x="352" y="96" width="32" height="32"/>
  </objectgroup>
- <objectgroup id="9" name="Keys"/>
- <objectgroup id="10" name="Replace">
+ <objectgroup id="9" name="Keys" visible="0"/>
+ <objectgroup id="10" name="Replace" visible="0">
   <object id="39" name="fame_rogorn" type="replace" x="0" y="0" width="192" height="160">
    <properties>
     <property name="Top" value="Top_0"/>
@@ -317,9 +303,27 @@
    <properties>
     <property name="Top" value="Top_0"/>
     <property name="Walkable" value="Walkable_0"/>
-    <property name="requireId" value="rogorn"/>
+    <property name="requireId" value="flagstone"/>
     <property name="requireType" value="questProgress"/>
-    <property name="requireValue" value="60"/>
+    <property name="requireValue" value="100"/>
+   </properties>
+  </object>
+  <object id="67" name="fame_eliszylae" type="replace" x="672" y="0" width="160" height="192">
+   <properties>
+    <property name="Top" value="Top_0"/>
+    <property name="Walkable" value="Walkable_0"/>
+    <property name="requireId" value="stoutford_lich"/>
+    <property name="requireType" value="killedMonster"/>
+    <property name="requireValue" value="1"/>
+   </properties>
+  </object>
+  <object id="68" name="fame_buceth" type="replace" x="288" y="0" width="160" height="160">
+   <properties>
+    <property name="Top" value="Top_0"/>
+    <property name="Walkable" value="Walkable_0"/>
+    <property name="requireId" value="buceth"/>
+    <property name="requireType" value="questProgress"/>
+    <property name="requireValue" value="1"/>
    </properties>
   </object>
  </objectgroup>

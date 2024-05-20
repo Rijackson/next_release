@@ -162,6 +162,12 @@
         "phraseID":"fame_buceth"
 	},
     {
+        "id":"fame_eliszylae",
+		"name":"Buceth",
+		"iconID":"monsters_liches:0",
+        "phraseID":"fame_eliszylae"
+	},
+    {
         "id":"fame_warden",
 		"name":"Undead warden",
 		"iconID":"monsters_liches:0",
