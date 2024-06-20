@@ -43,5 +43,122 @@
                 "nextPhraseID":"lae_torturer_11f"
             }
         ]
+    },
+    {
+        "id":"gylew5",
+        "message":"This one here was cut during the rise of Elythara and is quite rare and valuable. But this other one here is a more common coin as it was cut during Geomyr's rule. While this one here is from a far off land and is a part of a larger collection that has long been broken up by past pirates and thieves.",
+        "replies":[
+            {
+                "text":"Oh, I see.",
+                "nextPhraseID":"gylew6",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"mermaid_scale",
+                        "value":220
+                    },
+                    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"gold",
+                        "value":5
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"odd_coin_collector",
+                        "value":10,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"odd_coin_collector",
+                        "value":11,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "text":"[While pointing at a few of the coins in Gylew's hand, you ask:] What about those?",
+                "nextPhraseID":"gylew8",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"nondisplay_2",
+                        "value":250
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"odd_coin_collector",
+                        "value":12,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"gold",
+                        "value":10
+                    }
+                ]
+            },
+            {
+                "text":"[While pointing at a few of the coins in Gylew's hand, you ask:] What about those?",
+                "nextPhraseID":"gylew8",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"odd_coin_collector",
+                        "value":11
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"odd_coin_collector",
+                        "value":12,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"nondisplay_2",
+                        "value":250
+                    },
+                    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"gold",
+                        "value":10
+                    }
+                ]
+            },
+            {
+                "text":"Yes, I know this already.",
+                "nextPhraseID":"gylew7",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"odd_coin_collector",
+                        "value":10
+                    }
+                ]
+            },
+            {
+                "text":"Yes, I know this already.",
+                "nextPhraseID":"gylew7",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"odd_coin_collector",
+                        "value":11
+                    }
+                ]
+            },
+            {
+                "text":"I am so not interested.",
+                "nextPhraseID":"gylew7",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"mermaid_scale",
+                        "value":220,
+                        "negate":true
+                    }
+                ]
+            }
+        ]
     }
 ]
