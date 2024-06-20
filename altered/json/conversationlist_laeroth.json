@@ -1,0 +1,47 @@
+[
+    {
+        "id":"forenza_korhald_cop_20",
+        "message":"Well, for obvious reasons. Didn't you notice that the shield has the Korhald family crest engraved on its front side? This clearly belonged to Korhald himself. You should keep this item as it could aid you in your adventures.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"forenza_korhald_cop_30"
+            }
+        ]
+    },
+    {
+        "id":"forenza_korhald_cop_35",
+        "message":"Oh, how very generous of you to just hand it over for free. I'll tell you what, once you find your way to Brightport, seek out my family. They will reward you for all of your generosity and hard work.",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"odd_coin_collector",
+                "value":115
+            },
+            {
+                "rewardType":"removeQuestProgress",
+                "rewardID":"nondisplay",
+                "value":47
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"laeroth_nondisplay",
+                "value":106
+            }
+        ]
+    },
+    {
+        "id":"lae_torturer_11e",
+        "message":"Sure. We only want the truth. Nothing more. It is a very prestigious work.",
+        "replies":[
+            {
+                "text":"If you say so.",
+                "nextPhraseID":"lae_torturer_10a"
+            },
+            {
+                "text":"Then why do you wear a mask at public executions?",
+                "nextPhraseID":"lae_torturer_11f"
+            }
+        ]
+    }
+]
