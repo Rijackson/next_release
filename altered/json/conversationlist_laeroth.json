@@ -160,5 +160,173 @@
                 ]
             }
         ]
+    },
+    {
+        "id":"forenza_waytobrimhaven3_initial_phrase",
+        "message":"Hey, kid, nice to see you again.",
+        "replies":[
+            {
+                "text":"It's nice to see you too.  Can we talk about the Korhald coins?",
+                "nextPhraseID":"forenza_brimhaven_5",
+                "requires":[
+                    {
+                        "requireType":"questLatestProgress",
+                        "requireID":"odd_coin_collector",
+                        "value":63
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"odd_coin_collector",
+                        "value":60,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "text":"Hey. I found the Korhald tomb and it had two items that I think might interest you.",
+                "nextPhraseID":"forenza_korhald_cop_0",
+                "requires":[
+                    {
+                        "requireType":"questLatestProgress",
+                        "requireID":"odd_coin_collector",
+                        "value":65
+                    },
+                    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"shield_of_brave",
+                        "value":1
+                    },
+                    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"hero_coin",
+                        "value":1
+                    }
+                ]
+            },
+            {
+                "text":"Hey. I found the Korhald tomb and it had two items that I think might interest you.",
+                "nextPhraseID":"forenza_korhald_cop_0",
+                "requires":[
+                    {
+                        "requireType":"questLatestProgress",
+                        "requireID":"odd_coin_collector",
+                        "value":65
+                    },
+                    {
+                        "requireType":"wear",
+                        "requireID":"shield_of_brave",
+                        "value":1
+                    },
+                    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"hero_coin",
+                        "value":1
+                    }
+                ]
+            },
+            {
+                "text":"Inside the  Korhald tomb, I found a locked chest. Do you know where I can find its key?",
+                "nextPhraseID":"odd_coin_collector_ask_about_locked_chest",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"odd_coin_collector",
+                        "value":65
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"nondisplay",
+                        "value":50
+                    }
+                ]
+            },
+            {
+                "text":"I tried to get Gylew's key, but...",
+                "nextPhraseID":"forenza_korhald_gylew_not_dead",
+                "requires":[
+                    {
+                        "requireType":"questLatestProgress",
+                        "requireID":"odd_coin_collector",
+                        "value":62
+                    }
+                ]
+            },
+            {
+                "text":"I have not gone back to see Gylew since our last encounter. Why am I wasting time talking to you when the job is not done yet?",
+                "nextPhraseID":"X",
+                "requires":[
+                    {
+                        "requireType":"questLatestProgress",
+                        "requireID":"odd_coin_collector",
+                        "value":50
+                    }
+                ]
+            },
+            {
+                "text":"Hey. I need to go now and follow this map.",
+                "nextPhraseID":"X",
+                "requires":[
+                    {
+                        "requireType":"questLatestProgress",
+                        "requireID":"odd_coin_collector",
+                        "value":60
+                    }
+                ]
+            },
+            {
+                "text":"We have no more business to discuss. I'll see you later.",
+                "nextPhraseID":"X",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"odd_coin_collector",
+                        "value":110
+                    }
+                ]
+            },
+            {
+                "text":"I hope that having these coins will enable you to make peace with your father. Take care.",
+                "nextPhraseID":"X",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"odd_coin_collector",
+                        "value":115
+                    }
+                ]
+            },
+            {
+                "text":"[Lie]I have these bronze and silver coins that I \"acquired\" in a game of chance. I would like to know if you are interested in them.",
+                "nextPhraseID":"coin_collector_thief_coins_10",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"laeroth_nondisplay",
+                        "value":106
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"wanted_men",
+                        "value":80
+                    },
+                    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"silver_coin",
+                        "value":60
+                    },
+                    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"bronze_coin",
+                        "value":50
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"laeroth_nondisplay",
+                        "value":107,
+                        "negate":true
+                    }
+                ]
+            }
+        ]
     }
 ]
