@@ -1,0 +1,76 @@
+[
+    {
+        "id":"brv_woodcraftsman_0",
+        "message":"Hello, we sell the finest wood products and tools. Do you want to buy some?",
+        "replies":[
+            {
+                "text":"Yes",
+                "nextPhraseID":"S"
+            },
+            {
+                "text":"No, I just want to look around.",
+                "nextPhraseID":"brv_woodcraftsman_2"
+            },
+            {
+                "text":"I am looking for my brother, Andor. He looks a bit like me.",
+                "nextPhraseID":"brv_woodcraftsman_1"
+            },
+            {
+                "text":"Hello. The woodcutter in Loneford said that you can make me fences for a shepherd. Is that true?",
+                "nextPhraseID":"brv_woodcraftsman_fence1",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"tunlon_fence",
+                        "value":210
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"tunlon_fence",
+                        "value":220,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "text":"Here is your wood.",
+                "nextPhraseID":"brv_woodcraftsman_fence2",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"tunlon_fence",
+                        "value":230
+                    },
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"tunlon_wood",
+                        "value":1
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"tunlon_fence",
+                        "value":240,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "text":"Ah, you are back.",
+                "nextPhraseID":"brv_woodcraftsman_fence3",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"tunlon_fence",
+                        "value":235
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"tunlon_fence",
+                        "value":240,
+                        "negate":true
+                    }
+                ]
+            }
+        ]
+    }
+]

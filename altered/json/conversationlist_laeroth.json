@@ -328,5 +328,30 @@
                 ]
             }
         ]
+    },
+    {
+        "id":"jewelry_box_1",
+        "message":"This looks interesting. Could be a jewelry box. It has \"A\" inscribed on it. It is locked though, and too heavy to move to the tomb.",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"laeroth_caretaker",
+                "value":130
+            }
+        ]
+    },
+    {
+        "id":"brute_creator_sign_2",
+        "message":"Praise is the portal to the presence of Elythara"
+    },
+    {
+        "id":"brute_fisherman_8",
+        "message":"You just came using this path. Do you know why it's been used so little lately?",
+        "replies":[
+            {
+                "text":"Well, yes, I think so.",
+                "nextPhraseID":"brute_fisherman_10"
+            }
+        ]
     }
 ]

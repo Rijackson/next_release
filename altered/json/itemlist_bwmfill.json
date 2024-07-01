@@ -1,0 +1,11 @@
+[
+    {
+        "id":"nor_gold",
+        "iconID":"items_misc:10",
+        "name":"Nor gold coins",
+        "hasManualPrice":1,
+        "baseMarketCost":1,
+        "category":"money",
+        "description":"A gold coin from Nor City."
+    }
+]
