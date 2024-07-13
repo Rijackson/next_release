@@ -1,0 +1,42 @@
+[
+    {
+        "id":"drakthorn_warrior",
+        "name":"Drakthorn warrior",
+        "iconID":"monsters_rltiles4:14",
+        "maxHP":146,
+        "moveCost":4,
+        "monsterClass":"reptile",
+        "movementAggressionType":"helpOthers",
+        "attackDamage":{
+            "min":10,
+            "max":22
+        },
+        "droplistID":"drakthorn_warrior_dl",
+        "attackCost":4,
+        "attackChance":97,
+        "criticalSkill":2,
+        "criticalMultiplier":1.8,
+        "blockChance":88,
+        "damageResistance":3
+    },
+    {
+        "id":"drakthorn_warrior_captain",
+        "name":"Drakthorn warrior captain",
+        "iconID":"monsters_rltiles4:15",
+        "maxHP":154,
+        "moveCost":4,
+        "monsterClass":"reptile",
+        "movementAggressionType":"helpOthers",
+        "attackDamage":{
+            "min":12,
+            "max":25
+        },
+        "droplistID":"drakthorn_warrior_captain_dl",
+        "attackCost":4,
+        "attackChance":108,
+        "criticalSkill":2,
+        "criticalMultiplier":1.8,
+        "blockChance":99,
+        "damageResistance":3
+    }
+]
