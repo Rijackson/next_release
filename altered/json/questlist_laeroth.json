@@ -1,0 +1,75 @@
+[
+    {
+        "id":"lae_torturer",
+        "name":"Shadow of the torturer",
+        "showInLog":1,
+        "stages":[
+            {
+                "progress":5,
+                "logText":"In the dungeon of the mansion I found some ghosts of prisoners. One of them told me their story."
+            },
+            {
+                "progress":10,
+                "logText":"I have agreed to help the spirits in the prison be free of the prison torturer."
+            },
+            {
+                "progress":20,
+                "logText":"I didn't want to help the spirits in the prison be free of the prison torturer."
+            },
+            {
+                "progress":25,
+                "logText":"Kotheses the torturer offered to teach me his art, as he had done for Andor before."
+            },
+            {
+                "progress":30,
+                "logText":"I accepted his offer to apprentice with him."
+            },
+            {
+                "progress":35,
+                "logText":"Kotheses gave me an Oegyth crystal."
+            },
+            {
+                "progress":40,
+                "logText":"In order to imprison the released prisoners again, I should call the demon guard by throwing an Oegyth crystal into the abyss."
+            },
+            {
+                "progress":50,
+                "logText":"Kotheses scolded me because I killed his precious demons."
+            },
+            {
+                "progress":60,
+                "logText":"I declined the offer to become his apprentice."
+            },
+            {
+                "progress":70,
+                "logText":"Kotheses attacked me."
+            },
+            {
+                "progress":80,
+                "logText":"I told the prisoners that I had killed their torturer. Now they could get peace.",
+                "finishesQuest":1
+            },
+            {
+                "progress":100,
+                "logText":"I have thrown an Oegyth crystal down into the abyss to call for the dark watch."
+            },
+            {
+                "progress":110,
+                "logText":"I got back the Oegyth crystal from the chief of the Demon guard."
+            },
+            {
+                "progress":114,
+                "logText":"I ordered the demons to watch over the prisoners."
+            },
+            {
+                "progress":120,
+                "logText":"I took my leave from Kotheses, who, incidentally, forgot to reclaim his Oegyth crystal."
+            },
+            {
+                "progress":130,
+                "logText":"Everything was in order now. The prisoners were back in their cells, and the Demon guard were on duty again.",
+                "finishesQuest":1
+            }
+        ]
+    }
+]
