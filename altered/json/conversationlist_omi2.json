@@ -198,5 +198,41 @@
                 "nextPhraseID":"X"
             }
         ]
+    },
+    {
+        "id":"ortholion_guard10_1",
+        "message":"[hic] Drink! [hic] \n\nDrink for those who've fallen!"
+    },
+    {
+        "id":"ortholion_guard10_2",
+        "message":"No! [looks at you] This is my beeeeeer, kid! [hic]",
+        "replies":[
+            {
+                "text":"Uh... How did you get drunk that fast?",
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"Mead isn't my cup of tea, goodbye.",
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"Get out of my way, drunkard!",
+                "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"ortholion_guard10_3",
+        "message":"H..Halt! [hic] Kids not allowed!",
+        "replies":[
+            {
+                "text":"I'll go where I please in this mine! Hmpf...",
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"I'm here to see your general, now go sleep it off.",
+                "nextPhraseID":"X"
+            }
+        ]
     }
 ]
