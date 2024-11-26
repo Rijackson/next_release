@@ -1,0 +1,29 @@
+[
+    {
+        "id":"ortholion_conversation2_8a",
+        "message":"Ortholion! How much is your life worth? How many people?\n\nProve the honor of your glorious land. Come face me alone! No guards, no witnesses.\n\n[Ehrenfest leaps unnaturally high, passing above you, and disappears in the blink of an eye]",
+        "switchToNPC":"ehrenfest",
+        "replies":[
+            {
+                "text":"Coward....",
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"So, it was a trick...",
+                "nextPhraseID":"X"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"Omi2_bwm1",
+                "value":45
+            },
+            {
+                "rewardType":"removeSpawnArea",
+                "rewardID":"ehrenfest",
+                "mapName":"blackwater_mountain43"
+            }
+        ]
+    }
+]
