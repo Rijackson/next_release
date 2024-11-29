@@ -1,0 +1,70 @@
+[
+    {
+        "id":"odirath_0",
+        "message":"Welcome to my shop. Are you looking for anything in particular?",
+        "replies":[
+            {
+                "text":"Please show me everything you have available.",
+                "nextPhraseID":"S"
+            },
+            {
+                "text":"I am looking for my brother, Andor. Have you seen anyone recently that looks a bit like me?",
+                "nextPhraseID":"odirath_1"
+            },
+            {
+                "text":"Can you tell me anything about Stoutford?",
+                "nextPhraseID":"odirath_1_1"
+            },
+            {
+                "text":"You look a bit worried.",
+                "nextPhraseID":"odirath_2",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"stn_quest_gyra",
+                        "value":10,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"stn_quest_gyra",
+                        "value":60,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "text":"You look happy again.",
+                "nextPhraseID":"odirath_3",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"stn_quest_gyra",
+                        "value":60
+                    }
+                ]
+            },
+            {
+                "text":"Did you really order such an ugly porcelain figure? Oops, sorry I didn't mean to offend you.",
+                "nextPhraseID":"brv_wh_delivery_odirath",
+                "requires":[
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"brv_wh_item_07",
+                        "value":1
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brv_wh_delivery",
+                        "value":10
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brv_wh_delivery",
+                        "value":40
+                    }
+                ]
+            }
+        ]
+    }
+]
