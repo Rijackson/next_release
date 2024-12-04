@@ -1,0 +1,33 @@
+[
+    {
+        "id":"venomfang_dagger",
+        "iconID":"items_omi2:18",
+        "name":"Venomfang dirk",
+        "displaytype":"rare",
+        "category":"dagger",
+        "description":"Fast and accurate, delivering a venomous bite to those that dare to confront it.",
+        "equipEffect":{
+            "increaseAttackDamage":{
+                "min":2,
+                "max":5
+            },
+            "increaseMaxHP":-5,
+            "increaseAttackCost":4,
+            "increaseAttackChance":16,
+            "increaseCriticalSkill":10,
+            "increaseBlockChance":-2,
+            "setCriticalMultiplier":1.8,
+            "setNonWeaponDamageModifier":107
+        },
+        "hitEffect":{
+            "conditionsTarget":[
+                {
+                    "condition":"poison_weak",
+                    "magnitude":1,
+                    "duration":3,
+                    "chance":"20"
+                }
+            ]
+        }
+    }
+]
