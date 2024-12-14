@@ -44,7 +44,7 @@
   <image source="../drawable/map_curtain_1.png" width="512" height="256"/>
  </tileset>
  <tileset firstgid="1713" name="map_entrance_1" tilewidth="32" tileheight="32">
-  <image source="../drawable/map_entrance_1.png" width="512" height="256"/>
+  <image source="../../created/spritesheets/map_entrance_1.png" width="512" height="256"/>
  </tileset>
  <tileset firstgid="1841" name="map_entrance_2" tilewidth="32" tileheight="32">
   <image source="../drawable/map_entrance_2.png" width="512" height="256"/>
@@ -194,12 +194,12 @@
  </layer>
  <layer name="Objects" width="20" height="15">
   <data encoding="base64" compression="zlib">
-   eJy7IsvAcBWIr0DpI0B8FAvtLodQAwMwfjhQbiWQXgXE5kB2BBDrySHUXAPiY0g0SI8zVD4MyVwnILsViNugcsZodupDxY+hmYnsFgM5BhQAEzdHM8sU6k5c7gOZA7MvVQhVL8hvplC500hhp4fHfXpo7moUwO5OkJ+doNgCyc3oNAisRuOXo4WloTADwwsx8vFLMYS7jYC0I5Rth+YXezQ+CFggiTEzQehXSOY6Qd2KDB4KofLFmDDNlUKz6xFQzwkxSFy9hpp3C8j/QSK+LYYw8xXUjb9lIWb9FEOkhUNAsVI5CK0PpWHiplA+KMy+oZkJciMoL4HMgqXRi0D+JVnCNMyu42KIMAGZBws/UP4j1iwYDQLHoe4DxSfIvN2ykLQOA6SY5SiHMA/mvoNI6ZQS94H8DDIPJAcARMy30g==
+   eJy7IsvAcBWIr0DpjUB8FImPiwYBGDtcjoFhJZBeBcTmQHYEEOvJIdRcA+JjSDRIjzNUPkwOYY4TkN0KxG1QOWM5VPv0oeLH0MxEdosBVA0MwMTN0cwyhboTl/tA5sDsSxVC1QvymylU7jRSmOjhcZ8emrsaBbC7E+RnJyi2kMMf/qvR+OVoYWkozMDwQox8/FIM4W4jIO0IZduh+cUejQ8CFkhizEwQ+hWSuU5QtyKDh0KofDEmTHOl0Ox6BNRzQgwSV6+h5t0C8n+QiG+LIcx8BXXjb1mIWT/FEGnhEFCsVA5C60NpmLgplA8Ks29oZoLceEQWYhYsjV4E8i/JEqZhdh0XQ4QJyDxY+IHyH7FmwWgQOA51Hyg+QebtloWkdRggxSxHOYR5MPcdREqnlLgP5GeQeSA5AMlVuX0=
   </data>
  </layer>
  <layer name="Above" width="20" height="15">
   <data encoding="base64" compression="zlib">
-   eJxjYCAdHJFlYDgqS7ocMeqQxbGpOYJFDyFzyHUjPoDP/bjcN1sWUx813EIvgM1vlIDbQ8TfMHAQ6N5DsoRpappFCzMJgdkkuIuQmchylJoFSn8A78pJHQ==
+   eJxjYEAFR2QR9FFZBI2uBl2MGDli1CGL47IbHRAyh1w34gP43I/LfbOxhCc13EIvgM1vlIDbQ8TfMHAQ6N5DsoRpappFCzMJgdkkuIuQmchylJoFSn8AG3xNhA==
   </data>
  </layer>
  <layer name="Walkable" width="20" height="15" visible="0">
