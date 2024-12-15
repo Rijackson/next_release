@@ -3,8 +3,12 @@
         "id":"reindeer",
         "name":"Reindeer",
         "iconID":"monsters_johny:24",
+        "maxHP":5,
         "monsterClass":"animal",
-        "spawnGroup":"reindeer"
+        "spawnGroup":"reindeer",
+        "attackCost":99,
+        "attackChance":1,
+        "blockChance":999
     },
     {
         "id":"cave_rat",
