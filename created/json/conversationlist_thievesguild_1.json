@@ -1,0 +1,23 @@
+[
+    {
+        "id":"fallhaven_tunnel1",
+		"switchToNPC":"troublemaker",
+        "message":"Hey, kid! Don't be so nosy!"
+    },
+    {
+        "id":"fallhaven_tunnel2a",
+        "message":"A sign says 'Jail'\nThe outlet above is blocked though."
+    },
+    {
+        "id":"fallhaven_tunnel2b",
+        "message":"A sign says 'Arcir'\nThe outlet above is blocked though."
+    },
+    {
+        "id":"fallhaven_tunnel2c",
+        "message":"Attention - the catacombs. Keep silent!"
+    },
+    {
+        "id":"fallhaven_tunnel3",
+        "message":"Looks like the tunnel isn't quite finished yet. Typical troublemaker - can't finish anything."
+    }
+]
