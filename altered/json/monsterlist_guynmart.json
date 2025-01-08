@@ -1,0 +1,22 @@
+[
+    {
+        "id":"guynmart_tort2",
+        "name":"Assistant torturer",
+        "iconID":"monsters_ld1:23",
+        "maxHP":120,
+        "maxAP":10,
+        "moveCost":4,
+        "unique":1,
+        "monsterClass":"humanoid",
+        "movementAggressionType":"protectSpawn",
+        "attackDamage":{
+            "min":5,
+            "max":20
+        },
+        "droplistID":"guynmart_drp_tort2",
+        "attackCost":4,
+        "attackChance":40,
+        "blockChance":150,
+        "damageResistance":6
+    }
+]
