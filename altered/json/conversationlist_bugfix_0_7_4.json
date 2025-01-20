@@ -1,0 +1,35 @@
+[
+    {
+        "id":"lookout_down",
+        "message":"You see the mountain top you are standing on.",
+        "replies":[
+            {
+                "text":"Look closer at the rocks.",
+                "nextPhraseID":"lookout_down_2",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"nondisplay_2",
+                        "value":210,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "text":"Look closer at the rocks.",
+                "nextPhraseID":"lookout_down_2a",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"nondisplay_2",
+                        "value":210
+                    }
+                ]
+            },
+            {
+                "text":"Look in another direction.",
+                "nextPhraseID":"lookout_0"
+            }
+        ]
+    }
+]
