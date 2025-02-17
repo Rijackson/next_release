@@ -9,13 +9,14 @@
                 "value":33
             },
             {
-                "rewardType":"spawnAll",
-                "rewardID":"elm2f2_chest",
+                "rewardType":"activateMapObjectGroup",
+                "rewardID":"Chest",
                 "mapName":"elm_2f_2"
             },
             {
-                "rewardType":"dropList",
-                "rewardID":"elm2f2_chest"
+                "rewardType":"deactivateMapObjectGroup",
+                "rewardID":"Chest",
+                "mapName":"elm_2f_2"
             }
         ]
     }
