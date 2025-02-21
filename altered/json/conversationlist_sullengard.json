@@ -48,5 +48,34 @@
                 "mapName":"sullengard_inn"
             }
         ]
+    },
+    {
+        "id":"sullengard_nanette_7",
+        "message":"[Sigh]. Oh hello there, kid. Is my pond safe again?",
+        "replies":[
+            {
+                "text":"Not yet.",
+                "nextPhraseID":"X",
+                "requires":[
+                    {
+                        "requireType":"killedMonster",
+                        "requireID":"sullengard_snapper",
+                        "value":26,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "text":"Yes, your pond is safe again. May I know the cause of it?",
+                "nextPhraseID":"sullengard_nanette_8",
+                "requires":[
+                    {
+                        "requireType":"killedMonster",
+                        "requireID":"sullengard_snapper",
+                        "value":26
+                    }
+                ]
+            }
+        ]
     }
 ]
