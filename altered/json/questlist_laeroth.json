@@ -125,5 +125,98 @@
                 "finishesQuest":1
             }
         ]
+    },
+    {
+        "id":"laeroth_caretaker",
+        "name":"Take care of the caretaker",
+        "showInLog":1,
+        "stages":[
+            {
+                "progress":10,
+                "logText":"I met a caretaker at Laeroth manor. He said he cannot leave because he is bound by an oath, but not one he ever gave."
+            },
+            {
+                "progress":15,
+                "logText":"The caretaker said that he feels honor bound by a pledge that his great-great grandfather made many years ago."
+            },
+            {
+                "progress":17,
+                "logText":"Moriath told me only the past lords can release him from the oath, but they are dead. He suggested I look in the library for information about how to talk to them."
+            },
+            {
+                "progress":20,
+                "logText":"I have learned the chant needed to send spirits back to their rest on the other side."
+            },
+            {
+                "progress":30,
+                "logText":"I have learned how to raise the spirits of the dead with the help of an oegyth crystal. But I also need a personal item. I should talk to Moriath again."
+            },
+            {
+                "progress":35,
+                "logText":"Moriath suggested I search the master bedroom for a personal item from the last lord, Verigil."
+            },
+            {
+                "progress":40,
+                "logText":"Verigil told me he could not release the Caretaker from his oath, because he is from the wrong branch of the family. I must talk to his uncle, Eyvipa. He has gone back to his rest."
+            },
+            {
+                "progress":50,
+                "logText":"Moriath suggested I look for an item with \"E\" engraved on it. This would have belonged to Eyvipa."
+            },
+            {
+                "progress":60,
+                "logText":"I have found an expensive looking candlestick with \"E\" engraved on it. This must have belonged to Eyvipa."
+            },
+            {
+                "progress":70,
+                "logText":"Eyvipa was angry that I woke him from his rest. He refused to help me because his father passed him over, and made his younger brother, Cuned, lord. I had to send him back to his rest with the chant \"estray inyay eacepay\"."
+            },
+            {
+                "progress":80,
+                "logText":"I found a diary that must have belonged to Cuned."
+            },
+            {
+                "progress":90,
+                "logText":"Cuned told me that Verigil is correct, and he cannot release the caretaker from his oath because he is from the wrong branch of the family. I must talk to his father, Jerelin."
+            },
+            {
+                "progress":100,
+                "logText":"After much searching I found a seal for Jerelin in an old chest. I must go back to the tomb again."
+            },
+            {
+                "progress":110,
+                "logText":"Jerelin ignored me, and went back to his resting place. I will have to ask Cuned again what to do."
+            },
+            {
+                "progress":120,
+                "logText":"Cuned told me to speak to his mother, Audela. Jerelin didn't listen to many people, but he listened to her."
+            },
+            {
+                "progress":130,
+                "logText":"I have found what appears to be a jewelry box, with \"A\" inscribed on it. It is locked though, and too heavy to move to the tomb."
+            },
+            {
+                "progress":140,
+                "logText":"I have found a key in the bedroom."
+            },
+            {
+                "progress":150,
+                "logText":"The key fitted the jewelry box! Inside I found a necklace \"With love to Audela\" written on the back."
+            },
+            {
+                "progress":160,
+                "logText":"Audela told me to talk to Jerelin again, but tell him Audela wants this done."
+            },
+            {
+                "progress":170,
+                "logText":"I spoke to Jerelin again, and told him of Audela's wishes. He told me he will release the caretaker, but with a condition. The caretakers last act must be to move his grave away from that of his nagging wife."
+            },
+            {
+                "progress":180,
+                "logText":"I told the caretaker what he has to do to be released from the oath. He thanked me, and agreed to do it.",
+                "rewardExperience":18000,
+                "finishesQuest":1
+            }
+        ]
     }
 ]
