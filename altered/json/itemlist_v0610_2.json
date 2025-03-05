@@ -1,0 +1,16 @@
+[
+    {
+        "id":"gloves_life",
+        "iconID":"items_armours_2:1",
+        "name":"Gloves of life force",
+        "displaytype":"extraordinary",
+        "hasManualPrice":1,
+        "baseMarketCost":685,
+        "category":"hnd_lthr",
+        "equipEffect":{
+            "increaseMaxHP":13,
+            "increaseAttackChance":5,
+            "increaseBlockChance":6
+        }
+    }
+]
