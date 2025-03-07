@@ -51,28 +51,6 @@
         }
     },
     {
-        "id":"feygard_necklace",
-        "iconID":"items_necklaces_1:25",
-        "name":"Necklace of Feygard's Glory",
-        "displaytype":"extraordinary",
-        "category":"neck",
-        "description":"A Feygardian soldier's medal of honor. To possess is to honor the glorious city of Feygard.",
-        "equipEffect":{
-            "increaseAttackDamage":{
-                "min":1,
-                "max":3
-            },
-            "increaseAttackChance":11,
-            "increaseBlockChance":15,
-            "addedConditions":[
-                {
-                    "condition":"loyalist",
-                    "magnitude":1
-                }
-            ]
-        }
-    },
-    {
         "id":"defy_ring",
         "iconID":"items_japozero:251",
         "name":"Defy's ring",
@@ -408,6 +386,30 @@
                     "magnitude":2,
                     "duration":3,
                     "chance":"90"
+                }
+            ]
+        }
+    },
+    {
+        "id":"feygard_necklace",
+        "iconID":"items_necklaces_1:25",
+        "name":"Necklace of Feygard's Glory",
+        "displaytype":"extraordinary",
+        "hasManualPrice":1,
+        "baseMarketCost":3118,
+        "category":"neck",
+        "description":"A Feygardian soldier's medal of honor. To possess is to honor the glorious city of Feygard.",
+        "equipEffect":{
+            "increaseAttackDamage":{
+                "min":1,
+                "max":3
+            },
+            "increaseAttackChance":8,
+            "increaseBlockChance":11,
+            "addedConditions":[
+                {
+                    "condition":"loyalist",
+                    "magnitude":1
                 }
             ]
         }
