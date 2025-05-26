@@ -1,0 +1,12 @@
+[
+    {
+        "id":"gabriel_daw_85",
+        "message":"I am not an adventurer, and I am certainly not a fighter.",
+        "replies":[
+            {
+                "text":"Obviously.",
+                "nextPhraseID":"gabriel_daw_90"
+            }
+        ]
+    }
+]
