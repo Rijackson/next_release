@@ -11,6 +11,34 @@
             {
                 "progress":20,
                 "logText":"20=Gyra helmet found"
+            },
+            {
+                "progress":1001,
+                "logText":"1001=RoLS"
+            },
+            {
+                "progress":1002,
+                "logText":"1002="
+            },
+            {
+                "progress":1003,
+                "logText":"1003="
+            },
+            {
+                "progress":1004,
+                "logText":"1004=ROFLS"
+            },
+            {
+                "progress":1005,
+                "logText":"1005="
+            },
+            {
+                "progress":1006,
+                "logText":"1006="
+            },
+            {
+                "progress":1007,
+                "logText":"1007="
             }
 		]
     }
