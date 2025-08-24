@@ -1,0 +1,101 @@
+[
+    {
+        "id":"stn_colonel",
+        "name":"Colonel Lutarc",
+        "showInLog":1,
+        "stages":[
+            {
+                "progress":10,
+                "logText":"I talked to Colonel Lutarc. He proposed a competition with five of his best fighters."
+            },
+            {
+                "progress":20,
+                "logText":"I accepted. The fight will be at the foot of the hill."
+            },
+            {
+                "progress":111,
+                "logText":"A lizard came towards me."
+            },
+            {
+                "progress":112,
+                "logText":"I won easily."
+            },
+            {
+                "progress":113,
+                "logText":"I lost the fight."
+            },
+            {
+                "progress":121,
+                "logText":"The second opponent was a skeleton warrior."
+            },
+            {
+                "progress":122,
+                "logText":"He was no match for me."
+            },
+            {
+                "progress":123,
+                "logText":"I lost against a pile of bones!"
+            },
+            {
+                "progress":131,
+                "logText":"Mikhail came and asked me to come home."
+            },
+            {
+                "progress":132,
+                "logText":"But no, it wasn't Mikhail - it was a poser. Not a strong enough one though."
+            },
+            {
+                "progress":133,
+                "logText":"My own father attacked me? I lost this fight."
+            },
+            {
+                "progress":141,
+                "logText":"Then a little dragon came forth."
+            },
+            {
+                "progress":142,
+                "logText":"I won."
+            },
+            {
+                "progress":143,
+                "logText":"It won."
+            },
+            {
+                "progress":151,
+                "logText":"The fifth and last opponent came towards me: Bully."
+            },
+            {
+                "progress":152,
+                "logText":"I won."
+            },
+            {
+                "progress":153,
+                "logText":"I lost this last fight."
+            },
+            {
+                "progress":160,
+                "logText":"I have finished all the fights. I should climb back up to Colonel Lutarc."
+            },
+            {
+                "progress":170,
+                "logText":"He was pretty disappointed with my poor score.",
+                "rewardExperience":1
+            },
+            {
+                "progress":171,
+                "logText":"He was pretty impressed with my excellent result.",
+                "rewardExperience":1000
+            },
+            {
+                "progress":172,
+                "logText":"My result confirmed his relatively low expectations.",
+                "rewardExperience":500
+            },
+            {
+                "progress":190,
+                "logText":"Lutarc gave me a medallion as a present. There is a tiny little lizard on it, that looks completely real.",
+                "finishesQuest":1
+            }
+        ]
+    }
+]
