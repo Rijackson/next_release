@@ -288,5 +288,35 @@
     {
         "id":"fey3_ogerwall_f6_20",
         "rewards":[{ "rewardType":"questProgress", "rewardID":"fey3_ogerwall", "value":16 }]
+    },
+    {
+        "id":"fey3_ogerwall_sign",
+        "replies":[
+            {
+                "nextPhraseID":"fey3_ogerwall_sign_10",
+                "requires":[{ "requireType":"questProgress", "requireID":"fey3_ogerwall", "value":5, "negate":true },
+							{ "requireType":"inventoryKeep", "requireID":"ogersign", "value":1 }]
+			}
+		]
+    },
+    {
+        "id":"fey3_ogerwall_sign_10",
+        "message":"Here is a good place to put an exit sign on the wall.",
+        "replies":[
+            {
+                "text":"Let's do it.",
+				"nextPhraseID":"fey3_ogerwall_sign_20",
+                "requires":[{ "requireType":"inventoryRemove", "requireID":"ogersign", "value":1 }]
+			},
+            {
+                "text":"No",
+				"nextPhraseID":"X"
+			}
+		]
+    },
+    {
+        "id":"fey3_ogerwall_sign_20",
+        "message":"Nice.",
+        "rewards":[{ "rewardType":"questProgress", "rewardID":"fey3_ogerwall", "value":5 }]
     }
 ]
