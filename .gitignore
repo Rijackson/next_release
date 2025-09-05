@@ -1,4 +1,5 @@
 .project
+.project.json
 altered/drawable
 altered/drawable/*
 created/drawable
