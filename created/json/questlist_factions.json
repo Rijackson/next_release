@@ -1,0 +1,31 @@
+[
+    {
+        "id":"scores",
+        "name":"scores",
+        "showInLog":0,
+        "stages":[
+            { "progress":12, "logText":"Absolute Shadow hater" },
+            { "progress":13, "logText":"Shadow hater" },
+            { "progress":15, "logText":"Balanced Shadow feelings" },
+            { "progress":17, "logText":"Shadow fan" },
+            { "progress":18, "logText":"Absolute Shadow fan" },
+			
+            { "progress":22, "logText":"Absolute Feygard hater" },
+            { "progress":23, "logText":"Feygard hater" },
+            { "progress":25, "logText":"Balanced Feygard feelings" },
+            { "progress":27, "logText":"Feygard fan" },
+            { "progress":28, "logText":"Absolute Feygard fan" },
+			
+            { "progress":32, "logText":"Absolute Thieves guild hater" },
+            { "progress":33, "logText":"Thieves guild hater" },
+            { "progress":35, "logText":"Balanced Thieves guild feelings" },
+            { "progress":37, "logText":"Thieves guild fan" },
+            { "progress":38, "logText":"Absolute Thieves guild fan" },
+			
+            { "progress":101, "logText":"Clear preference: Shadow over Feygard" },
+            { "progress":102, "logText":"Clear preference: Feygard over Shadow" },
+
+            { "progress":999, "logText":"-" }
+        ]
+    }
+]
