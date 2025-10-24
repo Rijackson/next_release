@@ -1,0 +1,10 @@
+[
+    {
+        "id":"prim_treasure_key",
+        "iconID":"items_japozero:392",
+        "name":"Prim treasury key",
+        "displaytype":"ordinary",
+        "baseMarketCost":100,
+        "category":"other"
+    }
+]
