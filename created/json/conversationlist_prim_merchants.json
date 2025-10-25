@@ -98,6 +98,11 @@
                     {
                         "requireType":"questProgress",
                         "requireID":"nondisplay",
+                        "value":81
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"nondisplay",
                         "value":82,
 						"negate":true
                     }
