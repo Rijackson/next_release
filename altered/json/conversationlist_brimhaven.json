@@ -1,0 +1,39 @@
+[
+    {
+        "id":"brv_fortune_back_52",
+        "message":"Which one do you want to learn more about?",
+        "replies":[
+            {
+                "text":"Gem of star precision",
+                "nextPhraseID":"brv_fortune_back_61"
+            },
+            {
+                "text":"Wanderer's Vitality",
+                "nextPhraseID":"brv_fortune_back_62"
+            },
+            {
+                "text":"Mountainroot gold nugget",
+                "nextPhraseID":"brv_fortune_back_65"
+            },
+            {
+                "text":"Shadowstep Favor",
+                "nextPhraseID":"brv_fortune_back_66"
+            },
+            {
+                "text":"Starbound grip stone",
+                "nextPhraseID":"brv_fortune_back_68",
+                "requires":[
+                    {
+                        "requireType":"skillIncrease",
+                        "requireID":"cleave",
+                        "value":1
+                    }
+                ]
+            },
+            {
+                "text":"Swirling orb of awareness.",
+                "nextPhraseID":"brv_fortune_back_69"
+            }
+        ]
+    }
+]
