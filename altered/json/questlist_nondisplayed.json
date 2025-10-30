@@ -175,6 +175,26 @@
             {
                 "progress":83,
                 "logText":"prim_treasure_init"
+            },
+            {
+                "progress":84,
+                "logText":"prim_treasure_4 taken"
+            },
+            {
+                "progress":85,
+                "logText":"prim_treasure_5 taken"
+            },
+            {
+                "progress":87,
+                "logText":"prim_treasure_7 taken"
+            },
+            {
+                "progress":88,
+                "logText":"prim_treasure_8 taken"
+            },
+            {
+                "progress":89,
+                "logText":"prim_treasure_9 taken"
             }
         ]
     }

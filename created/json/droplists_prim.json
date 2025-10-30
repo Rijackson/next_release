@@ -13,14 +13,14 @@
         ]
     },
     {
-        "id":"prim_treasure_1",
+        "id":"prim_treasure_9",
         "items":[
             {
                 "itemID":"gold",
                 "chance":"100",
                 "quantity":{
-                    "min":100,
-                    "max":200
+                    "min":10,
+                    "max":20
                 }
             },
             {
@@ -28,57 +28,57 @@
                 "chance":"50",
                 "quantity":{
                     "min":1,
-                    "max":2
+                    "max":1
                 }
             }
         ]
     },
     {
-        "id":"prim_treasure_2",
+        "id":"prim_treasure_8",
         "items":[
             {
                 "itemID":"gold",
                 "chance":"100",
                 "quantity":{
-                    "min":1000,
-                    "max":2000
+                    "min":20,
+                    "max":40
                 }
             },
             {
                 "itemID":"gem1",
                 "chance":"100",
                 "quantity":{
-                    "min":3,
-                    "max":9
+                    "min":1,
+                    "max":2
                 }
             },
             {
                 "itemID":"gem5",
                 "chance":"50",
                 "quantity":{
-                    "min":3,
-                    "max":5
+                    "min":1,
+                    "max":1
                 }
             },
             {
                 "itemID":"gem4",
                 "chance":"50",
                 "quantity":{
-                    "min":3,
-                    "max":5
+                    "min":1,
+                    "max":1
                 }
             }
         ]
     },
     {
-        "id":"prim_treasure_3",
+        "id":"prim_treasure_7",
         "items":[
             {
                 "itemID":"gold",
                 "chance":"100",
                 "quantity":{
-                    "min":2000,
-                    "max":3000
+                    "min":200,
+                    "max":300
                 }
             },
             {
@@ -100,14 +100,14 @@
         ]
     },
     {
-        "id":"prim_treasure_4",
+        "id":"prim_treasure_6",
         "items":[
             {
                 "itemID":"gold",
                 "chance":"100",
                 "quantity":{
-                    "min":2000,
-                    "max":3000
+                    "min":500,
+                    "max":900
                 }
             },
             {
@@ -116,6 +116,32 @@
                 "quantity":{
                     "min":1,
                     "max":1
+                }
+            }
+        ]
+    },
+    {
+        "id":"prim_treasure_5",
+        "items":[
+            {
+                "itemID":"gold",
+                "chance":"100",
+                "quantity":{
+                    "min":1800,
+                    "max":2800
+                }
+            }
+        ]
+    },
+    {
+        "id":"prim_treasure_4",
+        "items":[
+            {
+                "itemID":"gold",
+                "chance":"100",
+                "quantity":{
+                    "min":1500,
+                    "max":2500
                 }
             }
         ]
