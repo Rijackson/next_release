@@ -1,0 +1,148 @@
+[
+	{
+		"id":"thoronir_tharal_3",
+		"message":"When the ban came, I did not dare keep any, so I threw my whole supply away. It was quite foolish now that I look back on it.",
+		"replies":[
+			{
+				"text":"N",
+				"nextPhraseID":"thoronir_tharal_3a"
+			}
+		]
+	},
+	{
+        "id":"thoronir_tharal_4",
+        "message":"Do you think you could find me 5 skeletal bones that I can use for mixing a bonemeal potion? The bonemeal is very potent in healing old wounds.",
+        "replies":[
+            {
+                "text":"Sure, I might be able to do that.",
+                "nextPhraseID":"thoronir_tharal_5"
+            },
+            {
+                "text":"I have those bones for you.",
+                "nextPhraseID":"thoronir_tharal_complete",
+                "requires":[
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"bone",
+                        "value":5
+                    }
+                ]
+            },
+            {
+                "text":"I've changed my mind. If Lord Geomyr forbids bonemeal potions, we should abide by that.",
+                "nextPhraseID":"thoronir_tharal_4b",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"bonemeal",
+                        "value":40,
+						"negate":true
+                    }
+                ]
+            }
+        ]
+    },
+	{
+		"id":"thoronir_tharal_select",
+		"replies":[
+			{
+				"nextPhraseID":"thoronir_trade_bonemeal",
+				"requires":[
+					{
+						"requireType":"questProgress",
+						"requireID":"bonemeal",
+						"value":100
+					}
+				]
+			},
+			{
+				"nextPhraseID":"thoronir_trade_bonemeal_a",
+				"requires":[
+					{
+						"requireType":"questProgress",
+						"requireID":"bonemeal",
+						"value":110
+					}
+				]
+			},
+			{
+				"nextPhraseID":"thoronir_tharal_1"
+			}
+		]
+	},
+	{
+		"id":"thoronir_start",
+		"message":"What can I do for you?",
+		"replies":[
+			{
+				"text":"What can you tell me about the Shadow?",
+				"nextPhraseID":"thoronir_shadow_1"
+			},
+			{
+				"text":"Can you tell me more about the church?",
+				"nextPhraseID":"thoronir_church_1"
+			},
+			{
+				"text":"Are the Bonemeal potions ready yet?",
+				"nextPhraseID":"thoronir_trade_bonemeal",
+				"requires":[
+					{
+						"requireType":"questProgress",
+						"requireID":"bonemeal",
+						"value":100
+					}
+				]
+			},
+			{
+				"text":"Do you have some special white powdered potions whose name must not be mentioned?",
+				"nextPhraseID":"thoronir_trade_bonemeal_a",
+				"requires":[
+					{
+						"requireType":"questProgress",
+						"requireID":"bonemeal",
+						"value":110
+					}
+				]
+			},
+			{
+				"text":"I really need your help!",
+				"nextPhraseID":"thoronir_guild_1",
+				"requires":[
+					{
+						"requireType":"questProgress",
+						"requireID":"Thieves01",
+						"value":45
+					},
+					{
+						"requireType":"questProgress",
+						"requireID":"bonemeal",
+						"value":100
+					},
+					{
+						"requireType":"questProgress",
+						"requireID":"Thieves01",
+						"value":50,
+						"negate":true
+					}
+				]
+			},
+			{
+				"text":"I need some help finding out who is responsible for casting a Shadow spell that causes a person to become noticeable.",
+				"nextPhraseID":"tt_thoronir_10",
+				"requires":[
+					{
+						"requireType":"questProgress",
+						"requireID":"troubling_times",
+						"value":50
+					},
+					{
+						"requireType":"questProgress",
+						"requireID":"troubling_times",
+						"value":70,
+						"negate":true
+					}
+				]
+			}
+		]
+	}
+]
