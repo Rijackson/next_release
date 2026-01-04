@@ -1,0 +1,45 @@
+[
+    {
+        "id":"bonemeal",
+        "name":"Disallowed substance",
+        "showInLog":1,
+        "stages":[
+            {
+                "progress":10,
+                "logText":"Leonid in Crossglen town hall tells me that there was a disturbance in the village some weeks ago. Apparently, Lord Geomyr has banned all use of bonemeal as a healing substance.\n\nTharal, the town priest should know more.",
+                "finishesQuest":0
+            },
+            {
+                "progress":20,
+                "logText":"Tharal does not want to talk about bonemeal. I might be able to persuade him by bringing him 5 insect wings.",
+                "finishesQuest":0
+            },
+            {
+                "progress":30,
+                "logText":"Tharal tells me that bonemeal is a very potent healing substance, and is quite upset that it is not allowed anymore. I should go see Thoronir in Fallhaven if I want to learn more. I should tell him the password 'Glow of the Shadow'.",
+                "finishesQuest":0
+            },
+            {
+                "progress":40,
+                "logText":"I have talked to Thoronir in Fallhaven. He might be able to mix me a bonemeal potion if I bring him 5 skeletal bones. There should be some skeletons in an abandoned house north of Fallhaven.",
+                "finishesQuest":0
+            },
+            {
+                "progress":50,
+                "logText":"Thoronir in Fallhaven explained to me that bonemeal potions are banned by Lord Geomyr, so I have refused his request to provide him with fresh ingredients for new bonemeal potions. I could do him a favour though to bring him 5 skeletal bones for church matters. There should be some skeletons in an abandoned house north of Fallhaven."
+            },
+            {
+                "progress":100,
+                "logText":"I have brought the bones to Thoronir. He is now able to supply me with bonemeal potions.\nI should be careful when using them though, since Lord Geomyr has banned their use.",
+                "rewardExperience":900,
+                "finishesQuest":1
+            },
+            {
+                "progress":110,
+                "logText":"I have brought the bones to Thoronir. Of course he wouldn't produce any bonemeal potion from them though, since Lord Geomyr has banned their use.",
+                "rewardExperience":900,
+                "finishesQuest":1
+            }
+        ]
+    }
+]
