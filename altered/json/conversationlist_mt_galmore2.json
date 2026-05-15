@@ -1,0 +1,13 @@
+[
+    {
+        "id":"clinging_mud_does_not_have",
+        "message":"Sticky mud coats your feet and legs, making every motion sluggish and heavy.",
+        "rewards":[
+            {
+                "rewardType":"actorCondition",
+                "rewardID":"clinging_mud",
+                "value":20
+            }
+        ]
+    }
+]

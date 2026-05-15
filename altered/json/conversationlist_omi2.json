@@ -1,0 +1,67 @@
+[
+    {
+        "id":"ortholion_c2",
+        "message":"Oh. Alright, we will chat later. Now we're going out of the...\n\nWATCH OUT!",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"kamelio_undead"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"spawnAll",
+                "rewardID":"kamelio2",
+                "mapName":"elm5f_2"
+            }
+        ]
+    },
+    {
+        "id":"kamelio_undead",
+        "message":"...D...Die...",
+        "switchToNPC":"kamelio2",
+        "replies":[
+            {
+                "text":"Aah!",
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"Hmpf, I will kill you ten more times if needed.",
+                "nextPhraseID":"X"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"actorCondition",
+                "rewardID":"putrefaction",
+                "value":5
+            },
+            {
+                "rewardType":"actorCondition",
+                "rewardID":"putrefaction",
+                "value":5
+            },
+            {
+                "rewardType":"actorCondition",
+                "rewardID":"putrefaction",
+                "value":5
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"bwm72_beginning",
+                "value":39
+            }
+        ]
+    },
+    {
+        "id":"prim_tavern_guest4_15a",
+        "message":"M...Maybe some water. Yes, from the moun...tains. That'd be a relief!",
+        "switchToNPC":"prim_bar_regular",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"prim_tavern_guest4_16"
+            }
+        ]
+    }
+]
