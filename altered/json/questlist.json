@@ -125,6 +125,10 @@
                 "logText":"I met Andor on the road to Nor City, where he was buying supplies from Alynndir. He disappeared again."
             },
             {
+                "progress":150,
+                "logText":"#reserved: sutdover_ext"
+            },
+            {
                 "progress":910,
                 "logText":"I decided to settle down on the top of Mt. Galmore. For this I needed to find a rich and discreet man to rebuild the ruins according to my wishes. Andor will now have to go and find himself."
             },

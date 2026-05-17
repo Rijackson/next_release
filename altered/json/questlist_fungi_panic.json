@@ -83,9 +83,17 @@
                 "rewardExperience":1
             },
             {
+                "progress":160,
+                "logText":"#reserved: nor_city"
+            },
+            {
                 "progress":200,
                 "logText":"Sheep in wolf's clothing: I finally found a use for the Wolfpack's hide.",
                 "rewardExperience":1000
+            },
+            {
+                "progress":225,
+                "logText":"#reserved: sutdover_ext"
             }
         ]
     }
