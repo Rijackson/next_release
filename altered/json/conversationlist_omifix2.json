@@ -1,0 +1,16 @@
+[
+    {
+        "id":"ortholion_guard3_10",
+        "message":"Yes, I w... Hey! What did you just say?",
+        "replies":[
+            {
+                "text":"I have important information to deliver!",
+                "nextPhraseID":"ortholion_guard3_11a"
+            },
+            {
+                "text":"I am proud of you, drunkard. Where's your boss?",
+                "nextPhraseID":"ortholion_guard3_11b"
+            }
+        ]
+    }
+]

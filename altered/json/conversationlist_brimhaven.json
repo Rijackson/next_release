@@ -1,0 +1,109 @@
+[
+    {
+        "id":"brv_shop_guard_20",
+        "message":"Hello again, traveler."
+    },
+    {
+        "id":"brv_shop_owner_10",
+        "message":"[His eyes widen.] Oh\nI was just kidding, child... I mean... friend!",
+        "replies":[
+            {
+                "text":"Show me your wares, you worm.",
+                "nextPhraseID":"S"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brv_nondisplay",
+                "value":130
+            }
+        ]
+    },
+    {
+        "id":"brv_shop_owner_20",
+        "message":"How can I serve you, traveler?",
+        "replies":[
+            {
+                "text":"Show me your wares.",
+                "nextPhraseID":"S"
+            },
+            {
+                "text":"I am looking for a necklace in our family colors of red, green and white, that I would like to give as a present to my father.",
+                "nextPhraseID":"brv_shop_owner_30"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brv_present",
+                "value":10
+            }
+        ]
+    },
+    {
+        "id":"brv_shop_owner_30",
+        "message":"No problem. I can arrange one for you. Just tell me how much you want to spend.",
+        "replies":[
+            {
+                "text":"I have to think about it.",
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"Give me a necklace for 5 gold coins.",
+                "nextPhraseID":"brv_shop_owner_40_1",
+                "requires":[
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"gold",
+                        "value":5
+                    }
+                ]
+            },
+            {
+                "text":"Give me a necklace for 500 gold coins.",
+                "nextPhraseID":"brv_shop_owner_40_2",
+                "requires":[
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"gold",
+                        "value":500
+                    }
+                ]
+            },
+            {
+                "text":"Give me a necklace for 50,000 gold coins.",
+                "nextPhraseID":"brv_shop_owner_40_3",
+                "requires":[
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"gold",
+                        "value":50000
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"brv_brothers_9",
+        "message":"Since they are already here, we could ask them to help us. After all, we did save their life.",
+        "switchToNPC":"brv_alvies",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brv_brothers_10"
+            }
+        ]
+    },
+    {
+        "id":"brv_brothers_8",
+        "message":"[You accidently make a noise and they turn their heads towards you]\n\nHey, what are you doing down here?\n\nNo matter, we have to shut their mouth.",
+        "switchToNPC":"brv_attohead",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brv_brothers_9"
+            }
+        ]
+    }
+]

@@ -1,0 +1,16 @@
+[
+    {
+        "id":"bwm_agent_1_start",
+        "message":"Oh, someone from the outside! Please, adventurer, you have to help us!",
+        "replies":[
+            {
+                "text":"What is the matter?",
+                "nextPhraseID":"bwm_agent_1_2"
+            },
+            {
+                "text":"'Us'? I only see you here.",
+                "nextPhraseID":"bwm_agent_1_3"
+            }
+        ]
+    }
+]
