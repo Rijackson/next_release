@@ -106,5 +106,18 @@
                 }
             }
         ]
+    },
+    {
+        "id":"feygard_fogmonster",
+        "items":[
+            {
+                "itemID":"fogbottle",
+                "chance":"100",
+                "quantity":{
+                    "min":10,
+                    "max":20
+                }
+            }
+        ]
     }
 ]

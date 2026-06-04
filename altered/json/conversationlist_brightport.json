@@ -1,0 +1,82 @@
+[
+    {
+        "id":"brightport_bryma14",
+        "message":"Sure, what do you want to know?",
+        "replies":[
+            {
+                "text":"Can you tell me about Andor again?",
+                "nextPhraseID":"brightport_bryma13",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_nondisplay",
+                        "value":105
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"andor",
+                        "value":132
+                    }
+                ]
+            },
+            {
+                "text":"Why do you live here in the forest?",
+                "nextPhraseID":"brightport_bryma15"
+            },
+            {
+                "text":"I'm curious, how did that scroll reach you?",
+                "nextPhraseID":"brightport_bryma8",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"andor",
+                        "value":132,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "text":"What's with that statue at the entrance of the forest?",
+                "nextPhraseID":"brightport_bryma37"
+            },
+            {
+                "text":"You mentioned your bonemeal research, what can you tell me about the potion?",
+                "nextPhraseID":"brightport_bryma22",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_nondisplay",
+                        "value":106
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_nondisplay",
+                        "value":111,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "text":"Can you tell me about your bonemeal theory again?",
+                "nextPhraseID":"brightport_bryma31",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_nondisplay",
+                        "value":111
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"brightport_bryma10",
+        "message":"We sat down and he started asking me all sorts of questions. I was glad to have someone to talk to. But soon, he pulled out a list of ingredients and asked about how to acquire and use them. Most which were highly poisonous.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_bryma11"
+            }
+        ]
+    }
+]
