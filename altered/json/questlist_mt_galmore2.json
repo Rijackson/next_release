@@ -1,0 +1,146 @@
+[
+    {
+        "id":"mg2_exploded_star",
+        "name":"The exploded star",
+        "showInLog":1,
+        "stages":[
+            {
+                "progress":5,
+                "logText":"Teccow wouldn't talk to me at the moment. I should get stronger and come back later."
+            },
+            {
+                "progress":10,
+                "logText":"Teccow of Stoutford has seen ten tongues of light falling down to earth, or so he said."
+            },
+            {
+                "progress":12,
+                "logText":"Kealwea, the priest of Sullengard, has seen ten tongues of light falling down to earth, or so he said."
+            },
+            {
+                "progress":15,
+                "logText":"Teccow asked me to investigate and bring the fallen pieces."
+            },
+            {
+                "progress":17,
+                "logText":"Kealwea asked me to investigate and bring the fallen pieces."
+            },
+            {
+                "progress":20,
+                "logText":"I refused to do his work.",
+                "finishesQuest":1
+            },
+            {
+                "progress":21,
+                "logText":"Teccow would be delighted, I should bring the pieces to him."
+            },
+            {
+                "progress":22,
+                "logText":"Kealwea would be delighted, I should bring the pieces to him."
+            },
+            {
+                "progress":23,
+                "logText":"Kealwea or Teccow would be delighted, I should bring the pieces to one of them."
+            },
+            {
+                "progress":30,
+                "logText":"I told Teccow that I have found all ten pieces. He required them so that he could destroy them."
+            },
+            {
+                "progress":32,
+                "logText":"I told Kealwea that I have found all ten pieces. He required them so that he could destroy them."
+            },
+            {
+                "progress":40,
+                "logText":"I changed my mind and would keep these glittery things. They're too pretty to be destroyed.",
+                "rewardExperience":5000,
+                "finishesQuest":1
+            },
+            {
+                "progress":45,
+                "logText":"I gave half of the pieces to Teccow who would destroy them.",
+                "rewardExperience":10000
+            },
+            {
+                "progress":46,
+                "logText":"I gave the other half of the pieces to Teccow who would destroy them.",
+                "rewardExperience":20000,
+                "finishesQuest":1
+            },
+            {
+                "progress":47,
+                "logText":"I gave half of the pieces to Kealwea who would destroy them.",
+                "rewardExperience":10000
+            },
+            {
+                "progress":48,
+                "logText":"I gave the other half of the pieces to Kealwea who would destroy them.",
+                "rewardExperience":30000,
+                "finishesQuest":1
+            },
+            {
+                "progress":50,
+                "logText":"I gave the pieces to Teccow who would destroy them.",
+                "rewardExperience":20000,
+                "finishesQuest":1
+            },
+            {
+                "progress":52,
+                "logText":"I gave the pieces to Kealwea who would destroy them.",
+                "rewardExperience":20000,
+                "finishesQuest":1
+            },
+            {
+                "progress":60,
+                "logText":"I gave the pieces to Pangitain who was very grateful. I felt like I was filled with warmth and wisdom.",
+                "rewardExperience":40000,
+                "finishesQuest":1
+            },
+            {
+                "progress":62,
+                "logText":"I gave the pieces to Pangitain who was very grateful.",
+                "rewardExperience":2000,
+                "finishesQuest":1
+            },
+            {
+                "progress":101,
+                "logText":"I have found a brightly shining piece of a crystal."
+            },
+            {
+                "progress":102,
+                "logText":"I have found a second brightly shining piece of a crystal."
+            },
+            {
+                "progress":103,
+                "logText":"I have found three brightly shining pieces of a crystal."
+            },
+            {
+                "progress":104,
+                "logText":"I have found four brightly shining pieces of a crystal."
+            },
+            {
+                "progress":105,
+                "logText":"I have found five brightly shining pieces of a crystal."
+            },
+            {
+                "progress":106,
+                "logText":"I have found six brightly shining pieces of a crystal."
+            },
+            {
+                "progress":107,
+                "logText":"I have found seven brightly shining pieces of a crystal."
+            },
+            {
+                "progress":108,
+                "logText":"I have found eight brightly shining pieces of a crystal."
+            },
+            {
+                "progress":109,
+                "logText":"I have found nine brightly shining pieces of a crystal."
+            },
+            {
+                "progress":110,
+                "logText":"Done at last - I have found the last piece of the crystal."
+            }
+        ]
+    }
+]
