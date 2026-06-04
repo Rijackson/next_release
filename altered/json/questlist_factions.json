@@ -1,0 +1,201 @@
+[
+    {
+        "id": "scores",
+        "name": "scores",
+        "showInLog": 0,
+        "stages": [
+            {
+                "progress": 10,
+                "logText": "Shadow score fixed"
+            },
+            {
+                "progress": 12,
+                "logText": "Absolute Shadow hater"
+            },
+            {
+                "progress": 13,
+                "logText": "Shadow hater"
+            },
+            {
+                "progress": 15,
+                "logText": "Balanced Shadow feelings"
+            },
+            {
+                "progress": 17,
+                "logText": "Shadow fan"
+            },
+            {
+                "progress": 18,
+                "logText": "Absolute Shadow fan"
+            },
+            {
+                "progress": 20,
+                "logText": "Feygard score fixed"
+            },
+            {
+                "progress": 22,
+                "logText": "Absolute Feygard hater"
+            },
+            {
+                "progress": 23,
+                "logText": "Feygard hater"
+            },
+            {
+                "progress": 25,
+                "logText": "Balanced Feygard feelings"
+            },
+            {
+                "progress": 27,
+                "logText": "Feygard fan"
+            },
+            {
+                "progress": 28,
+                "logText": "Absolute Feygard fan"
+            },
+            {
+                "progress": 30,
+                "logText": "Thieves score fixed"
+            },
+            {
+                "progress": 32,
+                "logText": "Absolute Thieves guild hater"
+            },
+            {
+                "progress": 33,
+                "logText": "Thieves guild hater"
+            },
+            {
+                "progress": 35,
+                "logText": "Balanced Thieves guild feelings"
+            },
+            {
+                "progress": 37,
+                "logText": "Thieves guild fan"
+            },
+            {
+                "progress": 38,
+                "logText": "Absolute Thieves guild fan"
+            },
+            {
+                "progress": 40,
+                "logText": "Kazaul score fixed"
+            },
+            {
+                "progress": 42,
+                "logText": "Absolute Kazaul hater"
+            },
+            {
+                "progress": 43,
+                "logText": "Kazaul hater"
+            },
+            {
+                "progress": 45,
+                "logText": "Balanced Kazaul feelings"
+            },
+            {
+                "progress": 47,
+                "logText": "Kazaul fan"
+            },
+            {
+                "progress": 48,
+                "logText": "Absolute Kazaul fan"
+            },
+            {
+                "progress": 50,
+                "logText": "XX score fixed"
+            },
+            {
+                "progress": 52,
+                "logText": "Absolute XX hater"
+            },
+            {
+                "progress": 53,
+                "logText": "XX hater"
+            },
+            {
+                "progress": 55,
+                "logText": "Balanced XX feelings"
+            },
+            {
+                "progress": 57,
+                "logText": "XX fan"
+            },
+            {
+                "progress": 58,
+                "logText": "Absolute XX fan"
+            },
+            {
+                "progress": 101,
+                "logText": "Clear preference: Shadow over Feygard"
+            },
+            {
+                "progress": 102,
+                "logText": "Clear preference: Feygard over Shadow"
+            },
+            {
+                "progress": 112,
+                "logText": "Max Absolute Shadow hater"
+            },
+            {
+                "progress": 113,
+                "logText": "Max Shadow hater"
+            },
+            {
+                "progress": 115,
+                "logText": "Max Balanced Shadow feelings"
+            },
+            {
+                "progress": 117,
+                "logText": "Max Shadow fan"
+            },
+            {
+                "progress": 118,
+                "logText": "Max Absolute Shadow fan"
+            },
+            {
+                "progress": 122,
+                "logText": "Max Absolute Feygard hater"
+            },
+            {
+                "progress": 123,
+                "logText": "Max Feygard hater"
+            },
+            {
+                "progress": 125,
+                "logText": "Max Balanced Feygard feelings"
+            },
+            {
+                "progress": 127,
+                "logText": "Max Feygard fan"
+            },
+            {
+                "progress": 128,
+                "logText": "Max Absolute Feygard fan"
+            },
+            {
+                "progress": 132,
+                "logText": "Max Absolute Thieves guild hater"
+            },
+            {
+                "progress": 133,
+                "logText": "Max Thieves guild hater"
+            },
+            {
+                "progress": 135,
+                "logText": "Max Balanced Thieves guild feelings"
+            },
+            {
+                "progress": 137,
+                "logText": "Max Thieves guild fan"
+            },
+            {
+                "progress": 138,
+                "logText": "Max Absolute Thieves guild fan"
+            },
+            {
+                "progress": 999,
+                "logText": "-"
+            }
+        ]
+    }
+]
