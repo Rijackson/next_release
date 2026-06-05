@@ -5,7 +5,7 @@
     },
     {
         "id":"brv_shop_owner_10",
-        "message":"[His eyes widen.] Oh\nI was just kidding, child... I mean... friend!",
+        "message":"[His eyes widen.] Oh\nI was just kidding, child... I mean... honored customer!",
         "replies":[
             {
                 "text":"Show me your wares, you worm.",
@@ -86,7 +86,7 @@
     },
     {
         "id":"brv_brothers_9",
-        "message":"Since they are already here, we could ask them to help us. After all, we did save their life.",
+        "message":"Since they are already here, we could ask them to help us, if they want to save their life.",
         "switchToNPC":"brv_alvies",
         "replies":[
             {
