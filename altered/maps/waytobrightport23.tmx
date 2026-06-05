@@ -184,7 +184,7 @@
   <image source="../drawable/map_tree_3.png" width="1024" height="544"/>
  </tileset>
  <tileset firstgid="8153" name="map_tree_3" tilewidth="32" tileheight="32" tilecount="544" columns="32">
-  <image source="../../../poisonland/altered/drawable/map_tree_3.png" width="1024" height="544"/>
+  <image source="../drawable/map_tree_3.png" width="1024" height="544"/>
  </tileset>
  <layer id="1" name="Base" width="29" height="15">
   <data encoding="base64" compression="zlib">
