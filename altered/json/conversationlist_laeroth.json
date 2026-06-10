@@ -1,0 +1,13 @@
+[
+    {
+        "id":"korhald_chest_examine_10_gylew",
+        "message":"He opens the chest and begins to feverishly sift through the coins, transferring each one to his bag. When to his surpirse, he finds something...",
+        "switchToNPC":"none",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"korhald_chest_examine_20_gylew"
+            }
+        ]
+    }
+]
