@@ -78,5 +78,194 @@
                 "nextPhraseID":"brightport_bryma11"
             }
         ]
+    },
+    {
+        "id":"brightport_silvear1_selector",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_silvear1",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_nondisplay",
+                        "value":133,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_silvear1_2"
+            }
+        ]
+    },
+    {
+        "id":"brightport_silvear3",
+        "message":"I would sooner trust in Gunfryk dying of old age, $playername. My plans I carry alone; for yours, you'll have to pay. 1,500 is my asking price.",
+        "replies":[
+            {
+                "text":"Fine, have your price. [Give him the gold.]",
+                "nextPhraseID":"brightport_silvear2",
+                "requires":[
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"gold",
+                        "value":1500
+                    }
+                ]
+            },
+            {
+                "text":"I'll be back when I have the gold. [Leave.]",
+                "nextPhraseID":"X"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brightport_nondisplay",
+                "value":133
+            }
+        ]
+    },
+    {
+        "id":"brightport_silvear1_2",
+        "message":"We've talked about this before. Im confident in my skill, the information I possess will be enough. With that in mind 1500 gold is sufficient.",
+        "replies":[
+            {
+                "text":"Fine, have your price. [Give him the gold.]",
+                "nextPhraseID":"brightport_silvear2",
+                "requires":[
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"gold",
+                        "value":1500
+                    }
+                ]
+            },
+            {
+                "text":"I don't have that much gold on me, I'll be back later.",
+                "nextPhraseID":"X",
+                "requires":[
+                    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"gold",
+                        "value":1500,
+                        "negate":true
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"brightport_silvear_andor2",
+        "message":"As I mentioned, I'm a merchant. I can tell you about Andor, but it will cost you. Say, 500 gold?",
+        "switchToNPC":"brightportthieves1",
+        "replies":[
+            {
+                "text":"Hey,  I've already paid you once!",
+                "nextPhraseID":"brightport_silvear_andor5",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_nondisplay",
+                        "value":31
+                    }
+                ]
+            },
+            {
+                "text":"For my brother it is worth that much.",
+                "nextPhraseID":"brightport_silvear_andor3",
+                "requires":[
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"gold",
+                        "value":500
+                    }
+                ]
+            },
+            {
+                "text":"I don't have that gold on me.",
+                "nextPhraseID":"brightport_silvear_bye",
+                "requires":[
+                    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"gold",
+                        "value":500,
+                        "negate":true
+                    }
+                ]
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brightport_nondisplay",
+                "value":30
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brightport_nondisplay",
+                "value":132
+            }
+        ]
+    },
+    {
+        "id":"brightport_silvear_andor5",
+        "message":"Can't complain when you're the one asking. ",
+        "switchToNPC":"brightportthieves1",
+        "replies":[
+            {
+                "text":"Tch, fine. [Give him the gold]",
+                "nextPhraseID":"brightport_silvear_andor3",
+                "requires":[
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"gold",
+                        "value":500
+                    }
+                ]
+            },
+            {
+                "text":"I don't have that gold on me.",
+                "nextPhraseID":"brightport_silvear_bye",
+                "requires":[
+                    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"gold",
+                        "value":500,
+                        "negate":true
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"brightport_silvear4",
+        "message":"Rest assured, I would not risk my contingency on shoddy information, with that in mind 1,500 gold sound like a better price.",
+        "replies":[
+            {
+                "text":"Fine, have your price. [Give him the gold.]",
+                "nextPhraseID":"brightport_silvear2",
+                "requires":[
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"gold",
+                        "value":1500
+                    }
+                ]
+            },
+            {
+                "text":"I'll be back when I have the gold. [Leave.]",
+                "nextPhraseID":"X"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brightport_nondisplay",
+                "value":133
+            }
+        ]
     }
 ]
