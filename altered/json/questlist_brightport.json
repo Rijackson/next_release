@@ -1,0 +1,789 @@
+[
+    {
+        "id":"brightport_nondisplay",
+        "name":"brightport_nondisplay",
+        "stages":[
+            {
+                "progress":5,
+                "logText":"Talked with othinus"
+            },
+            {
+                "progress":10,
+                "logText":"Stiyl story"
+            },
+            {
+                "progress":15,
+                "logText":"met silvear"
+            },
+            {
+                "progress":20,
+                "logText":"gained access from silvear"
+            },
+            {
+                "progress":25,
+                "logText":"bought acess from silvear"
+            },
+            {
+                "progress":30,
+                "logText":"talked with silvear"
+            },
+            {
+                "progress":31,
+                "logText":"Silvear andor paid"
+            },
+            {
+                "progress":33,
+                "logText":"met  Freya"
+            },
+            {
+                "progress":35,
+                "logText":"spoke with hortensia"
+            },
+            {
+                "progress":40,
+                "logText":"cate stash"
+            },
+            {
+                "progress":42,
+                "logText":"franz asked"
+            },
+            {
+                "progress":45,
+                "logText":"note given"
+            },
+            {
+                "progress":50,
+                "logText":"stanwick entrance done"
+            },
+            {
+                "progress":55,
+                "logText":"paper ink check passed"
+            },
+            {
+                "progress":60,
+                "logText":"note written"
+            },
+            {
+                "progress":61,
+                "logText":" #1"
+            },
+            {
+                "progress":62,
+                "logText":"#2"
+            },
+            {
+                "progress":63,
+                "logText":"#3"
+            },
+            {
+                "progress":64,
+                "logText":"first step done"
+            },
+            {
+                "progress":65,
+                "logText":"second step done"
+            },
+            {
+                "progress":66,
+                "logText":"Dibella incident asked"
+            },
+            {
+                "progress":70,
+                "logText":"stanwick found told"
+            },
+            {
+                "progress":75,
+                "logText":"denied key"
+            },
+            {
+                "progress":80,
+                "logText":"principal distracted"
+            },
+            {
+                "progress":85,
+                "logText":"returned scroll"
+            },
+            {
+                "progress":86,
+                "logText":"richimor story"
+            },
+            {
+                "progress":87,
+                "logText":"fiamma shop"
+            },
+            {
+                "progress":88,
+                "logText":"statue puzzle req"
+            },
+            {
+                "progress":89,
+                "logText":"L"
+            },
+            {
+                "progress":90,
+                "logText":"E"
+            },
+            {
+                "progress":91,
+                "logText":"T"
+            },
+            {
+                "progress":92,
+                "logText":"H"
+            },
+            {
+                "progress":93,
+                "logText":"G"
+            },
+            {
+                "progress":94,
+                "logText":"A"
+            },
+            {
+                "progress":95,
+                "logText":"R"
+            },
+            {
+                "progress":96,
+                "logText":"L correct"
+            },
+            {
+                "progress":97,
+                "logText":"E correct"
+            },
+            {
+                "progress":98,
+                "logText":"T correct"
+            },
+            {
+                "progress":99,
+                "logText":"H correct"
+            },
+            {
+                "progress":100,
+                "logText":"G correct"
+            },
+            {
+                "progress":101,
+                "logText":"A correct"
+            },
+            {
+                "progress":102,
+                "logText":"R correct"
+            },
+            {
+                "progress":103,
+                "logText":"got library key"
+            },
+            {
+                "progress":104,
+                "logText":"got scroll"
+            },
+            {
+                "progress":105,
+                "logText":"andor story"
+            },
+            {
+                "progress":106,
+                "logText":"bryma bonemeal"
+            },
+            {
+                "progress":107,
+                "logText":"bryma baking story"
+            },
+            {
+                "progress":108,
+                "logText":"mordred dog"
+            },
+            {
+                "progress":109,
+                "logText":"dog girl"
+            },
+            {
+                "progress":110,
+                "logText":"bryma tomb"
+            },
+            {
+                "progress":111,
+                "logText":"bryma bonemeal theory"
+            },
+            {
+                "progress":112,
+                "logText":"bryma quest end"
+            },
+            {
+                "progress":113,
+                "logText":"basement lizard"
+            },
+            {
+                "progress":114,
+                "logText":"lizard statue activated"
+            },
+            {
+                "progress":115,
+                "logText":"emyro talk"
+            },
+            {
+                "progress":116,
+                "logText":"burial tomb done\n"
+            },
+            {
+                "progress":117,
+                "logText":"lizard spawned"
+            },
+            {
+                "progress":118,
+                "logText":"king room"
+            },
+            {
+                "progress":119,
+                "logText":"king slain check"
+            },
+            {
+                "progress":120,
+                "logText":"rest of the lizards killed check"
+            },
+            {
+                "progress":121,
+                "logText":"crystal chant"
+            },
+            {
+                "progress":122,
+                "logText":"crystal1"
+            },
+            {
+                "progress":123,
+                "logText":"crystal2"
+            },
+            {
+                "progress":124,
+                "logText":"crystal 2 shattered"
+            },
+            {
+                "progress":125,
+                "logText":"crystal 1 shattered"
+            },
+            {
+                "progress":126,
+                "logText":"charwood path unlocked"
+            },
+            {
+                "progress":127,
+                "logText":"dominio told"
+            },
+            {
+                "progress":128,
+                "logText":"goons quest started"
+            },
+            {
+                "progress":129,
+                "logText":"benbyr gang met"
+            },
+            {
+                "progress":130,
+                "logText":"elysa introduction"
+            },
+            {
+                "progress":131,
+                "logText":"Barthold introduction"
+            },
+            {
+                "progress":132,
+                "logText":"check for sequence"
+            },
+            {
+                "progress":133,
+                "logText":"greedy XD"
+            },
+            {
+                "progress":135,
+                "logText":"thieve caught"
+            },
+            {
+                "progress":136,
+                "logText":"thieve caught and spoke to gunfryk"
+            },
+            {
+                "progress":137,
+                "logText":"commander hide check"
+            },
+            {
+                "progress":138,
+                "logText":"gunfryk timer"
+            },
+            {
+                "progress":139,
+                "logText":"barthold quest done"
+            },
+            {
+                "progress":140,
+                "logText":"sequence check gufnryk"
+            },
+            {
+                "progress":141,
+                "logText":"crate1"
+            },
+            {
+                "progress":142,
+                "logText":"crate2"
+            },
+            {
+                "progress":143,
+                "logText":"crate3"
+            },
+            {
+                "progress":144,
+                "logText":"hide over"
+            },
+            {
+                "progress":145,
+                "logText":"caught outside"
+            },
+            {
+                "progress":146,
+                "logText":"hide n seek option"
+            },
+            {
+                "progress":147,
+                "logText":"brother option"
+            },
+            {
+                "progress":148,
+                "logText":"hide failure"
+            },
+            {
+                "progress":149,
+                "logText":"hide success"
+            },
+            {
+                "progress":150,
+                "logText":"blackmail route"
+            },
+            {
+                "progress":151,
+                "logText":"barthold and dynes not guild"
+            },
+            {
+                "progress":152,
+                "logText":"new guy in town."
+            },
+            {
+                "progress":153,
+                "logText":"new commander script"
+            },
+            {
+                "progress":154,
+                "logText":"crate opened"
+            },
+            {
+                "progress":155,
+                "logText":"benbyr arrest"
+            },
+            {
+                "progress":156,
+                "logText":"gunfryk met"
+            },
+            {
+                "progress":157,
+                "logText":"eatloni work"
+            },
+            {
+                "progress":158,
+                "logText":"locked the door for the crate quest"
+            },
+            {
+                "progress":159,
+                "logText":"arrested #1"
+            },
+            {
+                "progress":160,
+                "logText":"arrest escape"
+            },
+            {
+                "progress":161,
+                "logText":"dirt"
+            },
+            {
+                "progress":162,
+                "logText":"dirt removed 3"
+            },
+            {
+                "progress":163,
+                "logText":"dirt removed 2"
+            },
+            {
+                "progress":164,
+                "logText":"dirt removed 1"
+            },
+            {
+                "progress":165,
+                "logText":"sweep 3"
+            },
+            {
+                "progress":166,
+                "logText":"sweep 2"
+            },
+            {
+                "progress":167,
+                "logText":"sweep 1"
+            },
+            {
+                "progress":168,
+                "logText":"sift over"
+            },
+            {
+                "progress":169,
+                "logText":"1sift"
+            },
+            {
+                "progress":170,
+                "logText":"2sift"
+            },
+            {
+                "progress":171,
+                "logText":"3sift"
+            },
+            {
+                "progress":172,
+                "logText":"4sift"
+            },
+            {
+                "progress":173,
+                "logText":"arrested #2"
+            },
+            {
+                "progress":174,
+                "logText":"arrested 3"
+            },
+            {
+                "progress":175,
+                "logText":"Arulir spawn"
+            },
+            {
+                "progress":176,
+                "logText":"arulir1"
+            },
+            {
+                "progress":177,
+                "logText":"arulir2"
+            },
+            {
+                "progress":178,
+                "logText":"arulir3"
+            },
+            {
+                "progress":179,
+                "logText":"arulir4"
+            },
+            {
+                "progress":180,
+                "logText":"arulir5"
+            },
+            {
+                "progress":181,
+                "logText":"arulir6"
+            },
+            {
+                "progress":182,
+                "logText":"vault access"
+            },
+            {
+                "progress":183,
+                "logText":"forenza bed"
+            },
+            {
+                "progress":184,
+                "logText":"brom savepoint"
+            },
+            {
+                "progress":185,
+                "logText":"broom savepoint 2"
+            },
+            {
+                "progress":186,
+                "logText":"broom savepoint 3"
+            },
+            {
+                "progress":187,
+                "logText":"chef recipe"
+            },
+            {
+                "progress":188,
+                "logText":"butter  and dough"
+            },
+            {
+                "progress":189,
+                "logText":"cooked once"
+            },
+            {
+                "progress":190,
+                "logText":"sweeping locked in 1"
+            },
+            {
+                "progress":191,
+                "logText":"sweeping locked in 2"
+            },
+            {
+                "progress":192,
+                "logText":"sweeping locked in 3"
+            },
+            {
+                "progress":193,
+                "logText":"peace in sweeping"
+            },
+            {
+                "progress":194,
+                "logText":"mess in sweeping"
+            },
+            {
+                "progress":195,
+                "logText":"Sweeping started"
+            },
+            {
+                "progress":196,
+                "logText":"elysa quest done"
+            },
+            {
+                "progress":197,
+                "logText":"hey apple"
+            },
+            {
+                "progress":198,
+                "logText":"apples returned to eatloni"
+            },
+            {
+                "progress":199,
+                "logText":"5sift"
+            },
+            {
+                "progress":200,
+                "logText":"6sift"
+            },
+            {
+                "progress":201,
+                "logText":"7sift"
+            },
+            {
+                "progress":202,
+                "logText":"8sift"
+            },
+            {
+                "progress":203,
+                "logText":"9sift"
+            },
+            {
+                "progress":204,
+                "logText":"10sift"
+            },
+            {
+                "progress":205,
+                "logText":"deebo question"
+            },
+            {
+                "progress":206,
+                "logText":"sweep stage 1"
+            },
+            {
+                "progress":207,
+                "logText":"sweep stage 2"
+            },
+            {
+                "progress":208,
+                "logText":"valid to interact with crate"
+            },
+            {
+                "progress":209,
+                "logText":"arrested #3"
+            },
+            {
+                "progress":210,
+                "logText":"arrested #4"
+            },
+            {
+                "progress":211,
+                "logText":"commander evidence given"
+            },
+            {
+                "progress":212,
+                "logText":"commander evidence received"
+            },
+            {
+                "progress":213,
+                "logText":"spawn crates for apple quest."
+            },
+            {
+                "progress":214,
+                "logText":"Remove rock for arulir cave 1"
+            },
+            {
+                "progress":215,
+                "logText":"Remove rock for arulir cave 2"
+            },
+            {
+                "progress":216,
+                "logText":"Remove rock for arulir cave 3"
+            },
+            {
+                "progress":217,
+                "logText":"Remove rock for arulir cave 4"
+            },
+            {
+                "progress":218,
+                "logText":"Remove rock for arulir cave 5"
+            },
+            {
+                "progress":219,
+                "logText":"Remove rock for arulir cave 6"
+            },
+            {
+                "progress":220,
+                "logText":"taken to jail"
+            },
+            {
+                "progress":221,
+                "logText":"bryma suggest trade"
+            },
+            {
+                "progress":222,
+                "logText":"lecture starting"
+            },
+            {
+                "progress":223,
+                "logText":"took blades"
+            },
+            {
+                "progress":224,
+                "logText":"lecture over"
+            },
+            {
+                "progress":225,
+                "logText":"lecture started"
+            },
+            {
+                "progress":226,
+                "logText":"lecture warning1"
+            },
+            {
+                "progress":227,
+                "logText":"lecture warning2"
+            },
+            {
+                "progress":228,
+                "logText":"locked lecture room"
+            },
+            {
+                "progress":229,
+                "logText":"regnal"
+            },
+            {
+                "progress":230,
+                "logText":"thaddeus"
+            },
+            {
+                "progress":231,
+                "logText":"visited academy check by talking with dibella"
+            },
+            {
+                "progress":232,
+                "logText":"guard mentions arrest"
+            },
+            {
+                "progress":233,
+                "logText":"charwood shortcut."
+            },
+            {
+                "progress":234,
+                "logText":"LOCKED interaction with the crates during barthold's quest"
+            },
+            {
+                "progress":235,
+                "logText":"trade with freyja"
+            },
+            {
+                "progress":236,
+                "logText":"ask for permission"
+            },
+            {
+                "progress":237,
+                "logText":"knocked twice"
+            },
+            {
+                "progress":238,
+                "logText":"skeedadle"
+            },
+            {
+                "progress":239,
+                "logText":"ghost dialog end"
+            },
+            {
+                "progress":240,
+                "logText":"started to tell gunfryk about the criminals"
+            },
+            {
+                "progress":241,
+                "logText":"triggered ghost event"
+            },
+            {
+                "progress":242,
+                "logText":"learnt about the vault"
+            },
+            {
+                "progress":243,
+                "logText":"found documents"
+            },
+            {
+                "progress":244,
+                "logText":"check so the player doesnt pay twice to hear about andor from elysa"
+            },
+            {
+                "progress":245,
+                "logText":"eatloni loop"
+            },
+            {
+                "progress":246,
+                "logText":"behind counter"
+            },
+            {
+                "progress":247,
+                "logText":"found by guards"
+            },
+            {
+                "progress":248,
+                "logText":"richimor hint"
+            },
+            {
+                "progress":249,
+                "logText":"guard north enter"
+            },
+            {
+                "progress":250,
+                "logText":"guard north exit"
+            },
+            {
+                "progress":251,
+                "logText":"water temple"
+            },
+            {
+                "progress":252,
+                "logText":"goblin trap"
+            },
+            {
+                "progress":253,
+                "logText":"goblin trap 2"
+            },
+            {
+                "progress":254,
+                "logText":"florencia sends her regards to forenza"
+            },
+            {
+                "progress":255,
+                "logText":"forenza regards given",
+                "rewardExperience":1500
+            },
+            {
+                "progress":256,
+                "logText":"package given "
+            }
+        ]
+    }
+]

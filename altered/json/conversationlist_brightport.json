@@ -267,5 +267,26 @@
                 "value":133
             }
         ]
+    },
+    {
+        "id":"brightport_goons6",
+        "message":"I was convinced you were sent to spy on us. So, what brings you around here.",
+        "replies":[
+            {
+                "text":"I'm looking around the town searching for my brother.",
+                "nextPhraseID":"brightport_goons7"
+            },
+            {
+                "text":"Benbyr said to come see you.",
+                "nextPhraseID":"brightport_goons8"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brightport_nondisplay",
+                "value":129
+            }
+        ]
     }
 ]
