@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.10" tiledversion="1.11.2" orientation="orthogonal" renderorder="right-down" width="30" height="26" tilewidth="32" tileheight="32" infinite="0" nextlayerid="12" nextobjectid="19">
+<map version="1.10" tiledversion="1.11.2" orientation="orthogonal" renderorder="right-down" width="30" height="20" tilewidth="32" tileheight="32" infinite="0" nextlayerid="10" nextobjectid="11">
  <properties>
   <property name="outdoors" value="1"/>
  </properties>
@@ -183,144 +183,88 @@
  <tileset firstgid="7481" name="map_window_2" tilewidth="32" tileheight="32" tilecount="128" columns="16">
   <image source="../drawable/map_window_2.png" width="512" height="256"/>
  </tileset>
- <tileset firstgid="7609" name="map_tree_1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
-  <image source="../drawable/map_tree_1.png" width="512" height="256"/>
- </tileset>
- <layer id="11" name="Base" width="30" height="26">
+ <layer id="9" name="Base" width="30" height="20">
   <data encoding="base64" compression="zlib">
-   eJxjYBgFo2AUkAtOMDEw3GKiv523aWgnzE/omBZ2nqCx+QNlF7J99LCL3vYN53hDtvcNnfM2st0DBQba7pEU5hc5IRhm/0D7/TLnwNpPLwALd2Q80PEPAwOZ/wi5AQCuKC/B
+   eJxjYCAMTjCh0uQCdP3IfFxsYsyhxA3UANQKH2q5Y6TaP9BuQE4HgyEs6AGo6U96hRk2e6htN73KM3L0U8Ov2NI4PcKVEBgp+W4UDA0AAG73F60=
   </data>
  </layer>
- <layer id="1" name="Ground" width="30" height="26">
+ <layer id="1" name="Ground" width="30" height="20">
   <data encoding="base64" compression="zlib">
-   eJzt1V0KhCAUBWC5b21g3NrsaFrRrKHXaAnzNJArEKIcEsw5V/OnnhQORISf3ms1dkKMLS0tWfmS+I0r5h4Ix5ozXbsnNBTVdX1rpv8oquNylgJmDdf1kFXb9T3OquGiWqqIlevGzghyp67c1dv9z4Ofo9RdAnXWgfqVuOa5KdJbXeAuINaMuVzNORfNz+XM+6P3uZCbYqW4LynEUx73rpw95iblu2H+KXo/i8a/y/Vrb6/vcHt5jOmBu4az68jdr9v/XuJehNZQ6vr992PW8AZZAfmukVw=
+   eJy9VUkOwjAMRL1x4Q7/fwNfgBw5ln6gJfQFVBWN2ohhmGwFcRhVsh2P7YzTsdpsRsBZoJtwnXATPjvhDuhFTB047/Oyz9ubJWcNcRibqtuK8x3kZZ+390tO7u1UMB8+byAv+7z9sn0Be+P+uV41X3/WUF7MzXYG98/18nyRX/GWAPtX9Sp+hwfFHasZ39QSqg/n0yzcjmsgDf+aG+fD+2bgjkry+Tnlzkrtao6mELxPfHcKaldj/Sj7IHY4xR3bVdWP10KIL5c7Z1dT+UPv1Vp9ssbVGx7iwjmu1Yqp3t+jWtRgqs87K9WnA/8f8D2yooamgKuN+Pj/ENKFjcQovjbBm6s5H1fC6TDuy+9gDZh3d5i53fdfnA5PSEQH+g==
   </data>
  </layer>
- <layer id="3" name="Objects" width="30" height="26">
+ <layer id="2" name="Objects" width="30" height="20">
   <data encoding="base64" compression="zlib">
-   eJyNVruKFEEUbSvYFbPuAacZmM0FAzEQxU/QD9DYWGTYQBORMXFYMBfB39BfUD+gmdxQJliZ57Kw9rHrUKfu3HbnQFGPrrrn3lO3qnozLoptW87b8kfqTRwH2K4GXVm27ZXMYb+vBrBO7aC+KFMJg64GzsUPjDXRhoWu5/wwyH1vIh/GOWcpvnFs3pZJVRQPT/Z5aG8+Tv4ph9omtI/2rkxrplXXt2sA+tXE2FVDhaeJ1R0cGqPyqV3EtS73fYefdq7VxOYL49qO9+NrjG72u9XR5lcTbWp8x1W3b8yfldGNNjy9sI4xKqxemjermGPEqC6KJ/W+DpgzN2dgKbYmVR7jg5M8j1HTtlee1klTnoFJzKtDoOeL7dfDongzTLb7cGPQxfSjLT+dPGXb3gV6Rtke1dfzEWch3RteTqreyj2PuTJy9CO4p7OQ8wGfQ8or7wzZswBba+GzXLA7DfnYp9DpSj7gTvBzd+Pk5q6H78zwbEq//yLkY9451Lvkf1pqDIsYF+2/Mv6cSh+a8I5lfVT1c8E24wuiHfxfhNz+O9FXzy+wNppwX++2XN+Mv4gDthnfe/n+Mn6jPau1x6V8u/gOPh924+RGjKeSiwrE9DYknYl/72CZ/HsU6yuzHvOm8f780PI+E+5ft/N5NiaMLYx9D8rJfaU96mG5NT4PC5lD+5c9d99lmd8V+p7wTSH315DH/lF44KvV7zrYO7GJ95Hegffa9vdol7F/CR3XsfM+9eGmM9feTReikWoOMHZPR47d79kPQv+79O21dyW4Z5GfsYOfPni41aOF9Rf/cN774P2XbqM/M9l/zw9yHBkfVvHt9vD7wLcY5151UD/6tND/ae//HT7pd8D2OfdxfXj5C7NhhAw=
+   eJyNVV1Kw0AQXhapgvqQiqkVegBP0Ec9UI/gDfzpAdrqKUpuUqU+CklaURB8EmrcsRn2y2R26wdLyu7OzDffzkyNMWZmjblwi1DVX8Zx17Twk7T3dtkgKrBHX5Xi90bw4Tsbtz8O8Nb8DLrN71en7Rsxqc/GkTuDQJ4bsLkX9nv73jdhVP8eWp8D2T/a7R4CtQppTJzI/sF6G/L7lBqzSjy3qW1qVoLvldDvVtEgph1zy52ftYu7EOslbcdgFMDxGrQhEF8+D2mTuf3XdHtvDhpktQaMo3PH062lwi+2iDu+711EBwbFzZP2HiOkfZE07zNnij+DuKy3rHuy+Tz1fsg3xiXkoBP7Ia2ojkrlPoF4yDlB4Bp+VnR7A/4xZNZzZ95SO+471p41Y67y3Rlzq/dsBbWj1etCaDATvaNpFEKobzOlFzlv1pX0WApNMadQHUjsmt/aO0lt/4MQD5wdHItye0+8TQFvSnow55DP0CxmkIYT0JHR6Rlz0Gvmq/UJ+gkBdcV5XirxDt36djGSk3afa6A72P/IZbTjTToQ78x9+5Av19gaZtuw/l+VPY5zhO7J/5Aczv/up9uYFA8Rqi0J2fcShXLOuZaRnvzo+9l26ermquu11b5sE/PH+spcfwHwvLYD
   </data>
  </layer>
- <layer id="4" name="Above" width="30" height="26">
+ <layer id="3" name="Above" width="30" height="20">
   <data encoding="base64" compression="zlib">
-   eJy1VktOwzAU7BGgSNmlCxaIC7CGq3IMOECVawRaNduaULbUSkYM03GcpO1IlvN5zzPPeX4vTblIoi678dHbrAds2Qf2u+PcGF/YbPqxJZ6qtwuGC+vBJvowh/LrfW10OZ8I6IJu3APBxKW+7MMxMh/bVLKW6lINHAtsObZa3gFrY6fxu+/Ie1KXXg+A57DBGmNySDXoHBK8nK8cXyVaN2ZPYP+08twaK/vvJ8T1PbDPeh3jbMv/PvvyL/c+i07T23G8m3zi88VzilPXd/gqOt7G8AG838ytsTvEtVPPEa/q1hxrTT7nuHK8Lnd3iTM9hSvHq+dQ62WOby4vvhVqUpvZT+Wby8tI1Re33iV4h+rZNXlziHaH28vxhuK014zRcA5v6J/z/g7V1Km8IbOX2o/iWeb/iFTNc7w5Lgft02OR4rq/G/bj/y7uvVorr4nHlT9T2pOg5fVmPteWerfDg3n3U3bjXEA/f1/MURO/V/sI2PIYmyes3/13anx6j36v8/NysXhZnvL9AoZBRrM=
+   eJy1VEkOwjAMjDhTJIRUqfn/H/hNL/ygvRZULGQRhQwep8lc6jiNZ7wkIfxiGQtOBx4Hz9fG8uhGcdXfMgfFOtq83tozOuUfFLe218w5Rts2hfCc2vLeT3y8GiDNK9CG/C10CPI6W7PkrTlCHr/HnfmHnneV4T36TlrI+9SLT+az1UxYSHuV982jgX33FAuwBefIcWpMSyfiLaFXvhbYWjMz551L5Z4L/LqHvrOxxyDNG9Uh9V/ix5Y5Efv1tof4Xcve9Vbm2gESbl5a
   </data>
  </layer>
- <layer id="5" name="Top" width="30" height="26">
+ <layer id="4" name="Walkable" width="30" height="20" visible="0">
   <data encoding="base64" compression="zlib">
-   eJxjYMAPHskSUEAheIrDfA054vTT2n0jHajhiQdahr0pHnufUMFeXOlusICHstQJX2z+pJff0ePpBJ3sfUjHuH1B53QEs+8Hje1Fjyta2zcKRi44JgvBAwkGWzvisRjlZuCru2kJ8NXduMBzWfqXpdQEzwm4HV0enQ+qs2CY3uAj0M5PRNoLAOizIV8=
+   eJztk8ENACAIA53C/VdiI+PPh0oLlZdNSExQryBab81+lMVUJp/h7u6+ScVkpeiPV2vGY1Ufqrjs2SjXm8Uo29uD+ka8M1zFezF5Ffc1b73/tH7Nrar3JoaLePHEzhv6Hxgm6jUrtFfKudrFADRkYOE=
   </data>
  </layer>
- <layer id="6" name="Walkable" width="30" height="26" visible="0">
-  <data encoding="base64" compression="zlib">
-   eJzFlV0KgDAMg3cK73+l3Uh8Lf350m4YGCgjTVI7t5+1drI+ZPtkRTUieNwKnlb0XPkkfmyG7L3qB9HyPGU+6ffwalXZMq0oL82mzp3CpVA0My1lbqrMWUbrRclIaipZswx0rrv86Xfr9orU6cxiNefkLChzH3HVXnZhNYm/iR7xYfVugPT1D9zQns7+CV3l/JzS7f6XTutSbteDcgdE3IiveFDvB1JLPZ9Kv6v96bJ1aF2LF0rcPMk=
-  </data>
- </layer>
- <objectgroup id="7" name="Mapevents" visible="0">
-  <object id="1" name="north" type="mapchange" x="800" y="0" width="32" height="32">
+ <objectgroup id="5" name="Mapevents">
+  <object id="1" name="south" type="mapchange" x="128" y="608" width="64" height="32">
    <properties>
-    <property name="map" value="sullengard_woods1"/>
-    <property name="place" value="southeast"/>
+    <property name="map" value="waterway1"/>
+    <property name="place" value="north"/>
    </properties>
   </object>
-  <object id="2" name="west" type="mapchange" x="0" y="480" width="32" height="64">
+  <object id="2" name="east" type="mapchange" x="928" y="288" width="32" height="96">
    <properties>
-    <property name="map" value="sullengard_woods14"/>
-    <property name="place" value="east"/>
+    <property name="map" value="waterway2"/>
+    <property name="place" value="north"/>
    </properties>
   </object>
-  <object id="3" name="south1" type="mapchange" x="384" y="800" width="32" height="32">
+  <object id="3" name="north" type="mapchange" x="64" y="96" width="32" height="32">
    <properties>
-    <property name="map" value="sullengard_woods2"/>
-    <property name="place" value="north1"/>
+    <property name="map" value="pwcave0"/>
+    <property name="place" value="south"/>
    </properties>
   </object>
-  <object id="4" name="south2" type="mapchange" x="512" y="800" width="32" height="32">
+  <object id="4" name="sign_waterway3" type="sign" x="256" y="256" width="32" height="32"/>
+ </objectgroup>
+ <objectgroup id="6" name="Spawn" visible="0">
+  <object id="5" name="izthiel_3" type="spawn" x="32" y="416" width="160" height="160">
    <properties>
-    <property name="map" value="sullengard_woods2"/>
-    <property name="place" value="north2"/>
+    <property name="quantity" value="2"/>
+    <property name="spawngroup" value="izthiel_3"/>
    </properties>
   </object>
-  <object id="5" name="jackal_defeted_script_10" type="script" x="288" y="64" width="192" height="224">
+  <object id="6" name="izthiel_3_1" type="spawn" x="256" y="576" width="64" height="32">
    <properties>
-    <property name="when" value="step"/>
+    <property name="spawngroup" value="izthiel_3"/>
+   </properties>
+  </object>
+  <object id="7" name="izthiel_3_2" type="spawn" x="544" y="576" width="64" height="32">
+   <properties>
+    <property name="spawngroup" value="izthiel_3"/>
+   </properties>
+  </object>
+  <object id="8" name="iqhan_1" type="spawn" x="128" y="160" width="96" height="32">
+   <properties>
+    <property name="spawngroup" value="iqhan_1"/>
+   </properties>
+  </object>
+  <object id="9" name="izthiel_3_3" type="spawn" x="672" y="448" width="256" height="192">
+   <properties>
+    <property name="quantity" value="2"/>
+    <property name="spawngroup" value="izthiel_3"/>
    </properties>
   </object>
  </objectgroup>
- <objectgroup id="8" name="Spawn" visible="0">
-  <object id="6" name="sullengard_west_ravine_gj_spawn" type="spawn" x="352" y="128" width="64" height="96">
+ <objectgroup id="7" name="Spawn2" visible="0">
+  <object id="10" name="frog_3" type="spawn" x="256" y="96" width="640" height="544">
    <properties>
-    <property name="active" value="false"/>
-    <property name="spawngroup" value="golden_jackal"/>
-   </properties>
-  </object>
-  <object id="7" name="sull_red_forest_snake_spawn1" type="spawn" x="64" y="736" width="288" height="64">
-   <properties>
-    <property name="quantity" value="3"/>
-    <property name="spawngroup" value="sull_red_forest_snake"/>
-   </properties>
-  </object>
-  <object id="8" name="sull_red_forest_snake_spawn2" type="spawn" x="32" y="576" width="32" height="192">
-   <properties>
-    <property name="quantity" value="2"/>
-    <property name="spawngroup" value="sull_red_forest_snake"/>
-   </properties>
-  </object>
-  <object id="9" name="sull_red_forest_snake_spawn3" type="spawn" x="32" y="256" width="416" height="32">
-   <properties>
-    <property name="quantity" value="3"/>
-    <property name="spawngroup" value="sull_red_forest_snake"/>
-   </properties>
-  </object>
-  <object id="10" name="sull_red_forest_snake_spawn4" type="spawn" x="32" y="32" width="192" height="32">
-   <properties>
-    <property name="spawngroup" value="sull_red_forest_snake"/>
-   </properties>
-  </object>
-  <object id="11" name="sull_red_forest_snake_spawn5" type="spawn" x="672" y="96" width="128" height="32">
-   <properties>
-    <property name="spawngroup" value="sull_red_forest_snake"/>
-   </properties>
-  </object>
-  <object id="12" name="flying_tree_ant_spawn1" type="spawn" x="800" y="160" width="128" height="96">
-   <properties>
-    <property name="quantity" value="2"/>
-    <property name="spawngroup" value="flying_tree_ant"/>
-   </properties>
-  </object>
-  <object id="13" name="sull_forest_tree_fungus_spawn1" type="spawn" x="64" y="544" width="160" height="64">
-   <properties>
-    <property name="quantity" value="2"/>
-    <property name="spawngroup" value="sull_forest_tree_fungus"/>
-   </properties>
-  </object>
-  <object id="14" name="sull_forest_tree_fungus_spawn2" type="spawn" x="224" y="192" width="128" height="32">
-   <properties>
-    <property name="spawngroup" value="sull_forest_tree_fungus"/>
-   </properties>
-  </object>
-  <object id="15" name="sull_forest_tree_fungus_spawn3" type="spawn" x="448" y="192" width="96" height="32">
-   <properties>
-    <property name="spawngroup" value="sull_forest_tree_fungus"/>
-   </properties>
-  </object>
-  <object id="16" name="sull_forest_tree_fungus_spawn4" type="spawn" x="512" y="96" width="128" height="32">
-   <properties>
-    <property name="spawngroup" value="sull_forest_tree_fungus"/>
-   </properties>
-  </object>
-  <object id="17" name="huckleber_reaper_spawn1" type="spawn" x="384" y="32" width="256" height="32">
-   <properties>
-    <property name="quantity" value="3"/>
-    <property name="spawngroup" value="huckleber_reaper"/>
-   </properties>
-  </object>
-  <object id="18" name="sull_forest_tree_fungus_spawn5" type="spawn" x="128" y="320" width="96" height="32">
-   <properties>
-    <property name="spawngroup" value="sull_forest_tree_fungus"/>
+    <property name="quantity" value="4"/>
+    <property name="spawngroup" value="frog_3"/>
    </properties>
   </object>
  </objectgroup>
- <objectgroup id="9" name="Keys"/>
- <objectgroup id="10" name="Replace"/>
+ <objectgroup id="8" name="Keys"/>
 </map>
