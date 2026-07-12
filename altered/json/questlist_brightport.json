@@ -785,5 +785,86 @@
                 "logText":"package given "
             }
         ]
+    },
+    {
+        "id":"brightport_bakery",
+        "name":"Bread and circus",
+        "showInLog":1,
+        "stages":[
+            {
+                "progress":1,
+                "logText":"I've started some work for Allares at the bakery in Brightport. He asked me to help Delon down in the storage area."
+            },
+            {
+                "progress":5,
+                "logText":"I spoke with Delon and he's a real slacker. He wants me to do all sorts of work, all by myself."
+            },
+            {
+                "progress":10,
+                "logText":"He told me to start by sweeping the floor, and to do that I must find a broom."
+            },
+            {
+                "progress":15,
+                "logText":"The floor's all swept. I did it all by myself. Delon's \"help\" was more of a nuisance."
+            },
+            {
+                "progress":16,
+                "logText":"No wonder it got so quiet. Delon disappeared to sleep on some sacks. And now I have a new task, to sift through some flour."
+            },
+            {
+                "progress":19,
+                "logText":"I've sifted through all of the flour."
+            },
+            {
+                "progress":20,
+                "logText":"One last errand. An apple delivery hasn't arrived. I should ask Allares about it."
+            },
+            {
+                "progress":22,
+                "logText":"Allares refuses to accept my help until I prove my capabilities by bringing him one piece of meat."
+            },
+            {
+                "progress":23,
+                "logText":"After bringing the deer meat to Allares, he accepted my help, I should speak to Eatloni outside."
+            },
+            {
+                "progress":25,
+                "logText":"According to Eatloni, the order of 30 apples never arrived. I should visit Deebo's Orchard to check if the order had been picked up."
+            },
+            {
+                "progress":30,
+                "logText":"I went to see Deebo at the orchard. Apparently the merchant sent by Eatloni already picked up the apples."
+            },
+            {
+                "progress":35,
+                "logText":"I found some half-eaten apples in the woods north of the Duleian road."
+            },
+            {
+                "progress":40,
+                "logText":"I found two crates of apples. One was intact, but the other was empty. Did the mountain cats attack the merchant for food to feed their cubs?"
+            },
+            {
+                "progress":45,
+                "logText":"I paid for a new shipment out of my own pocket. Deebo promised to hurry his workers and get them picked quickly. I should receive them from the orchard supervisor."
+            },
+            {
+                "progress":50,
+                "logText":"I received the apples from Alduan."
+            },
+            {
+                "progress":60,
+                "logText":"I brought the apples back to Eatloni. He reimbursed me for half the cost. Time to let Allares know I'm done with everything."
+            },
+            {
+                "progress":65,
+                "logText":"I brought the apples back to Eatloni. Time to let Allares know I'm done with everything."
+            },
+            {
+                "progress":70,
+                "logText":"I completed all the tasks at the bakery.",
+                "rewardExperience":10000,
+                "finishesQuest":1
+            }
+        ]
     }
 ]

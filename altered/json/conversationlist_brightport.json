@@ -288,5 +288,132 @@
                 "value":129
             }
         ]
+    },
+    {
+        "id":"brightport_othinus_1",
+        "message":"I'm in the middle of an important ritual. If you require something, please consult with my steward, Stiyl.",
+        "switchToNPC":"brightportpriest",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brightport_nondisplay",
+                "value":5
+            }
+        ]
+    },
+    {
+        "id":"brightport_mayor",
+        "message":"I'm Rubiano, the Doughe of Brightport, speak up.",
+        "replies":[
+            {
+                "text":"Have you seen my brother Andor?",
+                "nextPhraseID":"brightport_mayor0",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"andor_ending",
+                        "value":900,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "text":"What's the history of the town?",
+                "nextPhraseID":"brightport_mayor5"
+            },
+            {
+                "text":"What's a doughe?",
+                "nextPhraseID":"brightport_mayor1"
+            },
+            {
+                "text":"Can you give Freya permission to sell me better equipment?",
+                "nextPhraseID":"brightport_mayor8",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_nondisplay",
+                        "value":236
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"brightport_mayor2",
+        "message":"Haha, think nothing of it! We're Brightporters, like any other. So, what brings you here?",
+        "replies":[
+            {
+                "text":"Have you seen my brother Andor?",
+                "nextPhraseID":"brightport_mayor0",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"andor_ending",
+                        "value":900,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "text":"What's the history of the town?",
+                "nextPhraseID":"brightport_mayor5"
+            }
+        ]
+    },
+    {
+        "id":"brightport_delon16",
+        "message":"Hmm, I think that was all of it. I would make you peel apples but I don't see any fresh apples from the orchard around, which is odd because they were supposed to be delivered already.",
+        "replies":[
+            {
+                "text":"Can you tell me more about it?",
+                "nextPhraseID":"brightport_delon17"
+            }
+        ]
+    },
+    {
+        "id":"brightport_allares6",
+        "message":"Yes it should have arrived quite a while ago, usually they are on time. That is terrible for today of all days as we have a big order to fulfill in the next few days.",
+        "replies":[
+            {
+                "text":"I could go help look for it.",
+                "nextPhraseID":"brightport_allares7"
+            }
+        ]
+    },
+    {
+        "id":"brightport_allares7",
+        "message":"Hmm, maybe you could. But I'm a little hesitant. If the merchant went missing, that could mean danger, and I don't want to be responsible for you.",
+        "replies":[
+            {
+                "text":"Don't worry, I'm an experienced adventurer.",
+                "nextPhraseID":"brightport_allares8"
+            }
+        ]
+    },
+    {
+        "id":"brightport_storemaster5",
+        "message":"But it's not about the gold this time, we need them for an order and we can't be late ourselves. It would be nice if you could visit Deebo's Orchard south of the Duleian Road to see if the order of thirty apples has been picked up. ",
+        "replies":[
+            {
+                "text":"Sure, can do.",
+                "nextPhraseID":"X"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brightport_bakery",
+                "value":25
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brightport_nondisplay",
+                "value":213
+            }
+        ]
+    },
+    {
+        "id":"brightport_smugglersign",
+        "message":"DANGER, do not go past this sign!"
     }
 ]
