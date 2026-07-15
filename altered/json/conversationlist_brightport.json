@@ -415,5 +415,55 @@
     {
         "id":"brightport_smugglersign",
         "message":"DANGER, do not go past this sign!"
+    },
+    {
+        "id":"brightport_bryma29",
+        "message":"Not to mention that the origin of those bones could have very well have been human. There have been stories of such things having been done, especially during plagues...",
+        "replies":[
+            {
+                "text":"I thought we would be talking about your research?",
+                "nextPhraseID":"brightport_bryma30"
+            }
+        ]
+    },
+    {
+        "id":"brightport_stanwick_andor8",
+        "message":"What this Lodar man told you lines up with what I've said, without a doubt, there is a connection. I don't know who Lady Lydalon is, but I doubt they'll let you meet her so easily The high priest of Nor City, of all places.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_stanwick_andor9"
+            }
+        ]
+    },
+    {
+        "id":"brightport_lizard0",
+        "message":"As you walk down the cave tunnel, you abruptly stop in your tracks as you notice a mysterious creature standing a stone's throws away from you.",
+        "replies":[
+            {
+                "text":"[Lunge towards it with your weapon.]",
+                "nextPhraseID":"brightport_lizard1"
+            },
+            {
+                "text":"Hey!",
+                "nextPhraseID":"brightport_lizard1"
+            }
+        ]
+    },
+    {
+        "id":"brightport_slaincheck3",
+        "message":"With this, the whole tribe is wiped out. I should return and tell Bryma.",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brightport_nondisplay",
+                "value":120
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brightport_lizard",
+                "value":35
+            }
+        ]
     }
 ]
