@@ -1,0 +1,16 @@
+[
+    {
+        "id":"brightport_bonemeal",
+        "iconID":"items_newb:739",
+        "name":"Essence concentrate potion",
+        "displaytype":"rare",
+        "category":"pot",
+        "description":"Concentrated bonemeal infusion, a true alchemical masterpiece. Much more potent than a normal potion.",
+        "useEffect":{
+            "increaseCurrentHP":{
+                "min":80,
+                "max":80
+            }
+        }
+    }
+]

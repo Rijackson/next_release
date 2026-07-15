@@ -1,0 +1,30 @@
+[
+    {
+        "id":"sullengard_dark_beer_sour",
+        "iconID":"items_tometik1:9",
+        "name":"Dark Beer Sour",
+        "displaytype":"ordinary",
+        "category":"drink",
+        "description":"Not for the faint of heart, but the Bruyere family takes pride in it.",
+        "useEffect":{
+            "increaseCurrentHP":{
+                "min":10,
+                "max":15
+            },
+            "conditionsSource":[
+                {
+                    "condition":"food",
+                    "magnitude":2,
+                    "duration":3,
+                    "chance":"100"
+                },
+                {
+                    "condition":"intoxicated",
+                    "magnitude":2,
+                    "duration":5,
+                    "chance":"70"
+                }
+            ]
+        }
+    }
+]
