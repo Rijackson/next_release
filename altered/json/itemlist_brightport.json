@@ -12,5 +12,39 @@
                 "max":80
             }
         }
+    },
+    {
+        "id":"brightport_kingarmor",
+        "iconID":"items_tometik2:77",
+        "name":"King's hide",
+        "displaytype":"extraordinary",
+        "hasManualPrice":1,
+        "baseMarketCost":4792,
+        "category":"bdy_hide",
+        "description":"Torn off the Lizard king's body, the beast had lived for decades and its scales have grown thick.",
+        "equipEffect":{
+            "increaseMaxHP":5,
+            "increaseAttackChance":10,
+            "increaseCriticalSkill":8,
+            "increaseBlockChance":15,
+            "increaseDamageResistance":4
+        }
+    },
+    {
+        "id":"brightport_ring",
+        "iconID":"items_newb:259",
+        "name":"Stanwick's signet ring",
+        "displaytype":"quest",
+        "category":"ring",
+        "equipEffect":{
+            "increaseAttackDamage":{
+                "min":1,
+                "max":3
+            },
+            "increaseAttackChance":15,
+            "increaseCriticalSkill":3,
+            "increaseBlockChance":10,
+            "increaseDamageResistance":1
+        }
     }
 ]
