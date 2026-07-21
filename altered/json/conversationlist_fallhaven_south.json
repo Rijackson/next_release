@@ -1,0 +1,27 @@
+[
+    {
+        "id":"fallhaven_lumberjack_14",
+        "message":"Have you made any progress in finding my precious axe?",
+        "replies":[
+            {
+                "text":"Hello again! I've finally found your axe!",
+                "nextPhraseID":"fallhaven_lumberjack_10",
+                "requires":[
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"jakrar_axe",
+                        "value":1
+                    }
+                ]
+            },
+            {
+                "text":"No I haven't. But I'm working on it.",
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"Nope, But I am wondering if you have anything for sale that would help me find your axe?",
+                "nextPhraseID":"S"
+            }
+        ]
+    }
+]
