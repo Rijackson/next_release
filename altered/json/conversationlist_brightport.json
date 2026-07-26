@@ -465,5 +465,22 @@
                 "value":35
             }
         ]
+    },
+    {
+        "id":"brightport_bryma19",
+        "message":"To my amazement, the bread rose to nearly triple its size! That's when I brought it to the Headmaster's attention. It was very well received, and I was rewarded with a specially made bonemeal potion from his collection.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_bryma20"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brightport_nondisplay",
+                "value":257
+            }
+        ]
     }
 ]

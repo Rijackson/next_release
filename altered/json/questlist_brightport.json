@@ -783,6 +783,14 @@
             {
                 "progress":256,
                 "logText":"package given "
+            },
+            {
+                "progress":257,
+                "logText":"bonemeal helps breads"
+            },
+            {
+                "progress":258,
+                "logText":"chocolate pastries, yum."
             }
         ]
     },
