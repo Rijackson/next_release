@@ -28,10 +28,10 @@
     },
     {
         "id":"brightport_catestash2",
-        "message":"You take the bag out and open it to reveal 500 coins and a note. \n\nThe note reads: \"To B and B. The goods were of sufficient quality this time, I'll arrange for a boat next so we can haul more - Cate\"",
+        "message":"You take the bag out and open it to reveal 500 coins and a note. \n\nThe note reads: \"To B and D. The goods were of sufficient quality this time, I'll arrange for a boat next so we can haul more - Cate\"",
         "replies":[
             {
-                "text":"Some easy gold, who doesn't love that. [Take the gold]",
+                "text":"Some easy gold, who doesn't love that. [Take the gold.]",
                 "nextPhraseID":"brightport_catestash3"
             }
         ]
@@ -41,7 +41,7 @@
         "message":"You take the 500 gold.",
         "replies":[
             {
-                "text":"Time to leave this place.",
+                "text":"Time to go.",
                 "nextPhraseID":"X"
             }
         ],
