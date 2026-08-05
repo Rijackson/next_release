@@ -482,5 +482,45 @@
                 "value":257
             }
         ]
+    },
+    {
+        "id":"brightport_silvear_1",
+        "message":"I specialize in trading information, rumors, stories, and the like. Not something I could sell to a kid like you.  ",
+        "replies":[
+            {
+                "text":"It happens that I'm interested in the local guard commander. Can you tell me anything about him?",
+                "nextPhraseID":"brightport_silvear0",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_nondisplay",
+                        "value":132
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_goons",
+                        "value":40,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_nondisplay",
+                        "value":139,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_goons",
+                        "value":30
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_goons",
+                        "value":80,
+                        "negate":true
+                    }
+                ]
+            }
+        ]
     }
 ]

@@ -9,5 +9,23 @@
                 "nextPhraseID":"korhald_chest_examine_20_gylew"
             }
         ]
+    },
+    {
+        "id":"lae_centaur9_112",
+        "message":"Do that."
+    },
+    {
+        "id":"lae_centaur9_1b",
+        "message":"Understand our ways? Humans have never cared to understand us. They see us as nothing more than beasts of burden.",
+        "replies":[
+            {
+                "text":"Half breeds you mean.",
+                "nextPhraseID":"lae_centaur9_1z"
+            },
+            {
+                "text":"I'm not like other humans. I respect your kind and wish to prove it.",
+                "nextPhraseID":"lae_centaur9_8"
+            }
+        ]
     }
 ]

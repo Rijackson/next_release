@@ -874,5 +874,158 @@
                 "finishesQuest":1
             }
         ]
+    },
+    {
+        "id":"brightport_thieves",
+        "name":"Boxed in",
+        "showInLog":1,
+        "stages":[
+            {
+                "progress":10,
+                "logText":"The Thieves Guild was due to receive a package, but the guards in Brightport have been impeding their activities. They need a new face like me to pick the package up discretly. I was told to head east of the town."
+            },
+            {
+                "progress":20,
+                "logText":"I met the courier from Nor City inside the house."
+            },
+            {
+                "progress":30,
+                "logText":"Before we could conclude the meeting we heard the town guard making noise outside."
+            },
+            {
+                "progress":32,
+                "logText":"I received the package."
+            },
+            {
+                "progress":35,
+                "logText":"Thanks to some previous interactions I've had with the commander, I convinced the guards to let me go."
+            },
+            {
+                "progress":40,
+                "logText":"I couldn't fool the guards and got caught."
+            },
+            {
+                "progress":45,
+                "logText":"I managed to hide inside a crate and waited. Eventually, the guards left. "
+            },
+            {
+                "progress":50,
+                "logText":"I delivered the package to Elysa, She was pleased with my work and said the Thieves Guild may have further opportunities for me in the future.",
+                "rewardExperience":3000,
+                "finishesQuest":1
+            },
+            {
+                "progress":60,
+                "logText":"I lied to Gunfryk in a plot to kill him, and in the process the courier I was supposed to meet got arrested.",
+                "finishesQuest":1
+            },
+            {
+                "progress":70,
+                "logText":"I failed to deliver the package to Elysa. She was not happy.",
+                "rewardExperience":2000,
+                "finishesQuest":1
+            }
+        ]
+    },
+    {
+        "id":"brightport_lizard",
+        "name":"The balance of scales",
+        "showInLog":1,
+        "stages":[
+            {
+                "progress":1,
+                "logText":"In the rundown mysterious basement behind Bryma's house, I encountered a humanoid green creature that fled beyond a pile of cave rubble."
+            },
+            {
+                "progress":5,
+                "logText":"When I questioned Bryma about the creature, she explained that lizardmen live in the caves beneath her house and have been bothering her for some time."
+            },
+            {
+                "progress":10,
+                "logText":"I agreed to help Bryma with her problem. She shared the activation phrase for another statue leading deeper into the forest."
+            },
+            {
+                "progress":15,
+                "logText":"After navigating through the caves, I reached an open chamber beyond the rubble, where I found the lizardman again."
+            },
+            {
+                "progress":20,
+                "logText":"The lizardman regarded me suspiciously, calling me an intruder. He claimed Bryma had been stealing bones from their ancestral tomb, which his people were trying to recover."
+            },
+            {
+                "progress":25,
+                "logText":"I attacked the lizardman, but my attack merely grazed it, before it fled deeper into the caves."
+            },
+            {
+                "progress":30,
+                "logText":"I tried to calm Emyro's worries. He hesitated but told me to visit their leader before disappearing into the shadows."
+            },
+            {
+                "progress":32,
+                "logText":"I tracked down and killed the lizardmen's leader, Elyzard."
+            },
+            {
+                "progress":35,
+                "logText":"I killed the rest of those slimy lizards. Bryma can now rest free."
+            },
+            {
+                "progress":36,
+                "logText":"I received a reward from Bryma for getting rid of the creatures.",
+                "rewardExperience":12000,
+                "finishesQuest":1
+            },
+            {
+                "progress":40,
+                "logText":"To earn the trust of the tribe's leader, Elyzard. I swore to return the 13 stolen bones."
+            },
+            {
+                "progress":50,
+                "logText":"To my astonishment, I discovered that Bryma had ground the bones into dust for her research and fertilizer experiments."
+            },
+            {
+                "progress":55,
+                "logText":"Bryma suggested I retrieve replacement bones from other sources. She advised hunting the hostile red lizardmen in the nearby area until I could gather the required amount."
+            },
+            {
+                "progress":60,
+                "logText":"I delivered the bones to Elyzard, who acknowledged my effort but requested one more task. He instructed me to visit the Shadow Chaplain's cave for further guidance."
+            },
+            {
+                "progress":65,
+                "logText":"From Dominio, the Shadow chaplain, I learned that beasts of darkness were attacking the tribe from an ancient ruin on the western side of the cave."
+            },
+            {
+                "progress":70,
+                "logText":"To stop the attacks, I was tasked with destroying two crystals within the ruins by chanting the phrase \"Kazaul thu'um kha'zan\" before striking them."
+            },
+            {
+                "progress":75,
+                "logText":"I destroyed the first crystal."
+            },
+            {
+                "progress":80,
+                "logText":"I destroyed the second crystal."
+            },
+            {
+                "progress":90,
+                "logText":"Elyzard recognized my effort, and rewarded me with a trinbal artifact."
+            },
+            {
+                "progress":95,
+                "logText":"I offered the lizardmen a deal of cooperation to supply Bryma with animal bones as a sign of mutual respect."
+            },
+            {
+                "progress":100,
+                "logText":"Bryma agreed to stop intruding on the lizardmen's tomb, as they promised to supply her with bones for her research.",
+                "rewardExperience":23000,
+                "finishesQuest":1
+            },
+            {
+                "progress":110,
+                "logText":"Bryma agreed to stop intruding on the lizardmen's tomb.",
+                "rewardExperience":15000,
+                "finishesQuest":1
+            }
+        ]
     }
 ]
