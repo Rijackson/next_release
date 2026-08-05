@@ -512,12 +512,6 @@
                         "requireType":"questProgress",
                         "requireID":"brightport_goons",
                         "value":30
-                    },
-                    {
-                        "requireType":"questProgress",
-                        "requireID":"brightport_goons",
-                        "value":80,
-                        "negate":true
                     }
                 ]
             }
