@@ -1,0 +1,25 @@
+[
+    {
+        "id":"brightport_lizard4",
+        "name":"Green-fang-tylmio",
+        "iconID":"monsters_johny:0",
+        "maxHP":250,
+        "moveCost":5,
+        "unique":1,
+        "monsterClass":"reptile",
+        "movementAggressionType":"helpOthers",
+        "attackDamage":{
+            "min":13,
+            "max":22
+        },
+        "faction":"lizardfight",
+        "phraseID":"brightport_genericlizard_selector",
+        "droplistID":"brightport_greenlizard",
+        "attackCost":5,
+        "attackChance":220,
+        "criticalSkill":10,
+        "criticalMultiplier":1.5,
+        "blockChance":180,
+        "damageResistance":4
+    }
+]

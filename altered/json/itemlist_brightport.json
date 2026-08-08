@@ -46,5 +46,22 @@
             "increaseBlockChance":10,
             "increaseDamageResistance":1
         }
+    },
+    {
+        "id":"brightport_dagger",
+        "iconID":"items_newb:484",
+        "name":"Hunter's knife",
+        "displaytype":"ordinary",
+        "category":"ssword",
+        "equipEffect":{
+            "increaseAttackDamage":{
+                "min":3,
+                "max":6
+            },
+            "increaseAttackCost":4,
+            "increaseAttackChance":16,
+            "increaseCriticalSkill":5,
+            "setCriticalMultiplier":1.5
+        }
     }
 ]
