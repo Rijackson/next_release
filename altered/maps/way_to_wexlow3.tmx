@@ -189,18 +189,11 @@
  <tileset firstgid="8153" name="map_plant_3" tilewidth="32" tileheight="32" tilecount="128" columns="16">
   <image source="../drawable/map_plant_3.png" width="512" height="256"/>
  </tileset>
- <tileset firstgid="8281" name="map_cavewall_1" tilewidth="32" tileheight="32" tilecount="108" columns="18">
-  <image source="../../../../../Project/Brightport/created/drawable/map_cavewall_1.png" width="576" height="192"/>
- </tileset>
  <layer id="1" name="Base" width="14" height="18">
-  <data encoding="base64" compression="zlib">
-   eJxjYCAMGhSIUAQFFzkhmBy9xNiLbj61AbqdyHxS/EJILbofSA0ncsKV2nrwxQMl8Y6sHxbf2OzCZT+ldhMDaJkGqQnQ3QkAppMS+Q==
-  </data>
+  <data encoding="base64" compression="zlib">eJxjYCAMTjARoQgKLnJCMDl6ibEX3XxqA3Q7kfmk+IWQWnQ/kBpO5IQrtfXgiwdK4h1ZPyy+sdmFy35K7SYG0DINUhOguxMARmkVRQ==</data>
  </layer>
  <layer id="2" name="Ground" width="14" height="18">
-  <data encoding="base64" compression="zlib">
-   eJydkkEOgjAQRSddkIALd1Z3XshD6hmMV2hdElbiAVwAF3Bh7MROnNYPqIufEPof/zPTuiSqJ3QxRIctkTepxvyFJbqtiDqD2aksVlNiVs4X4fuVxZywDuTx2cm81QBeZ4rvqDrsw/PV4L4umw97W/MSM0PG8YyYdZmfvX3UAHpKpvQ6K+8jao7xMUe8yI8Yn3XagD2M3ZmxDC3Ze6v4e5jT2uKswqY76NW9mcvS/8hzkB1+y3Enmd0vXD6nf7gOcLvqU/zeLlPfE6EuzH4=
-  </data>
+  <data encoding="base64" compression="zlib">eJydkjsOwjAQRFcuIiUUdBgOxXW5gkMZpSIcAEGSCyCE8EpesVnGCVBMY8/z7MdNSdTM6OSIblG1Uc5feKLLhqh3mJ3LYrUlZuV+Fd+vPOaEDYDju4N7qwW8zhTfQ711jTo7XG8wfbK3S2JmNBzPiNlg/OwdkkZQp2RKXUflfSYtMXXKES/yI6Y2Ne3AHnJ/JpehJXvvFH+Pc9p6nFX46Q4G9W+WsnSPPAfZ4bcc1ySz+4Wzc/qH6wG3rz7F53499b0AQQTOyg==</data>
  </layer>
  <layer id="3" name="Objects" width="14" height="18">
   <data encoding="base64" compression="zlib">

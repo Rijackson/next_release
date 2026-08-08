@@ -56,5 +56,102 @@
                 "nextPhraseID":"thoronir_shadow_score_low3"
             }
         ]
+    },
+    {
+        "id":"thoronir_start",
+        "message":"What can I do for you?",
+        "replies":[
+            {
+                "text":"What can you tell me about the Shadow?",
+                "nextPhraseID":"thoronir_shadow_1"
+            },
+            {
+                "text":"Can you tell me more about the church?",
+                "nextPhraseID":"thoronir_church_1"
+            },
+            {
+                "text":"Are the Bonemeal potions ready yet?",
+                "nextPhraseID":"thoronir_trade_bonemeal",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"bonemeal",
+                        "value":100
+                    }
+                ]
+            },
+            {
+                "text":"Do you have some special white powdered potions whose name must not be mentioned?",
+                "nextPhraseID":"thoronir_trade_bonemeal_a",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"bonemeal",
+                        "value":110
+                    }
+                ]
+            },
+            {
+                "text":"I really need your help!",
+                "nextPhraseID":"thoronir_guild_1",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"Thieves01",
+                        "value":45
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"bonemeal",
+                        "value":100
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"Thieves01",
+                        "value":50,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "text":"I need some help finding out who is responsible for casting a Shadow spell that causes a person to become noticeable.",
+                "nextPhraseID":"tt_thoronir_10",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"troubling_times",
+                        "value":50
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"troubling_times",
+                        "value":70,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "text":"I really need your help!",
+                "nextPhraseID":"thoronir_guild_1",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"Thieves01",
+                        "value":45
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"bonemeal",
+                        "value":110
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"Thieves01",
+                        "value":50,
+                        "negate":true
+                    }
+                ]
+            }
+        ]
     }
 ]

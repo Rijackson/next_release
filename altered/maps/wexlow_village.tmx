@@ -186,18 +186,13 @@
  <tileset firstgid="7609" name="map_tree_3" tilewidth="32" tileheight="32" tilecount="544" columns="32">
   <image source="../drawable/map_tree_3.png" width="1024" height="544"/>
  </tileset>
- <tileset firstgid="8153" name="map_cavewall_1" tilewidth="32" tileheight="32" tilecount="108" columns="18">
-  <image source="../../../../../Project/Brightport/created/drawable/map_cavewall_1.png" width="576" height="192"/>
- </tileset>
  <layer id="1" name="Base" width="30" height="15">
   <data encoding="base64" compression="zlib">
    eJxjYCAenGBiYLjMSYIGKgCQncj0QNhNDrhI53AiF4DcOZBuxWY3rd2Dbj4++2jlFpi51DafFL/RAgyVdA8CA+1WSvMercpEXOaCxJHl8NmPSx02Nro5A1HWAwD5ABpT
   </data>
  </layer>
  <layer id="2" name="Ground" width="30" height="15">
-  <data encoding="base64" compression="zlib">
-   eJy1lMFuwjAMhqMKTSoXDunCxAntFeA1Jt6WV+g4IhAS48CBXVCZdgG2aVKFTWrVA7ukAyp9SuM4/5+kbowxZhN5PoBJXDIGUoi9FvS6xqycH1tYmZemB3PofRyfk0eevZWZw9gb8NwtvVEzszKhvrS3h0QmK85izrxHwLIjo/nuHmVfTWdSnEkWlXtfAJ8wNmj6lhO6X/LWdH6d53i2rA40rTq+IZB3HpU1t3bXaV7Ctf72n9p67g9by9TK/GcNM3eur/FuZaTcuK2vvy5arUp1fQs/QqvVOhpbOB98sOXwnNA6Syv+B2JY5DQSGWnOF/h/V6zh1Bc9hizWD7ifpHmaHsVQl/qojw/dweRJffxOpMM5zauK8xj1Jc17QL4H/7ZkLw==
-  </data>
+  <data encoding="base64" compression="zlib">eJy1lMsKwjAQRUsRoW5cRKP4T+Lf9hfUZVEEdeFCN1rFjU8q4sR06KgzNfVROKSZTO5N0mk8z/PWvmUDDIKMCOhCrJeSAHNtx6aKp12xmBx8j4JXrr7loHjGMDYBVsTbaMaKx9UX91au8cTpWYyJdx+YtXgk332d95V0BumZxH629ymwhbFOxbYU1/2it6STaMv9bEkdSFpFfF1A76uf1dxSf6f5Dl197Dcbcu6ZrGWoeD5Zw0i/6kssFA+XGzTk9RdFqlWurn/hh0i1WkRjB+djHtNSaI5rnXVz/gckTHNKNR5uzhH8TzlrePY1HiGJXRzuJ26epIexC4kZffPgHYye2DffCXUoz3l5cRrDPqf5D9D3BmxRbiU=</data>
  </layer>
  <layer id="3" name="Objects" width="30" height="15">
   <data encoding="base64" compression="zlib">

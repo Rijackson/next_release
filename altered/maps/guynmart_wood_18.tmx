@@ -189,18 +189,13 @@
  <tileset firstgid="7737" name="map_tree_3" tilewidth="32" tileheight="32" tilecount="544" columns="32">
   <image source="../drawable/map_tree_3.png" width="1024" height="544"/>
  </tileset>
- <tileset firstgid="8281" name="map_cavewall_1" tilewidth="32" tileheight="32" tilecount="108" columns="18">
-  <image source="../../../../../Project/Brightport/created/drawable/map_cavewall_1.png" width="576" height="192"/>
- </tileset>
  <layer id="1" name="Base" width="30" height="30">
   <data encoding="base64" compression="zlib">
    eJztlkEKxDAIRUt2vf9deoXpLENXPUMvMWQhiKjV5Cer+RAKLfrij5HWffsrqMq8Ost4jlkxvXvLinNWMZFqvtK62CK/UfXJPJxbFa4Wi/C35ThKjDvC8MTZFcy2+KdT86y+pbzfgvM6G4vyOjr36JvFzXrt3QftPfeauDfw/niSNT+LZiPijCmmPaN7RXK5ovPD4/f67fUWrZmz09vH2xxB9RjVySW97s2bleb1bL51xohzjs5Oyc3cyx62xUXJY2vcFf+SkvsJ+DMiq6/euChFuT+r6ZuH
   </data>
  </layer>
  <layer id="2" name="Ground" width="30" height="30">
-  <data encoding="base64" compression="zlib">
-   eJy1lr9OAzEMxqNs7YLokC4g3avDK7TAxkrLhhhQga0SBbXlBVArat1Z9fk+J75KHaz7o7v84s/Ol4QQwsvAH68i+N1TDGHWM/owz8VdHJ7fm/gw5oS49N9t1R37XgXiXl3U102sw5PzcFw/r2M3Z/1M3El1us5eraUGfD+PdZyTqzVYNLXzcrk2dD8chZAO2v6lNvs7dWu8A1rPnNypGIdq89B8r9nE1fktR7jfSlw0V2JT7sRfKa5Haw9X5qrXAv0rc6a+HozxXPtw5bdToBPlvUzdnJGu0hPYF0pcS2vmay7Sld5tRGwB9yuVuczUWls1ptiLQL7xltq+Z3E5Z/p2pWpseWbOn39S2/dyY0wqW2sPO7eOUL203lrrXfSxS+u3xJXeSdxBZq+wuNxXj9fH9VPiUmwvj2zeo0r7Mqpvbv1aHoB8hNcu0junce4/7i3yD/Zu1GMbQ7Mcl//TniPnMRdX5Nl7o8dKPrmPXc/hcW6qo+9prqwz6jHERfOTnsPrhJhbwUX7I+3ZqMcQl8fN1XYtmFxr6V9Say+X2bq2OR9gzRGXzgC8Lp4LXO4JWducB82b/EvngU8HV/JlXRGbvUtz72LbA357cLX+1nkNcS3P4vH43O4J6zxwCrdP5M4DXu4/zf7g+w==
-  </data>
+  <data encoding="base64" compression="zlib">eJy1lr9OAzEMxqNs7YLokC7w/k8AbKz02BADKrBVovQfL3DtiVo9qz7fF8cH6mC1d7rkF392viSEEF5G/ngVwe+eYgizgTGEeSnu/Pj83sZHZk2IS+PWYO57FYh7c3X63cZTeHIeT0/Pm9jPWT8Tt/6Hzl6tpQb8v2rjklytwbytnZfLtaH/40kI6ahtnbrs79Sv8QFoPXNy9+J7qs1D+71mE1fnt5jgfitx0VrrNnfiLxXXo7WHK3PVe4HGypypr0dTvNYhXPntHoyjvBepnzPSVXoC+0KJm9Oa+ZqLdKV3WxE7wP1KZS4ztda5GlM0IpBvvKWu7+W4tRi7VDXOeablz6vU9T1rjtrQ2sO29hGql9Zba32IPnZp/5a40juJOzLOihyX++rx9rx/SlyK3fWZzWdU6VxG9bX2b84DkI/w3kV6Wxpb47i3yD/Yu1GPbTOaWVwepz1HrqMSv8izm0yPlXyyiX3P4XlW8ex7mivrjHoMcdH6pOfwPiHmTnDR+UhnNuoxxOV5rdpuBJNrLf1Lau3lMlvX1vIB1hxx6Q7A++K5wOWekLW1PKhq8y/dBz4dXMmXdUVs9i7NvYtdD/gZwNX65+5riJvzLJ6P7+2eyN0H/sIdEtZ9wMv9BUYv57U=</data>
  </layer>
  <layer id="3" name="Objects" width="30" height="30">
   <data encoding="base64" compression="zlib">

@@ -180,13 +180,8 @@
  <tileset firstgid="7481" name="map_window_2" tilewidth="32" tileheight="32" tilecount="128" columns="16">
   <image source="../drawable/map_window_2.png" width="512" height="256"/>
  </tileset>
- <tileset firstgid="7609" name="map_trail_1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
-  <image source="../../../Brightport/created/drawable/map_trail_1.png" width="512" height="256"/>
- </tileset>
  <layer id="1" name="Base" width="19" height="11">
-  <data encoding="base64" compression="zlib">
-   eJxjYBi6YKfsQLuANkCSZaBdgAASaG65LIbAlABs+okxE909pNpBDMBlBy7zAEM6B6c=
-  </data>
+  <data encoding="base64" compression="zlib">eJxjYBi64KLYQLuANkCSZaBdgAASaG65LIbAlABs+okxE909pNpBDMBlBy7zAG5JB7g=</data>
  </layer>
  <layer id="2" name="Ground" width="19" height="11">
   <data encoding="base64" compression="zlib">

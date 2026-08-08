@@ -183,18 +183,11 @@
  <tileset firstgid="7481" name="map_tree_3" tilewidth="32" tileheight="32" tilecount="544" columns="32">
   <image source="../drawable/map_tree_3.png" width="1024" height="544"/>
  </tileset>
- <tileset firstgid="8025" name="map_cavewall_1" tilewidth="32" tileheight="32" tilecount="108" columns="18">
-  <image source="../../../../../Project/Brightport/created/drawable/map_cavewall_1.png" width="576" height="192"/>
- </tileset>
  <layer id="1" name="Base" width="30" height="15">
-  <data encoding="base64" compression="zlib">
-   eJxjYBgFo2AUjAJMcJGTNHFagAZ5+tlFD5CH5h90/9VD+aSGsRkT+W6iBSDW/SD/XqZBeiKUbkDyyGoAMMEJYQ==
-  </data>
+  <data encoding="base64" compression="zlib">eJxjYBgFo2AUjAJMcJGTNHFagBNM9LOLHmAbmn/Q/Xccyic1jM0GWTgR636Qfy/TID0RSjcgeWQ1AIJUCrk=</data>
  </layer>
  <layer id="2" name="Ground" width="30" height="15">
-  <data encoding="base64" compression="zlib">
-   eJy7yMnAcBGKLyPhi3TEl+lk900m/PbT088jIbwHs5/paf9Qtfe5GELfNiaEOZzitA9rkB5Qfl0kz8BwEke+pdTfl6H+QvYbCL8G8o8zUd9ekBjIPyeYIBhk72Z5VD0LgfzbQPEXYtSzF+YfkJ2gML3FBLHjJJK/TwHZb0n0Lz67xcQhfJi9IPwPiQ1TD/L/fyLthQFsdqO7aQtaOG+DskH2gdggeRgbhAFmuHrd
-  </data>
+  <data encoding="base64" compression="zlib">eJy7yMnAcBGKLyPhi3TEl+lk900m/PbT088jIbwHs5/paf9Qtfe5GELfNiaEOZzitA9rkB5Qfn0FxCdx5FtK/X0Z6i9kv4HwayD/OA3sBYmB/HMCikH2/kaz+yWQfxuIX4hRz16Yf0B2gsL0FtSOk0h2nwKy35LoX3x2i4lD+MeR/PsPiQ1TD/L/fyLthQFsdqO76Q9aOG+Dsn9D2X+Q2CAMALxwfGA=</data>
  </layer>
  <layer id="3" name="Objects" width="30" height="15">
   <data encoding="base64" compression="zlib">
