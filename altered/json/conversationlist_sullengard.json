@@ -1,0 +1,24 @@
+[
+    {
+        "id":"parents_argue_90",
+        "message":"Well, $playername learned something I suppose. Monsters everywhere on the way back! $playername just cleared them away like they were ants!",
+        "switchToNPC":"crossglen_valentina",
+        "replies":[
+            {
+                "text":"Some of them were ants.",
+                "nextPhraseID":"parents_argue_100"
+            }
+        ]
+    },
+    {
+        "id":"parents_argue_40",
+        "message":"Oh, yes. Andor is missing. I sent $playername to find him.",
+        "switchToNPC":"mikhail",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"parents_argue_50"
+            }
+        ]
+    }
+]

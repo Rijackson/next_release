@@ -1,0 +1,38 @@
+[
+    {
+        "id":"mg2_starwatcher_18",
+        "message":"Bring these shards to me now. Before the mountain's curse draws worse than beasts to them!",
+        "replies":[
+            {
+                "text":"But ...",
+                "nextPhraseID":"mg2_starwatcher_19",
+                "requires":[
+                    {
+                        "requireType":"factionScore",
+                        "requireID":"mg2_exploded_star",
+                        "value":1,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "text":"In fact I have already found some of these stars.",
+                "nextPhraseID":"mg2_starwatcher_20",
+                "requires":[
+                    {
+                        "requireType":"factionScore",
+                        "requireID":"mg2_exploded_star",
+                        "value":1
+                    }
+                ]
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"mg2_exploded_star",
+                "value":15
+            }
+        ]
+    }
+]

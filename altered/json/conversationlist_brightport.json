@@ -1,0 +1,19 @@
+[
+    {
+        "id":"brightport_oseanpry5",
+        "message":"She is my loyal hunting partner. We've been through thick and thin.",
+        "replies":[
+            {
+                "text":"Wow! Can I get one too?",
+                "nextPhraseID":"brightport_oseanpry6"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brightport_nondisplay",
+                "value":109
+            }
+        ]
+    }
+]
