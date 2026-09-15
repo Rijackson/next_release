@@ -1,0 +1,31 @@
+[
+    {
+        "id":"porter_pet_15",
+        "message":"She helps me do my job of preventing riff-raff such as yourself from passing through this here door.",
+        "replies":[
+            {
+                "text":"But what's through that door?",
+                "nextPhraseID":"porter_door_10",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"undertell_hidden",
+                        "value":95,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "text":"But what's through that door?",
+                "nextPhraseID":"porter_pet_hungry_10",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"undertell_hidden",
+                        "value":95
+                    }
+                ]
+            }
+        ]
+    }
+]
