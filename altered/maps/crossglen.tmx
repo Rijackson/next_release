@@ -213,7 +213,7 @@
  </layer>
  <layer id="6" name="Walkable" width="30" height="30" visible="0">
   <data encoding="base64" compression="zlib">
-   eJy9VFsOgDAM2im8/5W8kfHDxDTrA2jXZD9LhUKZ97XWDZy3kP4I58OKqmsey6ViVntQXttjvZjkjXaAYHj93l2FN+LfaWSKyUukSXkXu7kqM58oRhebAyavHk6Gx+yG5fV6T+hVsljlZQvNQvSPyDCmeLvyP8HLeFSZv+u9/7Xt7pQ8e7hVvZF3E2+JrWznFS8VThXTeq5wKt6zeUe51Uxn2ezmtN6glX3buceO/Xdni9WPvF/2PEAesv4=
+   eJy9U9sJwEAIuym6/0q3UelHocj5SKIV7qfYxMS4r7U28J5C+iOcFyuqrnksl4pZ7UF5bY/1YpI32gGC4fV73yq8Ef9JI1NeXtAcnPDQuzjNFc3LamaK0cXmgMmrh5PhMbtheb3eP/QqWazysoVmIbrVDGOKtyv/E7yMR5X5u+79q+30Tcmzh1vVG3k3cUtsZTuveKlwqpjWc4VT8Z7NO8qtZjrLZjen9Qat7N/OPXbsvztbrH7kftl3A23PtMw=
   </data>
  </layer>
  <layer id="7" name="ratdom_Top" width="30" height="30" visible="0">
