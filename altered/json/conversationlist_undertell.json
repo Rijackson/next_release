@@ -27,5 +27,51 @@
                 ]
             }
         ]
+    },
+    {
+        "id":"nocmar_forge_one_item_picked_10",
+        "message":"Excellent. Which one do you desire?",
+        "replies":[
+            {
+                "text":"Forge me the two-handed claymore.",
+                "nextPhraseID":"nocmar_claymore_10"
+            },
+            {
+                "text":"Of course, I will take the one-handed sword.",
+                "nextPhraseID":"nocmar_onehanded_10"
+            },
+            {
+                "text":"Forge me a dagger.",
+                "nextPhraseID":"nocmar_dagger_10"
+            },
+            {
+                "text":"Forge me a glaive.",
+                "nextPhraseID":"nocmar_glaive_10"
+            },
+            {
+                "text":"I want that powerful great axe.",
+                "nextPhraseID":"nocmar_greateaxe_10"
+            },
+            {
+                "text":"Forge me a hand axe.",
+                "nextPhraseID":"nocmar_handaxe_10"
+            },
+            {
+                "text":"Forge me a mace.",
+                "nextPhraseID":"nocmar_mace_10"
+            },
+            {
+                "text":"I really want that parrying weapon.",
+                "nextPhraseID":"nocmar_bladeBreaker_10"
+            },
+            {
+                "text":"I adventure without a weapon, so I desire none of these.",
+                "nextPhraseID":"nocmar_no_weapon_10"
+            },
+            {
+                "text":"I have my eye on that doomhammer.",
+                "nextPhraseID":"nocmar_hammer_10"
+            }
+        ]
     }
 ]

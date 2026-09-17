@@ -1,0 +1,168 @@
+[
+    {
+        "id":"undertell_hidden",
+        "name":"hidden_undertell",
+        "stages":[
+            {
+                "progress":3,
+                "logText":"3 = PC has encountered the Galmore encampment barricades."
+            },
+            {
+                "progress":5,
+                "logText":"5 = PC has met a kazaul master."
+            },
+            {
+                "progress":7,
+                "logText":"PC found the \"The Five Aspects\" ritual and let the Masters know about it."
+            },
+            {
+                "progress":8,
+                "logText":"8 = PC found the Undertell pickaxe"
+            },
+            {
+                "progress":10,
+                "logText":"10 = PC has handed over the heartstone to Nocmar."
+            },
+            {
+                "progress":15,
+                "logText":"15 = PC was able to get Mustura out of the way in order to talk to Alkapoan."
+            },
+            {
+                "progress":25,
+                "logText":"25 = PC has seen Nocmar's inventory."
+            },
+            {
+                "progress":30,
+                "logText":"30 = PC chose to forge the claymore."
+            },
+            {
+                "progress":31,
+                "logText":"31 = PC chose to forge the one-handed sword."
+            },
+            {
+                "progress":32,
+                "logText":"32 = PC chose to forge the dagger."
+            },
+            {
+                "progress":33,
+                "logText":"33 = PC chose to forge the glaive."
+            },
+            {
+                "progress":34,
+                "logText":"34 = PC chose to forge the greateaxe."
+            },
+            {
+                "progress":35,
+                "logText":"35 = PC chose to forge the hand axe."
+            },
+            {
+                "progress":36,
+                "logText":"36 = PC chose to forge the mace."
+            },
+            {
+                "progress":37,
+                "logText":"37 = PC chose to forge the parrying weapon."
+            },
+            {
+                "progress":38,
+                "logText":"38 = PC chose to forge no weapon."
+            },
+            {
+                "progress":39,
+                "logText":"39 = PC gave Nocmar an answer."
+            },
+            {
+                "progress":41,
+                "logText":"41 = PC chose the doomhammer."
+            },
+            {
+                "progress":45,
+                "logText":"45 = white house - going down the basement stairs"
+            },
+            {
+                "progress":50,
+                "logText":"50 = PC has \"talked\" to the white house dragon."
+            },
+            {
+                "progress":55,
+                "logText":"55 = PC gave the Potion of heightened senses to Rain."
+            },
+            {
+                "progress":60,
+                "logText":"60 = PC gave Nixite crystal to the rock eater."
+            },
+            {
+                "progress":65,
+                "logText":"65 = PC confirmed exit from the Lake of Fire."
+            },
+            {
+                "progress":66,
+                "logText":"66 = PC confirmed entry to the Lake of Fire."
+            },
+            {
+                "progress":70,
+                "logText":"70 = PC has yelled down to Cora."
+            },
+            {
+                "progress":75,
+                "logText":"75 = PC has chased Cora down to the first floor."
+            },
+            {
+                "progress":78,
+                "logText":"78 = PC has entered archival room at least once."
+            },
+            {
+                "progress":80,
+                "logText":"80 = PC has been pinched."
+            },
+            {
+                "progress":81,
+                "logText":"81 = PC has seen the sleep quarters."
+            },
+            {
+                "progress":82,
+                "logText":"82 = PC can sleep in Undertell now."
+            },
+            {
+                "progress":83,
+                "logText":"83 = Looted chest on undertell_00"
+            },
+            {
+                "progress":84,
+                "logText":"84 = Looted chest of rare coins."
+            },
+            {
+                "progress":85,
+                "logText":"85 = PC gave the talisman to Syrra."
+            },
+            {
+                "progress":86,
+                "logText":"86 = PC entered archival room."
+            },
+            {
+                "progress":87,
+                "logText":"87 = PC took the crown."
+            },
+            {
+                "progress":88,
+                "logText":"88 = Galmore_58 barricades removed."
+            },
+            {
+                "progress":89,
+                "logText":"89 = PC has talked to Vaelzahr about Oegyth crystals."
+            },
+            {
+                "progress":90,
+                "logText":"about_a_girl1 runs away from PC on map under_3_12"
+            },
+            {
+                "progress":95,
+                "logText":"PC met a hungry campanite."
+            },
+            {
+                "progress":100,
+                "logText":"The PC learned from an Undertell ghost that during the Rise of the Shadow, a cult of descendants of Kazaul priests calling themselves the Shadow, used hearsteel weapons to defeat the  Elytharan mages."
+            }
+        ]
+    }
+]
