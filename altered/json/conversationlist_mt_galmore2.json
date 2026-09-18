@@ -34,5 +34,54 @@
                 "value":15
             }
         ]
+    },
+    {
+        "id":"mg_myrelis_illusion_why_build_that_10",
+        "message":"Let me tell you a little story. Long ago, I was an indentured servant, toiling away as a miner here in Galmore. This place was a prison to my spirit, a bleak and joyless pit. When I was freed, I swore I would transform it. I wanted to create something that could transport others to a place of happiness and light, even if just for a moment. That beach is the opposite of this wretched place.",
+        "replies":[
+            {
+                "text":"I see. Thank you for telling me your story.",
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"Interesting! Very, but I have another question.",
+                "nextPhraseID":"mg_myrelis_vaelric_10",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"swamp_healer",
+                        "value":10
+                    }
+                ]
+            },
+            {
+                "text":"Great, but I'm wondering if you could help me? I'm looking for something.",
+                "nextPhraseID":"mg_myrelis_undertell_10",
+                "requires":[
+                    {
+                        "requireType":"questLatestProgress",
+                        "requireID":"nocmar",
+                        "value":30
+                    }
+                ]
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"galmore_nondisplayed",
+                "value":10
+            }
+        ]
+    },
+    {
+        "id":"mg_myrelis_vaelric_10",
+        "message":"Sure, ask away.",
+        "replies":[
+            {
+                "text":"Do you know of Vaelric, the healer?",
+                "nextPhraseID":"mg_myrelis_vaelric_20"
+            }
+        ]
     }
 ]
