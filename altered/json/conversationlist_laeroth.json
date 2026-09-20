@@ -1,0 +1,224 @@
+[
+    {
+        "id":"brute_fisherman_7b",
+        "message":"Because I can. Period, no discussion.",
+        "replies":[
+            {
+                "text":"Oh, a sensitive subject, sorry. Let us talk about something else.",
+                "nextPhraseID":"brute_fisherman_8"
+            }
+        ]
+    },
+    {
+        "id":"brute_fisherman_8",
+        "message":"You came using this path. Can you tell me why it's been used so little lately?",
+        "replies":[
+            {
+                "text":"Well, yes, I think so.",
+                "nextPhraseID":"brute_fisherman_10"
+            }
+        ]
+    },
+    {
+        "id":"brute_fisherman_10",
+        "message":"So what's stopping people from using the route?",
+        "replies":[
+            {
+                "text":"I will find out and tell you.",
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"That's easy to say. I went that route recently after all.",
+                "nextPhraseID":"brute_fisherman_20"
+            },
+            {
+                "text":"That's none of my concern.",
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"Have you seen my brother Andor recently? He looks a bit like me.",
+                "nextPhraseID":"brute_fisherman_12"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brute_creator",
+                "value":10
+            }
+        ]
+    },
+    {
+        "id":"brute_fisherman_14",
+        "message":"I don't know. Here, it feels like every day is the same.",
+        "replies":[
+            {
+                "text":"Doesn't help me much.",
+                "nextPhraseID":"brute_fisherman_16"
+            }
+        ]
+    },
+    {
+        "id":"brute_fisherman",
+        "message":"Hush.",
+        "replies":[
+            {
+                "text":"[low voice] Oh hi, caught anything already?",
+                "nextPhraseID":"brute_fisherman"
+            },
+            {
+                "text":"You don't seem to be used to people coming over here.",
+                "nextPhraseID":"brute_fisherman_2",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brute_creator",
+                        "value":10,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "text":"About the few people who come this way ...",
+                "nextPhraseID":"brute_fisherman_10",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brute_creator",
+                        "value":10
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brute_creator",
+                        "value":30,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "text":"About the monsters along the way here ...",
+                "nextPhraseID":"brute_fisherman_20",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brute_creator",
+                        "value":20
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brute_creator",
+                        "value":30,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "text":"I witnessed something extremely strange.",
+                "nextPhraseID":"brute_fisherman_30",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brute_creator",
+                        "value":30
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brute_creator",
+                        "value":35,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "text":"Hi again. Any news?",
+                "nextPhraseID":"brute_fisherman_35",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brute_creator",
+                        "value":35
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brute_creator",
+                        "value":40,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "text":"Hi again. Any news?",
+                "nextPhraseID":"brute_fisherman_40",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brute_creator",
+                        "value":35
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brute_creator",
+                        "value":40
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brute_creator",
+                        "value":90,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "text":"Hi Bidro.",
+                "nextPhraseID":"brute_fisherman_90",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brute_creator",
+                        "value":90
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"brute_fisherman_44",
+        "message":"Really? Very amazing!",
+        "replies":[
+            {
+                "text":"I don't understand how he does it exactly, but the rats turn into these brutes in several stages.",
+                "nextPhraseID":"brute_fisherman_46"
+            }
+        ]
+    },
+    {
+        "id":"brute_fisherman_46",
+        "message":"Stages? What do you mean?",
+        "replies":[
+            {
+                "text":"There are several bake rooms where the rats pass through, and each time take on an even more hideous appearance. Until they finally come out of the cave as brutes.",
+                "nextPhraseID":"brute_fisherman_50"
+            }
+        ]
+    },
+    {
+        "id":"brute_fisherman_90",
+        "message":"Now I know where these brutes suddenly came from.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brute_fisherman_92"
+            }
+        ]
+    },
+    {
+        "id":"brute_creator_10",
+        "message":"Here in my laboratory you can see the latest research on brutes.",
+        "replies":[
+            {
+                "text":"You are researching brutes?",
+                "nextPhraseID":"brute_creator_20"
+            }
+        ]
+    }
+]
