@@ -73,5 +73,27 @@
                 "nextPhraseID":"nocmar_no_weapon_10"
             }
         ]
+    },
+    {
+        "id":"benbyr_restitution_70",
+        "message":"You'll bankrupt me! Well, here's {5000}. It's all my savings I secreted away before I was arrested and put in a Feygard prison.",
+        "replies":[
+            {
+                "text":"That should be enough. Stay out of trouble. You're safe for now.",
+                "nextPhraseID":"X"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"undertell_barricades",
+                "value":120
+            },
+            {
+                "rewardType":"giveItem",
+                "rewardID":"gold",
+                "value":5000
+            }
+        ]
     }
 ]
