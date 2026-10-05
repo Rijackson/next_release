@@ -61,16 +61,16 @@
                 "nextPhraseID":"nocmar_mace_10"
             },
             {
+                "text":"I have my eye on that doomhammer.",
+                "nextPhraseID":"nocmar_hammer_10"
+            },
+            {
                 "text":"I really want that parrying weapon.",
                 "nextPhraseID":"nocmar_bladeBreaker_10"
             },
             {
                 "text":"I adventure without a weapon, so I desire none of these.",
                 "nextPhraseID":"nocmar_no_weapon_10"
-            },
-            {
-                "text":"I have my eye on that doomhammer.",
-                "nextPhraseID":"nocmar_hammer_10"
             }
         ]
     }
