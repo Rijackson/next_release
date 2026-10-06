@@ -164,5 +164,70 @@
                 "logText":"The PC learned from an Undertell ghost that during the Rise of the Shadow, a cult of descendants of Kazaul priests calling themselves the Shadow, used hearsteel weapons to defeat the  Elytharan mages."
             }
         ]
+    },
+    {
+        "id":"undertell_barricades",
+        "name":"You shall pass",
+        "showInLog":1,
+        "stages":[
+            {
+                "progress":10,
+                "logText":"I asked Myrelis how to get the barricades to Undertell removed and he told me to meet his friend Shannal inside the beach-scene house."
+            },
+            {
+                "progress":20,
+                "logText":"I met Shannal and she said I had to prove myself before she would remove the barriers. She feared that I am not ready to enter Undertell."
+            },
+            {
+                "progress":40,
+                "logText":"Shannal gave me a special Traders' Guild bronze coin and asked me to show it to Benbyr north of Fallhaven."
+            },
+            {
+                "progress":60,
+                "logText":"A frightened Benbyr told me these coins were payments his ancestor received for kidnapping people to work in the mines of Undertell."
+            },
+            {
+                "progress":70,
+                "logText":"Benbyr asked me to help save him from Shannal."
+            },
+            {
+                "progress":80,
+                "logText":"Shannal told me she did not want to kill Benbyr. She wanted him to pay toward helping her descendant, the drunkard named Rain who sleeps outside the Fallhaven Tavern."
+            },
+            {
+                "progress":90,
+                "logText":"Shannal asked me to help cure Rain by giving him one of Lodar's Potion of Heightened Senses and whatever I can get of value from Benbyr. But I should visit Benbyr first."
+            },
+            {
+                "progress":100,
+                "logText":"Benbyr offered me fifty gold to keep the matter quiet. I refused."
+            },
+            {
+                "progress":110,
+                "logText":"Benbyr then offered 500 gold. I still refused."
+            },
+            {
+                "progress":120,
+                "logText":"Benbyr became terrified and handed over {5000} gold."
+            },
+            {
+                "progress":130,
+                "logText":"I gave one of Lodar's Potion of Heightened Senses to drunkard outside the Fallhaven tavern, and he remembered his time in Undertell."
+            },
+            {
+                "progress":140,
+                "logText":"I assured Rain that Shannal was at peace and gave him the {5000} gold Benbyr had given me. He told me to keep the money safe with Bela until his hangover passed."
+            },
+            {
+                "progress":150,
+                "logText":"I entrusted 4850 gold to Bela for safekeeping. She agreed to hold it."
+            },
+            {
+                "progress":160,
+                "logText":"Shannal thanked me for helping Rain and warned me to be careful. She removed the barricades in front of the entrance to Undertell.",
+                "rewardExperience":7204,
+                "finishesQuest":1
+            }
+        ]
     }
 ]
