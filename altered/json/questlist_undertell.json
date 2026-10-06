@@ -220,7 +220,7 @@
             },
             {
                 "progress":150,
-                "logText":"I entrusted 4850 gold to Bela for safekeeping. She agreed to hold it."
+                "logText":"I entrusted {4850} gold to Bela for safekeeping. She agreed to hold it."
             },
             {
                 "progress":160,
