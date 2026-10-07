@@ -1,52 +1,5 @@
 [
     {
-        "id":"heartstone_mace",
-        "iconID":"items_newb:466",
-        "name":"Heartsteel mace",
-        "displaytype":"legendary",
-        "hasManualPrice":1,
-        "baseMarketCost":0,
-        "category":"mace",
-        "description":"Born of Heartstone torn from forgotten depths, this heartsteel was tempered in dragonfire and shaped by a master smith whose craft survives only in silence.",
-        "equipEffect":{
-            "increaseAttackDamage":{
-                "min":5,
-                "max":25
-            },
-            "increaseAttackCost":5,
-            "increaseAttackChance":25,
-            "increaseCriticalSkill":5,
-            "setCriticalMultiplier":3.0,
-            "setNonWeaponDamageModifier":160
-        },
-        "hitEffect":{
-            "conditionsTarget":[
-                {
-                    "condition":"heartstone_poisoning",
-                    "magnitude":4,
-                    "duration":2,
-                    "chance":"10"
-                },
-                {
-                    "condition":"crit2",
-                    "magnitude":1,
-                    "duration":3,
-                    "chance":"5"
-                }
-            ]
-        },
-        "killEffect":{
-            "conditionsSource":[
-                {
-                    "condition":"heartstone_poisoning",
-                    "magnitude":3,
-                    "duration":2,
-                    "chance":"5"
-                }
-            ]
-        }
-    },
-    {
         "id":"heartsteel_2h_hammer",
         "iconID":"items_newb:454",
         "name":"Heartsteel doomhammer",
@@ -89,6 +42,137 @@
                     "magnitude":2,
                     "duration":2,
                     "chance":"5"
+                }
+            ]
+        }
+    },
+    {
+        "id":"heartstone_2h_sword",
+        "iconID":"items_phoenix01:48",
+        "name":"Heartsteel claymore",
+        "displaytype":"legendary",
+        "hasManualPrice":1,
+        "baseMarketCost":0,
+        "category":"2hsword",
+        "description":"Born of Heartstone torn from forgotten depths, this heartsteel was tempered in dragonfire and shaped by a master smith whose craft survives only in silence.",
+        "equipEffect":{
+            "increaseAttackDamage":{
+                "min":7,
+                "max":12
+            },
+            "increaseMaxHP":-10,
+            "increaseAttackCost":5,
+            "increaseAttackChance":37,
+            "increaseCriticalSkill":7,
+            "increaseBlockChance":3,
+            "setCriticalMultiplier":2.2,
+            "setNonWeaponDamageModifier":125
+        },
+        "hitEffect":{
+            "conditionsTarget":[
+                {
+                    "condition":"heartstone_poisoning",
+                    "magnitude":4,
+                    "duration":2,
+                    "chance":"10"
+                }
+            ]
+        },
+        "missReceivedEffect":{
+            "conditionsSource":[
+                {
+                    "condition":"g03_concentration",
+                    "magnitude":1,
+                    "duration":2,
+                    "chance":"8"
+                }
+            ]
+        },
+        "killEffect":{
+            "conditionsSource":[
+                {
+                    "condition":"heartstone_poisoning",
+                    "magnitude":4,
+                    "duration":2,
+                    "chance":"5"
+                }
+            ]
+        }
+    },
+    {
+        "id":"heartstone_mace",
+        "iconID":"items_newb:466",
+        "name":"Heartsteel mace",
+        "displaytype":"legendary",
+        "hasManualPrice":1,
+        "baseMarketCost":0,
+        "category":"mace",
+        "description":"Born of Heartstone torn from forgotten depths, this heartsteel was tempered in dragonfire and shaped by a master smith whose craft survives only in silence.",
+        "equipEffect":{
+            "increaseAttackDamage":{
+                "min":5,
+                "max":25
+            },
+            "increaseAttackCost":6,
+            "increaseAttackChance":25,
+            "increaseCriticalSkill":5,
+            "setCriticalMultiplier":3.0,
+            "setNonWeaponDamageModifier":165
+        },
+        "hitEffect":{
+            "conditionsTarget":[
+                {
+                    "condition":"heartstone_poisoning",
+                    "magnitude":4,
+                    "duration":2,
+                    "chance":"10"
+                },
+                {
+                    "condition":"crit2",
+                    "magnitude":1,
+                    "duration":3,
+                    "chance":"5"
+                }
+            ]
+        },
+        "killEffect":{
+            "conditionsSource":[
+                {
+                    "condition":"heartstone_poisoning",
+                    "magnitude":3,
+                    "duration":2,
+                    "chance":"5"
+                }
+            ]
+        }
+    },
+    {
+        "id":"heartfire_pendant",
+        "iconID":"items_newb:147",
+        "name":"Heartfire pendant of Kazaul",
+        "displaytype":"extraordinary",
+        "category":"neck",
+        "description":"A small pendant warm to the touch; it grants a steady warmth and helps steady a hand amid fire and flame.",
+        "equipEffect":{
+            "increaseMaxHP":5,
+            "increaseAttackCost":-1,
+            "increaseDamageResistance":1,
+            "addedConditions":[
+                {
+                    "condition":"regen2",
+                    "magnitude":4
+                },
+                {
+                    "condition":"kazarite_misery",
+                    "magnitude":1
+                },
+                {
+                    "condition":"burning",
+                    "magnitude":-99
+                },
+                {
+                    "condition":"fire",
+                    "magnitude":-99
                 }
             ]
         }
