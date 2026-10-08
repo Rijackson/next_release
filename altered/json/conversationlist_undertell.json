@@ -95,5 +95,15 @@
                 "value":5000
             }
         ]
+    },
+    {
+        "id":"benbyr_shannal_60",
+        "message":"A ghost asked you to show m-m-me? I'm dead. Since the ghost is here after all these years, it could be looking for revenge. My life for its suffering.",
+        "replies":[
+            {
+                "text":"Old sins cast long shadows. However, perhaps I could talk to her, ask her to spare you?",
+                "nextPhraseID":"benbyr_shannal_70"
+            }
+        ]
     }
 ]
