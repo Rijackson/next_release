@@ -1,0 +1,12 @@
+[
+    {
+        "id":"Remgard_jetty_sign_2",
+        "message":"You can clearly see the neighboring group of islands and the old buildings on them.",
+        "replies":[
+            {
+                "text":"That ruin over there looks like a Manor. A manor on lake Laeroth... Laeroth manor?",
+                "nextPhraseID":"Remgard_jetty_sign_3"
+            }
+        ]
+    }
+]
