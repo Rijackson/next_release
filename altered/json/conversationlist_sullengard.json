@@ -1,0 +1,29 @@
+[
+    {
+        "id":"sullengard_mariora_20",
+        "message":"What can I do for you, cutie.",
+        "replies":[
+            {
+                "text":"Umm...I forget now..umm....oh, yeah, I am wondering if you know about or seen anything related to the armory break-in and robbery?",
+                "nextPhraseID":"sull_recover_items_generic_response",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"sullengard_recover_items",
+                        "value":40,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"sullengard_recover_items",
+                        "value":10
+                    }
+                ]
+            },
+            {
+                "text":"Umm...I think I should leave now.",
+                "nextPhraseID":"X"
+            }
+        ]
+    }
+]
