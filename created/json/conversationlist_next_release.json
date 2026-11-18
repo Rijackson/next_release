@@ -1,0 +1,22 @@
+[
+    {
+        "id":"anaeth_no_quasi_10",
+        "message":"Well, where's Quasi?",
+        "replies":[
+            {
+                "text":"I asked, but the guard in the Brimhaven church refuses to let Quasi leave.",
+                "nextPhraseID":"anaeth_no_quasi_20"
+            }
+        ]
+    },
+    {
+        "id":"anaeth_no_quasi_20",
+        "message":"Oh, child, go back to Quasi. I'm sure in doing so, a solution will present itself.",
+        "replies":[
+            {
+                "text":"Oh, right. Why didn't I think of that myself?",
+                "nextPhraseID":"X"
+            }
+        ]
+    }
+]
